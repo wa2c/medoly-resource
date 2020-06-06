@@ -11,7 +11,6 @@ You can commit resource files to this repository.
 * strings.xml (String resource)  
   (Some strings are defined in [Medoly Library](https://github.com/wa2c/medoly-library).)
 
-
 ## How to commit
 
 1. Create new branch
@@ -25,6 +24,12 @@ You can commit resource files to this repository.
 ## Attention
 
 * Some string resources are in [Medoly Library](https://github.com/wa2c/medoly-library). You should modify resources in the repository as needed.
+
+## Link
+
+* [GitHub](https://github.com/wa2c/medoly-resource)
+  ( [Resource Directory](https://github.com/wa2c/medoly-resource/tree/master/src/main/res) )
+* [Medoly Library GitHub](https://github.com/wa2c/medoly-library) ( [Resource Directory](https://github.com/wa2c/medoly-library/tree/master/medolylibrary/src/main/res) ) 
 
 ## Licence
 
