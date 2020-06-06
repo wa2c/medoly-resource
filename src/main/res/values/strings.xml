@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Commons -->
-    <string name="name">Name</string>
     <string name="media">Media</string>
     <string name="album_art">Album Art</string>
     <string name="lyrics">Lyrics</string>
@@ -11,7 +10,6 @@
     <string name="artist">Artist</string>
     <string name="album">Album</string>
     <string name="track">Track</string>
-    <string name="disc">Disc</string>
     <string name="genre">Genre</string>
     <string name="year">Year</string>
     <string name="composer">Composer</string>
@@ -19,48 +17,32 @@
     <string name="playlist">Playlist</string>
 
     <string name="storage">Storage</string>
-    <string name="file">File</string>
-    <string name="directory">Directory</string>
-    <string name="folder">Folder</string>
     <string name="file_path">File Path</string>
 
-    <string name="duration">Duration</string>
     <string name="data_size">Data Size</string>
-    <string name="last_added">Added Date</string>
     <string name="last_modified">Modified Date</string>
     <string name="last_added_db">DB Add Date</string>
 
     <string name="all">All</string>
     <string name="search">Search</string>
-    <string name="save">Save</string>
-    <string name="load">Load</string>
     <string name="copy">Copy</string>
-    <string name="error">Error</string>
     <string name="confirm">Confirmation</string>
     <string name="clear">Clear</string>
     <string name="queue">Play Queue</string>
-    <string name="directory_up">Up</string>
     <string name="close_dialog">Close</string>
     <string name="sort">Sort</string>
-    <string name="play_order">Play Order</string>
     <string name="color_deep">Deep</string>
     <string name="color_pale">Pale</string>
-    <string name="action">Action</string>
     <string name="notice">Notice</string>
     <string name="back">Back</string>
     <string name="overwrite">Overwrite</string>
     <string name="shared_media">Shared Media</string>
     <string name="loading">Loading…</string>
     <string name="no_supported_files">No supported files.</string>
-    <string name="latency">Latency</string>
-    <string name="device">Device</string>
     <string name="loop">Loop</string>
     <string name="plugin">Plugin</string>
-    <string name="parameter">Parameter</string>
     <string name="on">ON</string>
     <string name="off">OFF</string>
-    <string name="enabled">Enabled</string>
-    <string name="disabled">Disabled</string>
 
     <string name="partial_match">Partial Match</string>
     <string name="forward_match">Forward Match</string>
@@ -145,8 +127,6 @@
     <string name="sequence_popup_order_normal">Normal</string>
     <string name="sequence_popup_order_shuffle">Shuffle</string>
     <string name="sequence_popup_order_random">Random</string>
-    <string name="sequence_popup_order_single">Single</string>
-    <string name="sequence_popup_speed">Speed</string>
     <string name="sequence_popup_loop">Loop</string>
     <string name="sequence_popup_loop_none">None</string>
     <string name="sequence_popup_loop_all">Loop</string>
@@ -187,30 +167,21 @@
     <string name="error_read_access">Failed to access media.</string>
     <string name="error_queue_next">No next media.</string>
     <string name="error_queue_prev">No previous media.</string>
-    <string name="error_select_media">Select media.</string>
     <string name="error_share">Failed to share.</string>
     <string name="error_view">Failed to view.</string>
 
-    <string name="error_path_move">Failed to move path.</string>
     <string name="error_search_queue">Failed to find media.</string>
     <string name="error_search_condition">No search condition.</string>
-    <string name="error_search_noresult">No corresponding media.</string>
     <string name="error_search_too_many_condition">Too many checked items.</string>
-    <string name="confirm_large_queue_add">Number of additional media exceeds the %1$s.</string>
     <string name="error_main_queue_insert_failed">Failed to insert in the play queue.</string>
     <string name="error_main_queue_insert_none">Failed to find media to insert in the play queue.</string>
-    <string name="label_button_new_save">Save as</string>
     <string name="label_button_renew">Renew</string>
     <string name="label_button_add">Add</string>
-    <string name="label_button_insert">Insert</string>
     <string name="label_button_update">Update</string>
     <string name="label_button_delete">Delete</string>
     <string name="label_button_confirm">Confirm</string>
     <string name="label_button_open">Open</string>
-    <string name="label_button_hide">Hide</string>
     <string name="title_search_form_dialog">Select the input text.</string>
-    <string name="message_main_queue_entry">Play queue modified.</string>
-    <string name="message_main_lyrics_offset">Lyrics offset time:%1$d ms</string>
     <string name="message_main_property_copy">Copied to clipboard.</string>
     <string name="message_main_queue_edit_mode">Tap on the thumbnail to change played / unplayed, drag to change the order, and delete.</string>
     <string name="message_search_input_clear">Cleared the input text.</string>
@@ -220,11 +191,8 @@
     <string name="message_storage_write_permission_failed">Failed to get write permission.</string>
     <string name="error_storage_write_permission">No write permission on external storage.\nGet the write permission from [Other] on settings screen.</string>
     <string name="error_storage_write_permission_kitkat">Can not write to the external storage in Android 4.4.</string>
-    <string name="error_property_request_task_failed">Failed to get property.</string>
     <string name="error_property_request_task_timeout">Property request was timed out.</string>
-    <string name="error_album_art_request_task_failed">Failed to get album art.</string>
     <string name="error_album_art_request_task_timeout">Album art request was timed out.</string>
-    <string name="error_lyrics_request_task_failed">Failed to get lyrics.</string>
     <string name="error_lyrics_request_task_timeout">Lyrics request was timed out.</string>
     <string name="error_plugin_launch_failed">Failed to launch %1$s.</string>
 
@@ -276,7 +244,6 @@
     <string name="message_app_exit_count">Exit after %1$s media.</string>
     <string name="message_app_exit_loop">Exit with %1$s times the loop.</string>
     <string name="message_app_exit_complete">Exit at the end of the play queue.</string>
-    <string name="message_app_exit_cancel">Cleared exit condition.</string>
     <string name="error_app_exit">Failed to exit</string>
     <string name="error_app_exit_value">Set the value greater than 0.</string>
 
@@ -285,7 +252,6 @@
     <string name="message_main_playlist_delete">Deleted checked playlists.</string>
     <string name="confirm_main_queue_delete_playlist">Delete checked playlists.\nPlaylist files are also deleted together.</string>
     <string name="confirm_main_queue_exists">The media already exists in the play queue.</string>
-    <string name="error_main_find_playlist">Failed to find playlist.</string>
     <string name="error_main_select_playlist">Select playlists.</string>
 
     <!-- Select Playlist Dialog  -->
@@ -297,7 +263,6 @@
     <!-- Save Playlist Dialog -->
     <string name="title_main_input_playlist_name">Input Playlist Name</string>
     <string name="message_main_playlist_save">Saved the playlist.</string>
-    <string name="message_main_playlist_update">Updated the playlist.</string>
     <string name="confirm_main_playlist_nosave">The play queue has media that can\'t save to playlists.</string>
     <string name="confirm_main_playlist_nosave_assist"> icon expresses that it can\'t store to playlists.</string>
     <string name="confirm_main_playlist_duplex">Playlist with a duplicate name exists.</string>
@@ -369,13 +334,7 @@
     <string name="label_dialog_style_tab_visual">Visual</string>
 
     <!-- Output Device Dialog -->
-    <string name="title_dialog_output_device">Output Device</string>
-    <string name="label_dialog_output_common_latency">Common Latency</string>
-    <string name="label_dialog_output_device_title_id">Device ID</string>
     <string name="label_dialog_output_device_title_name">Device Name</string>
-    <string name="label_dialog_output_device_title_auto_play">Auto-Play</string>
-    <string name="label_dialog_output_device_auto_play">Disable auto-play on connection</string>
-
     <string name="label_dialog_output_device_output">Output</string>
     <string name="label_dialog_output_device_input">Input</string>
     <string name="label_dialog_output_device_connection">Connection *2</string>
@@ -387,7 +346,6 @@
     <string name="label_dialog_output_device_button_extension">Play Button\nExtension</string>
     <string name="label_dialog_output_device_button_extension_note">2 Push: Next\n3 Push: Back</string>
     <string name="label_dialog_output_device_launch_app">Launch\nApp</string>
-    <string name="label_dialog_output_device_launch_app_note">USB, Bluetooth</string>
     <string name="label_dialog_output_device_audio_focus">Audio\nFocus</string>
     <string name="label_dialog_output_device_connect_action">At\nConnect</string>
     <string name="label_dialog_output_device_disconnect_action">At\nDisconnect</string>
@@ -427,8 +385,6 @@
     <string name="label_dialog_param_edit_delete">Delete</string>
     <string name="label_dialog_param_edit_match_add">Add</string>
     <string name="label_dialog_param_edit_match_delete">Del</string>
-    <string name="label_dialog_param_edit_combined">Combined</string> <!-- unused -->
-    <string name="label_dialog_param_edit_exclusive">Exclusive</string> <!-- unused -->
     <!-- Queue Param Match Dialog -->
     <string name="title_dialog_param_match">Property Condition</string>
     <string name="label_dialog_param_match_property">Property</string>
@@ -446,7 +402,6 @@
     <string name="label_dialog_plugin_launch_app">Open</string>
     <string name="label_dialog_plugin_launch_store">Store</string>
     <string name="label_dialog_plugin_launch_info">Info</string>
-    <string name="label_dialog_plugin_execute">Execute Manually</string>
     <string name="label_dialog_plugin_support_execute">Executable Action</string>
     <string name="label_dialog_plugin_support_event">Event Action</string>
     <string name="label_dialog_plugin_app_event_enabled">Enabled App Event</string>
@@ -455,7 +410,6 @@
     <string name="label_dialog_element_visibility_data">Visibility</string>
     <string name="title_dialog_element_visibility_album_art">Album Art Visibility</string>
     <string name="title_dialog_element_visibility_lyrics">Lyrics Visibility</string>
-    <string name="label_dialog_element_visibility_first_match">First Matching</string>
     <string name="label_dialog_element_visibility_target_data">Data Type</string>
     <string name="label_dialog_element_visibility_target_media_folder">Media Folder</string>
     <string name="label_dialog_element_visibility_target_additional_folder">Additional Search Folder</string>
@@ -465,16 +419,11 @@
     <string name="label_dialog_element_visibility_file_subfolder">Search Sub Folder</string>
     <string name="label_dialog_element_visibility_file_filter">File Name Filter</string>
 
-    <string name="label_dialog_element_visibility_file_media_name">Media file name</string>
-    <string name="label_dialog_element_visibility_file_tagged_name">Tagged file name</string>
-    <string name="label_dialog_element_visibility_file_defined_name">Defined file name (cover.jpg, …)</string>
-
     <string name="label_dialog_element_visibility_filter_edit_name">Name</string>
     <string name="label_dialog_element_visibility_filter_edit_regexp">Regular Expression (without ext)</string>
     <string name="label_dialog_element_visibility_filter_edit_preset">Set Preset</string>
     <string name="label_dialog_element_visibility_filter_edit_insert">Insert Property</string>
     <string name="label_dialog_element_visibility_filter_edit_case">Ignore Case</string>
-    <string name="label_dialog_element_visibility_filter_edit_property">Property List</string>
 
     <string name="message_dialog_element_visibility_filter_description">Search files in the following order.</string>
     <string name="error_dialog_element_visibility_no_name">No name</string>
@@ -734,18 +683,6 @@
         <item>Concat with \",\"</item>
         <item>Concat with \"&amp;\"</item>
         <item>Concat with newline</item>
-    </string-array>
-
-    <string-array name="pref_widget_gradient_entries">
-        <item>None</item>
-        <item>Left / Right</item>
-        <item>Top Left / Bottom Right</item>
-        <item>Top / Bottom</item>
-        <item>Top Right / Bottom Left</item>
-        <item>Right / Left</item>
-        <item>Bottom Right / Top Left</item>
-        <item>Bottom / Top</item>
-        <item>Bottom Left / Top Right</item>
     </string-array>
 
     <string-array name="pref_language_entries">

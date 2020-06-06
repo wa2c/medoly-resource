@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- 共通 -->
-    <string name="name">名称</string>
     <string name="media">メディア</string>
     <string name="album_art">アルバムアート</string>
     <string name="lyrics">歌詞</string>
@@ -10,7 +9,6 @@
     <string name="title">タイトル</string>
     <string name="artist">アーティスト</string>
     <string name="album">アルバム</string>
-    <string name="disc">ディスク</string>
     <string name="track">トラック</string>
     <string name="genre">ジャンル</string>
     <string name="year">年</string>
@@ -19,48 +17,32 @@
     <string name="playlist">プレイリスト</string>
 
     <string name="storage">ストレージ</string>
-    <string name="file">ファイル</string>
-    <string name="directory">ディレクトリ</string>
-    <string name="folder">フォルダ</string>
     <string name="file_path">ファイルパス</string>
 
-    <string name="duration">曲の長さ</string>
     <string name="data_size">データサイズ</string>
-    <string name="last_added">追加日時</string>
     <string name="last_modified">更新日時</string>
     <string name="last_added_db">DB登録日時</string>
 
     <string name="all">全て</string>
     <string name="search">検索</string>
-    <string name="save">保存</string>
-    <string name="load">読込</string>
     <string name="copy">コピー</string>
-    <string name="error">エラー</string>
     <string name="confirm">確認</string>
     <string name="clear">クリア</string>
     <string name="queue">再生キュー</string>
-    <string name="directory_up">上の階層へ</string>
     <string name="close_dialog">閉じる</string>
     <string name="sort">ソート</string>
-    <string name="play_order">再生順</string>
     <string name="color_deep">濃い</string>
     <string name="color_pale">薄い</string>
-    <string name="action">アクション</string>
     <string name="notice">注意</string>
     <string name="back">戻る</string>
     <string name="overwrite">上書き</string>
     <string name="shared_media">共有メディア</string>
     <string name="loading">Loading…</string>
     <string name="no_supported_files">対応ファイルがありません</string>
-    <string name="latency">レイテンシ</string>
-    <string name="device">デバイス</string>
     <string name="loop">ループ</string>
     <string name="plugin">プラグイン</string>
-    <string name="parameter">パラメータ</string>
     <string name="on">ON</string>
     <string name="off">OFF</string>
-    <string name="enabled">有効</string>
-    <string name="disabled">無効</string>
 
     <string name="partial_match">部分一致</string>
     <string name="forward_match">前方一致</string>
@@ -145,8 +127,6 @@
     <string name="sequence_popup_order_normal">通常</string>
     <string name="sequence_popup_order_shuffle">シャッフル</string>
     <string name="sequence_popup_order_random">ランダム</string>
-    <string name="sequence_popup_order_single">単体</string>
-    <string name="sequence_popup_speed">再生速度</string>
     <string name="sequence_popup_loop">ループ</string>
     <string name="sequence_popup_loop_none">無し</string>
     <string name="sequence_popup_loop_all">単体ループ</string>
@@ -187,30 +167,21 @@
     <string name="error_read_access">メディアにアクセスできません。</string>
     <string name="error_queue_next">次のメディアがありません。</string>
     <string name="error_queue_prev">前のメディアがありません。</string>
-    <string name="error_select_media">メディアを選択してください。</string>
     <string name="error_share">共有できませんでした。</string>
     <string name="error_view">表示できませんでした。</string>
 
-    <string name="error_path_move">パスの移動に失敗しました。</string>
     <string name="error_search_queue">メディアの検索に失敗しました。</string>
     <string name="error_search_condition">検索条件が設定されていません。</string>
-    <string name="error_search_noresult">該当するメディアがありません。</string>
     <string name="error_search_too_many_condition">選択項目が多すぎます。</string>
-    <string name="confirm_large_queue_add">追加メディアが%1$s件を越えています。</string>
     <string name="error_main_queue_insert_failed">再生キューの登録に失敗しました。</string>
     <string name="error_main_queue_insert_none">再生キュー登録対象のメディアがありません。</string>
-    <string name="label_button_new_save">新規保存</string>
     <string name="label_button_renew">更新</string>
     <string name="label_button_add">追加</string>
-    <string name="label_button_insert">挿入</string>
     <string name="label_button_update">更新</string>
     <string name="label_button_delete">削除</string>
     <string name="label_button_confirm">確認</string>
     <string name="label_button_open">開く</string>
-    <string name="label_button_hide">非表示</string>
     <string name="title_search_form_dialog">入力内容を選択してください</string>
-    <string name="message_main_queue_entry">再生キューを更新しました。</string>
-    <string name="message_main_lyrics_offset">歌詞のオフセット:%1$d ms</string>
     <string name="message_main_property_copy">クリップボードにコピーしました。</string>
     <string name="message_main_queue_edit_mode">サムネイルのタップで再生/未再生の変更、ドラッグで順序変更、削除を行います。</string>
     <string name="message_search_input_clear">入力をクリアしました。</string>
@@ -220,11 +191,8 @@
     <string name="message_storage_write_permission_failed">書き込み権限の取得に失敗しました。</string>
     <string name="error_storage_write_permission">ストレージの書き込み権限がありません。\n設定画面の[その他]から、書き込み権限を取得してください。</string>
     <string name="error_storage_write_permission_kitkat">Android 4.4では外部ストレージへの書き込みができません。</string>
-    <string name="error_property_request_task_failed">プロパティの取得に失敗しました。</string>
     <string name="error_property_request_task_timeout">プロパティの取得がタイムアウトしました。</string>
-    <string name="error_album_art_request_task_failed">アルバムアートの取得に失敗しました。</string>
     <string name="error_album_art_request_task_timeout">アルバムアートの取得がタイムアウトしました。</string>
-    <string name="error_lyrics_request_task_failed">歌詞の取得に失敗しました。</string>
     <string name="error_lyrics_request_task_timeout">歌詞の取得がタイムアウトしました。</string>
     <string name="error_plugin_launch_failed">%1$s の起動に失敗しました。</string>
 
@@ -276,7 +244,6 @@
     <string name="message_app_exit_count">%1$s 曲後に終了します</string>
     <string name="message_app_exit_loop">%1$s 回のループで終了します</string>
     <string name="message_app_exit_complete">再生キュー完了後に終了します</string>
-    <string name="message_app_exit_cancel">終了条件を解除しました</string>
     <string name="error_app_exit">終了に失敗しました</string>
     <string name="error_app_exit_value">0より大きい値を設定してください。</string>
 
@@ -285,7 +252,6 @@
     <string name="message_main_playlist_delete">プレイリストを削除しました。</string>
     <string name="confirm_main_queue_delete_playlist">チェックしたプレイリストを削除します。\nプレイリストファイルも削除されます。</string>
     <string name="confirm_main_queue_exists">再生キューに登録済みのメディアがあります。</string>
-    <string name="error_main_find_playlist">プレイリストが見つかりません。</string>
     <string name="error_main_select_playlist">プレイリストを選択してください。</string>
 
     <!-- Playlist Select Dialog  -->
@@ -297,7 +263,6 @@
     <!-- Playlist Save DB Dialog -->
     <string name="title_main_input_playlist_name">プレイリスト名入力</string>
     <string name="message_main_playlist_save">プレイリストを保存しました。</string>
-    <string name="message_main_playlist_update">プレイリストを更新しました。</string>
     <string name="confirm_main_playlist_nosave">再生キューにプレイリストへ保存できないメディアが含まれていました。</string>
     <string name="confirm_main_playlist_nosave_assist">アイコンが付いているメディアは保存されません。</string>
     <string name="confirm_main_playlist_duplex">重複する名前のプレイリストが存在します。</string>
@@ -369,13 +334,7 @@
     <string name="label_dialog_style_tab_visual">外観</string>
 
     <!-- Output Device Dialog -->
-    <string name="title_dialog_output_device">出力デバイス</string>
-    <string name="label_dialog_output_common_latency">共通レイテンシ</string>
-    <string name="label_dialog_output_device_title_id">デバイスID</string>
     <string name="label_dialog_output_device_title_name">デバイス名</string>
-    <string name="label_dialog_output_device_title_auto_play">自動再生</string>
-    <string name="label_dialog_output_device_auto_play">接続時の再生を抑止</string>
-
     <string name="label_dialog_output_device_output">出力</string>
     <string name="label_dialog_output_device_input">入力</string>
     <string name="label_dialog_output_device_connection">接続・切断 *2</string>
@@ -387,7 +346,6 @@
     <string name="label_dialog_output_device_button_extension">再生ボタン\n拡張</string>
     <string name="label_dialog_output_device_button_extension_note">2回:曲送り\n3回:曲戻し</string>
     <string name="label_dialog_output_device_launch_app">アプリ起動</string>
-    <string name="label_dialog_output_device_launch_app_note">*2</string>
     <string name="label_dialog_output_device_audio_focus">音声\nフォーカス</string>
     <string name="label_dialog_output_device_connect_action">接続時</string>
     <string name="label_dialog_output_device_disconnect_action">切断時</string>
@@ -426,8 +384,6 @@
     <string name="label_dialog_param_edit_delete">削除</string>
     <string name="label_dialog_param_edit_match_add">追加</string>
     <string name="label_dialog_param_edit_match_delete">削除</string>
-    <string name="label_dialog_param_edit_combined">併用</string> <!-- unused -->
-    <string name="label_dialog_param_edit_exclusive">排他</string> <!-- unused -->
     <!-- Queue Param Match Dialog -->
     <string name="title_dialog_param_match">プロパティ条件</string>
     <string name="label_dialog_param_match_property">プロパティ</string>
@@ -445,7 +401,6 @@
     <string name="label_dialog_plugin_launch_app">起動</string>
     <string name="label_dialog_plugin_launch_store">ストア</string>
     <string name="label_dialog_plugin_launch_info">情報</string>
-    <string name="label_dialog_plugin_execute">手動実行</string>
     <string name="label_dialog_plugin_support_execute">実行アクション</string>
     <string name="label_dialog_plugin_support_event">イベントアクション</string>
     <string name="label_dialog_plugin_app_event_enabled">アプリのイベント有効</string>
@@ -454,7 +409,6 @@
     <string name="label_dialog_element_visibility_data">表示データ</string>
     <string name="title_dialog_element_visibility_album_art">アルバムアート 表示データ</string>
     <string name="title_dialog_element_visibility_lyrics">歌詞 表示データ</string>
-    <string name="label_dialog_element_visibility_first_match">最初のデータのみ</string>
     <string name="label_dialog_element_visibility_target_data">データ種別</string>
     <string name="label_dialog_element_visibility_target_media_folder">メディアフォルダ</string>
     <string name="label_dialog_element_visibility_target_additional_folder">追加検索フォルダ</string>
@@ -464,16 +418,11 @@
     <string name="label_dialog_element_visibility_file_subfolder">サブフォルダを検索</string>
     <string name="label_dialog_element_visibility_file_filter">ファイル名フィルタ</string>
 
-    <string name="label_dialog_element_visibility_file_media_name">メディアファイル名</string>
-    <string name="label_dialog_element_visibility_file_tagged_name">タグ付きファイル名</string>
-    <string name="label_dialog_element_visibility_file_defined_name">固定ファイル名 (artwork.jpg, …)</string>
-
     <string name="label_dialog_element_visibility_filter_edit_name">名称</string>
     <string name="label_dialog_element_visibility_filter_edit_regexp">正規表現 (拡張子除く)</string>
     <string name="label_dialog_element_visibility_filter_edit_preset">プリセット設定</string>
     <string name="label_dialog_element_visibility_filter_edit_insert">プロパティ挿入</string>
     <string name="label_dialog_element_visibility_filter_edit_case">大文字小文字を区別しない</string>
-    <string name="label_dialog_element_visibility_filter_edit_property">プロパティ一覧</string>
 
     <string name="message_dialog_element_visibility_filter_description">次の順序でファイルを検索します。</string>
     <string name="error_dialog_element_visibility_no_name">名称が未入力です</string>
@@ -735,18 +684,6 @@
         <item>\",\" で結合</item>
         <item>\"&amp;\" で結合</item>
         <item>改行で結合</item>
-    </string-array>
-
-    <string-array name="pref_widget_gradient_entries">
-        <item>無し</item>
-        <item>左→右</item>
-        <item>左上→右下</item>
-        <item>上→下</item>
-        <item>右上→左下</item>
-        <item>右→左</item>
-        <item>右下→左上</item>
-        <item>下→上</item>
-        <item>左下→右上</item>
     </string-array>
 
     <string-array name="pref_language_entries">
