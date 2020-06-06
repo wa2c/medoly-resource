@@ -89,12 +89,10 @@
     <string name="title_output_device">出力デバイス</string>
     <string name="exit_app">アプリ終了</string>
 
-
     <!-- タブ -->
     <string name="tab_property_name">プロパティ</string>
     <string name="tab_face_name">表示</string>
     <string name="tab_queuelist_name">再生キュー</string>
-
 
     <!-- Search Menu -->
     <string name="search_popup_storage">ストレージを検索</string>
@@ -107,7 +105,6 @@
     <string name="search_popup_mime_type">MIMEタイプを検索</string>
     <string name="search_popup_playlist">プレイリストを検索</string>
 
-
     <!-- Property Tab Menu -->
     <string name="property_item_popup_copy">クリップボードにコピー</string>
     <string name="property_item_popup_search">メディアを検索</string>
@@ -117,7 +114,6 @@
     <string name="property_item_popup_change">変更</string>
     <string name="property_item_popup_param">パラメータ保存</string>
 
-
     <!-- Face Tab Menu -->
     <string name="face_popup_view_style">表示スタイル</string>
     <string name="face_popup_album_art_show">アルバムアートの表示</string>
@@ -125,7 +121,6 @@
     <string name="face_popup_lyrics_size">文字サイズ</string>
     <string name="face_popup_lyrics_sync">歌詞の同期スクロール</string>
     <string name="face_popup_lyrics_offset">オフセット</string>
-
 
     <!-- Queue Tab Menu -->
     <string name="queue_popup_recently_played">再生履歴</string>
@@ -135,7 +130,6 @@
     <string name="queue_popup_sort">ソート</string>
     <string name="queue_popup_change_state">未再生/再生済を切換</string>
     <string name="queue_popup_remove">削除</string>
-    <!--<string name="queue_popup_auto_scroll">自動スクロール</string>-->
 
     <string name="queue_popup_reserve_next">次の再生予約</string>
     <string name="queue_popup_cancel_next">再生予約解除</string>
@@ -145,7 +139,6 @@
     <string name="queue_popup_last">末尾に移動</string>
     <string name="queue_popup_share">共有</string>
     <string name="queue_popup_view">開く</string>
-
 
     <!-- Sequence Menu -->
     <string name="sequence_popup_order">再生順</string>
@@ -181,10 +174,8 @@
     <string name="search_title_dialog_confirm_home">ホームパスの設定</string>
     <string name="search_message_dialog_confirm_home">現在のパスをホームパスに設定しますか？</string>
 
-
     <!-- 設定画面 -->
     <string name="settings_summary_current_value">[現在の設定: %1$s]</string>
-
 
     <!-- メッセージ -->
     <string name="error_occurred">エラーが発生しました。</string>
@@ -516,8 +507,6 @@
     <string name="label_dialog_about_link">Link</string>
     <string name="label_dialog_about_library">[Library]</string>
 
-
-
     <!-- 設定画面タイトル -->
     <string name="pref_title_screen_control">操作</string>
     <string name="pref_summary_screen_control">メディア再生操作に関する設定を行います。</string>
@@ -717,7 +706,6 @@
         <item>削除してスキップ</item>
     </string-array>
 
-
     <string-array name="playlist_save_type_entries">
         <item>ダイアログ選択</item>
         <item>M3Uファイル</item>
@@ -782,7 +770,6 @@
     <string name="screen_orientation_entry_lock">固定</string>
 
     <!-- View Style -->
-
     <string-array name="lyrics_text_font_entries">
         <item>Sans-serif (ゴシック)</item>
         <item>Serif (明朝)</item>
@@ -808,7 +795,6 @@
     </string-array>
 
     <!-- Player -->
-
     <string-array name="pref_player_type_entries">
         <item>ExoPlayer</item>
         <item>MediaPlayer</item>

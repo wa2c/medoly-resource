@@ -89,12 +89,10 @@
     <string name="title_output_device">Output Device</string>
     <string name="exit_app">Exit</string>
 
-
     <!-- Tabs -->
     <string name="tab_property_name">PROPERTY</string>
     <string name="tab_face_name">VIEW</string>
     <string name="tab_queuelist_name">QUEUE</string>
-
 
     <!-- Search Menu -->
     <string name="search_popup_storage">Search Storage</string>
@@ -107,7 +105,6 @@
     <string name="search_popup_mime_type">Search MIME Type</string>
     <string name="search_popup_playlist">Search Playlist</string>
 
-
     <!-- Property Tab Menu -->
     <string name="property_item_popup_copy">Copy To Clipboard</string>
     <string name="property_item_popup_search">Search Media</string>
@@ -117,7 +114,6 @@
     <string name="property_item_popup_change">Change</string>
     <string name="property_item_popup_param">Save Parameter</string>
 
-
     <!-- View Tab Menu -->
     <string name="face_popup_view_style">View Style</string>
     <string name="face_popup_album_art_show">Show Album Art</string>
@@ -125,7 +121,6 @@
     <string name="face_popup_lyrics_size">Font Size</string>
     <string name="face_popup_lyrics_sync">Sync Lyrics Scroll</string>
     <string name="face_popup_lyrics_offset">Sync Offset</string>
-
 
     <!-- Queue Tab Menu -->
     <string name="queue_popup_recently_played">Recently Played</string>
@@ -135,7 +130,6 @@
     <string name="queue_popup_sort">Sort</string>
     <string name="queue_popup_change_state">Switch Play State</string>
     <string name="queue_popup_remove">Remove</string>
-    <!--<string name="queue_popup_auto_scroll">Auto Scroll</string>-->
 
     <string name="queue_popup_reserve_next">Reserve Next</string>
     <string name="queue_popup_cancel_next">Cancel Next</string>
@@ -145,7 +139,6 @@
     <string name="queue_popup_last">Move Last</string>
     <string name="queue_popup_share">Share</string>
     <string name="queue_popup_view">Open</string>
-
 
     <!-- Sequence Menu -->
     <string name="sequence_popup_order">Playback Order</string>
@@ -181,10 +174,8 @@
     <string name="search_title_dialog_confirm_home">Home Path Setting</string>
     <string name="search_message_dialog_confirm_home">Do you set to the home directory the current directory?</string>
 
-
     <!-- Settings Activity -->
     <string name="settings_summary_current_value">[Current Value: %1$s]</string>
-
 
     <!-- Messages -->
     <string name="error_occurred">An error occurred.</string>
@@ -517,9 +508,7 @@
     <string name="label_dialog_about_link">Link</string>
     <string name="label_dialog_about_library">[Library]</string>
 
-
     <!-- Settings Screen Title -->
-
     <string name="pref_title_screen_control">Control</string>
     <string name="pref_summary_screen_control">Configure the media controls .</string>
     <string name="pref_title_screen_play">Playback</string>
@@ -693,7 +682,6 @@
     <string name="pref_title_about">About</string>
     <string name="pref_summary_about">Show about.</string>
 
-
     <!-- Array Names  -->
     <string name="pref_audio_focus_request_start_entry">At App Start</string>
     <string name="pref_audio_focus_request_open_entry">At App Open</string>
@@ -780,7 +768,6 @@
     <string name="screen_orientation_entry_lock">Lock</string>
 
     <!-- View Style -->
-
     <string-array name="lyrics_text_font_entries">
         <item>Sans-serif</item>
         <item>Serif</item>
@@ -806,7 +793,6 @@
     </string-array>
 
     <!-- Player -->
-
     <string-array name="pref_player_type_entries">
         <item>ExoPlayer</item>
         <item>MediaPlayer</item>
