@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Commons -->
+    <string name="name">Name</string>
+    <string name="media">Media</string>
+    <string name="album_art">Album Art</string>
+    <string name="lyrics">Lyrics</string>
+    <string name="extra">Extra</string>
+
+    <string name="title">Title</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+    <string name="track">Track</string>
+    <string name="disc">Disc</string>
+    <string name="genre">Genre</string>
+    <string name="year">Year</string>
+    <string name="composer">Composer</string>
+    <string name="mime_type">MIME Type</string>
+    <string name="playlist">Playlist</string>
+
+    <string name="storage">Storage</string>
+    <string name="file">File</string>
+    <string name="directory">Directory</string>
+    <string name="folder">Folder</string>
+    <string name="file_path">File Path</string>
+
+    <string name="duration">Duration</string>
+    <string name="data_size">Data Size</string>
+    <string name="last_added">Added Date</string>
+    <string name="last_modified">Modified Date</string>
+    <string name="last_added_db">DB Add Date</string>
+
+    <string name="all">All</string>
+    <string name="search">Search</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+    <string name="copy">Copy</string>
+    <string name="error">Error</string>
+    <string name="confirm">Confirmation</string>
+    <string name="clear">Clear</string>
+    <string name="queue">Play Queue</string>
+    <string name="directory_up">Up</string>
+    <string name="close_dialog">Close</string>
+    <string name="sort">Sort</string>
+    <string name="play_order">Play Order</string>
+    <string name="color_deep">Deep</string>
+    <string name="color_pale">Pale</string>
+    <string name="action">Action</string>
+    <string name="notice">Notice</string>
+    <string name="back">Back</string>
+    <string name="overwrite">Overwrite</string>
+    <string name="shared_media">Shared Media</string>
+    <string name="loading">Loading…</string>
+    <string name="no_supported_files">No supported files.</string>
+    <string name="latency">Latency</string>
+    <string name="device">Device</string>
+    <string name="loop">Loop</string>
+    <string name="plugin">Plugin</string>
+    <string name="parameter">Parameter</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+
+    <string name="partial_match">Partial Match</string>
+    <string name="forward_match">Forward Match</string>
+    <string name="backward_match">Backward Match</string>
+    <string name="exact_match">Exact Match</string>
+    <string name="regular_expression">Regular Expression</string>
+    <string name="fuzzy_match">Fuzzy Match</string>
+    <string name="not_match">Not Match</string>
+
+    <!-- Output Device -->
+    <string name="output_device_normal">Normal</string>
+    <string name="output_device_wired">Wired Device</string>
+    <string name="output_device_bluetooth">Bluetooth Device</string>
+    <string name="output_device_usb">USB Device</string>
+    <string name="output_device_hdmi">HDMI Device</string>
+    <string name="output_device_cast">Cast Device</string>
+    <string name="output_device_other">Other Device</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_main">Medoly</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_error">Medoly</string>
+
+    <string name="title_volume">App Volume</string>
+    <string name="title_output_device">Output Device</string>
+    <string name="exit_app">Exit</string>
+
+
+    <!-- Tabs -->
+    <string name="tab_property_name">PROPERTY</string>
+    <string name="tab_face_name">VIEW</string>
+    <string name="tab_queuelist_name">QUEUE</string>
+
+
+    <!-- Search Menu -->
+    <string name="search_popup_storage">Search Storage</string>
+    <string name="search_popup_title">Search Title</string>
+    <string name="search_popup_artist">Search Artist</string>
+    <string name="search_popup_album">Search Album</string>
+    <string name="search_popup_genre">Search Genre</string>
+    <string name="search_popup_year">Search Year</string>
+    <string name="search_popup_composer">Search Composer</string>
+    <string name="search_popup_mime_type">Search MIME Type</string>
+    <string name="search_popup_playlist">Search Playlist</string>
+
+
+    <!-- Property Tab Menu -->
+    <string name="property_item_popup_copy">Copy To Clipboard</string>
+    <string name="property_item_popup_search">Search Media</string>
+    <string name="property_item_popup_web">Search Web</string>
+    <string name="property_item_popup_share">Share</string>
+    <string name="property_item_popup_view">Open</string>
+    <string name="property_item_popup_change">Change</string>
+    <string name="property_item_popup_param">Save Parameter</string>
+
+
+    <!-- View Tab Menu -->
+    <string name="face_popup_view_style">View Style</string>
+    <string name="face_popup_album_art_show">Show Album Art</string>
+    <string name="face_popup_lyrics_show">Show Lyrics</string>
+    <string name="face_popup_lyrics_size">Font Size</string>
+    <string name="face_popup_lyrics_sync">Sync Lyrics Scroll</string>
+    <string name="face_popup_lyrics_offset">Sync Offset</string>
+
+
+    <!-- Queue Tab Menu -->
+    <string name="queue_popup_recently_played">Recently Played</string>
+    <string name="queue_popup_control_playlist">Control Playlists</string>
+    <string name="queue_popup_save_playlist">Save To Playlist</string>
+    <string name="queue_popup_edit_mode">Edit Mode</string>
+    <string name="queue_popup_sort">Sort</string>
+    <string name="queue_popup_change_state">Switch Play State</string>
+    <string name="queue_popup_remove">Remove</string>
+    <!--<string name="queue_popup_auto_scroll">Auto Scroll</string>-->
+
+    <string name="queue_popup_reserve_next">Reserve Next</string>
+    <string name="queue_popup_cancel_next">Cancel Next</string>
+    <string name="queue_popup_first">Move First</string>
+    <string name="queue_popup_up">Move Up</string>
+    <string name="queue_popup_down">Move Down</string>
+    <string name="queue_popup_last">Move Last</string>
+    <string name="queue_popup_share">Share</string>
+    <string name="queue_popup_view">Open</string>
+
+
+    <!-- Sequence Menu -->
+    <string name="sequence_popup_order">Playback Order</string>
+    <string name="sequence_popup_order_normal">Normal</string>
+    <string name="sequence_popup_order_shuffle">Shuffle</string>
+    <string name="sequence_popup_order_random">Random</string>
+    <string name="sequence_popup_order_single">Single</string>
+    <string name="sequence_popup_speed">Speed</string>
+    <string name="sequence_popup_loop">Loop</string>
+    <string name="sequence_popup_loop_none">None</string>
+    <string name="sequence_popup_loop_all">Loop</string>
+    <string name="sequence_popup_loop_ab">AB Loop</string>
+    <string name="sequence_popup_loop_count">Loop Count (0:Infinite)</string>
+    <string name="sequence_popup_played">Played Media</string>
+    <string name="sequence_popup_played_skip">Skip</string>
+    <string name="sequence_popup_played_fill">Fill</string>
+    <string name="sequence_popup_played_ignore">Ignore</string>
+    <string name="sequence_popup_completed">Completed</string>
+    <string name="sequence_popup_completed_single">Single</string>
+    <string name="sequence_popup_completed_stop">Queue Stop</string>
+    <string name="sequence_popup_completed_repeat">Queue Repeat</string>
+
+    <!-- Drawer Menu -->
+    <string name="drawer_plugin_event_enabled">Event Enabled</string>
+    <string name="drawer_plugin_launch_app">Launch App</string>
+    <string name="drawer_plugin_app_info">App Info</string>
+    <string name="drawer_plugin_store">Store</string>
+    <string name="drawer_plugin_property">Property</string>
+
+    <!-- Search Activity -->
+    <string name="search_exact_match">Exact\nMatch</string>
+    <string name="search_condition_delete">Delete %1$s Condition</string>
+    <string name="search_title_dialog_confirm_home">Home Path Setting</string>
+    <string name="search_message_dialog_confirm_home">Do you set to the home directory the current directory?</string>
+
+
+    <!-- Settings Activity -->
+    <string name="settings_summary_current_value">[Current Value: %1$s]</string>
+
+
+    <!-- Messages -->
+    <string name="error_occurred">An error occurred.</string>
+    <string name="error_dialog_dismissed">Open the dialog again.</string>
+    <string name="error_dialog_current">Can\'t select this folder.</string>
+    <string name="error_read_queue">No media in the play queue.</string>
+    <string name="error_read_media">Failed to read media.</string>
+    <string name="error_read_media_name">Failed to read media \"%1$s\".</string>
+    <string name="error_read_access">Failed to access media.</string>
+    <string name="error_queue_next">No next media.</string>
+    <string name="error_queue_prev">No previous media.</string>
+    <string name="error_select_media">Select media.</string>
+    <string name="error_share">Failed to share.</string>
+    <string name="error_view">Failed to view.</string>
+
+    <string name="error_path_move">Failed to move path.</string>
+    <string name="error_search_queue">Failed to find media.</string>
+    <string name="error_search_condition">No search condition.</string>
+    <string name="error_search_noresult">No corresponding media.</string>
+    <string name="error_search_too_many_condition">Too many checked items.</string>
+    <string name="confirm_large_queue_add">Number of additional media exceeds the %1$s.</string>
+    <string name="error_main_queue_insert_failed">Failed to insert in the play queue.</string>
+    <string name="error_main_queue_insert_none">Failed to find media to insert in the play queue.</string>
+    <string name="label_button_new_save">Save as</string>
+    <string name="label_button_renew">Renew</string>
+    <string name="label_button_add">Add</string>
+    <string name="label_button_insert">Insert</string>
+    <string name="label_button_update">Update</string>
+    <string name="label_button_delete">Delete</string>
+    <string name="label_button_confirm">Confirm</string>
+    <string name="label_button_open">Open</string>
+    <string name="label_button_hide">Hide</string>
+    <string name="title_search_form_dialog">Select the input text.</string>
+    <string name="message_main_queue_entry">Play queue modified.</string>
+    <string name="message_main_lyrics_offset">Lyrics offset time:%1$d ms</string>
+    <string name="message_main_property_copy">Copied to clipboard.</string>
+    <string name="message_main_queue_edit_mode">Tap on the thumbnail to change played / unplayed, drag to change the order, and delete.</string>
+    <string name="message_search_input_clear">Cleared the input text.</string>
+    <string name="message_search_input_clear_all">Cleared all input texts.</string>
+    <string name="message_search_items_insert">Inserted %1$s media to the play queue.</string>
+    <string name="message_storage_write_permission_succeeded">Succeeded to get the write permissions on  %1$s.</string>
+    <string name="message_storage_write_permission_failed">Failed to get write permission.</string>
+    <string name="error_storage_write_permission">No write permission on external storage.\nGet the write permission from [Other] on settings screen.</string>
+    <string name="error_storage_write_permission_kitkat">Can not write to the external storage in Android 4.4.</string>
+    <string name="error_property_request_task_failed">Failed to get property.</string>
+    <string name="error_property_request_task_timeout">Property request was timed out.</string>
+    <string name="error_album_art_request_task_failed">Failed to get album art.</string>
+    <string name="error_album_art_request_task_timeout">Album art request was timed out.</string>
+    <string name="error_lyrics_request_task_failed">Failed to get lyrics.</string>
+    <string name="error_lyrics_request_task_timeout">Lyrics request was timed out.</string>
+    <string name="error_plugin_launch_failed">Failed to launch %1$s.</string>
+
+    <string name="message_device_playback_disabled">Playback on current output device is disabled.</string>
+    <string name="message_audio_focus_gain">Medoly gained the audio focus.</string>
+    <string name="message_audio_focus_loss">Lost the audio focus from Medoly.</string>
+    <string name="message_audio_focus_loss_transient">Lost audio focus transiently from Medoly.</string>
+    <string name="message_device_connected">%1$s connected</string>
+    <string name="message_device_disconnected">%1$s disconnected</string>
+    <string name="message_volume_switch">The volume buttons change the app volume.</string>
+    <string name="message_permission_granted">Permission granted.</string>
+    <string name="message_permission_denied">Permission denied.\nExit the app.</string>
+
+    <!-- Media session -->
+    <string name="label_session_queue_title">Play Queue</string>
+    <string name="label_session_queue_description">Show Current Play Queue</string>
+
+    <!-- View Style Dialog -->
+    <string name="label_dialog_view_style_layout_expand">Maximize As Possible</string>
+    <string name="label_dialog_view_style_lyrics_scroll">Prioritize Lyrics Scroll</string>
+    <string name="label_dialog_view_style_play_control_show">Show Play Control</string>
+    <string name="label_dialog_view_style_overlay_hide">Auto Hide Overlay (Common)</string>
+    <string name="label_dialog_view_style_background_color">Background Color</string>
+    <string name="label_dialog_view_style_text_shadow_color">Lyrics Outline Color</string>
+    <string name="label_dialog_view_style_text_color_unplayed">Unplayed Lyrics Text Color</string>
+    <string name="label_dialog_view_style_text_color_played">Played Lyrics Text Color</string>
+    <string name="label_dialog_view_style_text_color_playing">Playing Lyrics Text Color</string>
+    <string name="label_dialog_view_style_background_color_playing">Playing Lyrics Background Color</string>
+    <string name="label_dialog_view_style_border_color_playing">Playing Lyrics Border Color</string>
+    <string name="label_dialog_view_style_text_typeface">Lyrics Font Type</string>
+    <string name="label_dialog_view_style_text_style">Lyrics Font Style</string>
+    <string name="label_dialog_view_style_text_align">Lyrics Text Align</string>
+    <string name="label_dialog_view_style_text_nowrap">Lyrics Nowrap</string>
+    <string name="label_dialog_view_style_text_shadow_use">Use Lyrics Shadow</string>
+    <string name="label_dialog_view_style_preset">Visual Preset</string>
+
+    <!-- Exit Dialog -->
+    <string name="label_exit_type_complete">Queue Completed</string>
+    <string name="label_exit_type_count">Remaining Media</string>
+    <string name="label_exit_type_loop">Loop Count</string>
+    <string name="label_exit_type_time_remain">Remaining</string>
+    <string name="label_exit_time_clock">Clock</string>
+    <string name="label_exit_dialog_disable">Disable this dialog</string>
+    <string name="label_exit_dialog_condition_on">Set</string>
+    <string name="label_exit_dialog_condition_off">Clear</string>
+    <string name="label_exit_dialog_immediately">Immediately</string>
+    <string name="message_app_exit_none">No exit condition</string>
+    <string name="message_app_exit_time">Exit at %1$s (%2$s minutes after).</string>
+    <string name="message_app_exit_count">Exit after %1$s media.</string>
+    <string name="message_app_exit_loop">Exit with %1$s times the loop.</string>
+    <string name="message_app_exit_complete">Exit at the end of the play queue.</string>
+    <string name="message_app_exit_cancel">Cleared exit condition.</string>
+    <string name="error_app_exit">Failed to exit</string>
+    <string name="error_app_exit_value">Set the value greater than 0.</string>
+
+    <!-- Control Playlist Dialog -->
+    <string name="title_main_control_playlist">Control playlists</string>
+    <string name="message_main_playlist_delete">Deleted checked playlists.</string>
+    <string name="confirm_main_queue_delete_playlist">Delete checked playlists.\nPlaylist files are also deleted together.</string>
+    <string name="confirm_main_queue_exists">The media already exists in the play queue.</string>
+    <string name="error_main_find_playlist">Failed to find playlist.</string>
+    <string name="error_main_select_playlist">Select playlists.</string>
+
+    <!-- Select Playlist Dialog  -->
+    <string name="title_dialog_select_playlist">Select Playlist Type</string>
+    <string name="label_playlist_m3u_file">M3U File</string>
+    <string name="label_playlist_android_db">Android DB</string>
+    <string name="message_playlist_type_default">Set the selected type to default</string>
+
+    <!-- Save Playlist Dialog -->
+    <string name="title_main_input_playlist_name">Input Playlist Name</string>
+    <string name="message_main_playlist_save">Saved the playlist.</string>
+    <string name="message_main_playlist_update">Updated the playlist.</string>
+    <string name="confirm_main_playlist_nosave">The play queue has media that can\'t save to playlists.</string>
+    <string name="confirm_main_playlist_nosave_assist"> icon expresses that it can\'t store to playlists.</string>
+    <string name="confirm_main_playlist_duplex">Playlist with a duplicate name exists.</string>
+    <string name="error_main_queue_name_empty">Input the playlist name.</string>
+    <string name="error_main_save_playlist">Failed to save playlist.</string>
+    <string name="error_main_queue_empty">The play queue has nothing.</string>
+
+    <!-- File Dialog -->
+    <string name="label_dialog_file_path_type">Path Type</string>
+    <string name="label_dialog_file_relative_path">Relative</string>
+    <string name="label_dialog_file_absolute_path">Absolute</string>
+    <string name="confirm_dialog_file_name_duplex">Duplicate file name exists.</string>
+    <string name="error_dialog_file_name_empty">Input the file name.</string>
+    <string name="error_dialog_file_name_input_replace">Some characters that can not be used in the file name ware replaced with \"_\"".</string>
+    <string name="error_dialog_file_name_input_cut">The file name was cut off because too long.</string>
+
+    <!-- PlayingTime Dialog -->
+    <string name="label_dialog_playing_time_fix">Fixed Time</string>
+    <string name="label_dialog_playing_time_rate">Rate Time</string>
+    <string name="label_dialog_playing_time_at_end">Run at end if not run.</string>
+
+    <!-- Settings Dialog -->
+    <string name="message_dialog_pref_export">Export completed.</string>
+    <string name="message_dialog_pref_import">Import completed.</string>
+    <string name="message_dialog_pref_export_failed">Export failed.</string>
+    <string name="message_dialog_pref_import_failed">Import failed.</string>
+
+    <!-- Sort Dialog -->
+    <string name="title_dialog_sort_queue">Play Queue Sorting</string>
+    <string name="title_dialog_sort_media">Insertion Media Sorting</string>
+    <string name="title_dialog_sort_search">Search Result Sorting\n(Except Storage)</string>
+    <string name="label_dialog_sort_method_normal">Normal Sort</string>
+    <string name="label_dialog_sort_method_natural">Natural Sort</string>
+
+    <!-- Insert Action Dialog  -->
+    <string name="title_dialog_insert_action_count">Item Count: %1$d</string>
+    <string name="title_dialog_insert_action_search1_default">Add Queue</string>
+    <string name="title_dialog_insert_action_search2_default">Renew Queue</string>
+    <string name="title_dialog_insert_action_search3_default" />
+
+    <string name="label_dialog_insert_action_howto">How to insert</string>
+    <string name="label_dialog_insert_action_show">Show dialog</string>
+    <string name="label_dialog_insert_action_option">Option</string>
+    <string name="label_dialog_insert_action_exclude_overlap">Exclude queued media</string>
+    <string name="label_dialog_insert_action_sort">Set sort order of inserted media</string>
+    <string name="label_dialog_insert_action_start_play">Play inserted media</string>
+    <string name="label_dialog_insert_action_return_main">Return to the main screen</string>
+    <string name="label_dialog_insert_action_return_share">Return to the source app</string>
+    <string name="label_dialog_insert_action_settings">Settings</string>
+    <string name="label_dialog_insert_action_settings_save">Save settings</string>
+    <string name="label_dialog_insert_action_caption">Caption (The blank disables this action)</string>
+
+    <!-- Remove Queue  Dialog  -->
+    <string name="title_dialog_remove_queue">Play Queue Removal</string>
+    <string name="label_dialog_remove_queue_auto_complete">Auto removal in completion</string>
+    <string name="label_dialog_remove_queue_includes">Include selected media</string>
+    <string name="label_dialog_remove_queue_previous">Remove Upper Media</string>
+    <string name="label_dialog_remove_queue_following">Remove Previous Media</string>
+    <string name="label_dialog_remove_queue_played">Remove Following Media</string>
+    <string name="label_dialog_remove_queue_all">Remove All Media</string>
+
+    <!-- Recently Played Dialog -->
+    <string name="title_dialog_recently_played">Recently Played</string>
+    <string name="error_dialog_recently_played_nomedia">Select media.</string>
+
+    <!-- Lyrics Style Dialog -->
+    <string name="label_dialog_style_tab_portrait">Layout\n(Portrait)</string>
+    <string name="label_dialog_style_tab_landscape">Layout\n(Landscape)</string>
+    <string name="label_dialog_style_tab_visual">Visual</string>
+
+    <!-- Output Device Dialog -->
+    <string name="title_dialog_output_device">Output Device</string>
+    <string name="label_dialog_output_common_latency">Common Latency</string>
+    <string name="label_dialog_output_device_title_id">Device ID</string>
+    <string name="label_dialog_output_device_title_name">Device Name</string>
+    <string name="label_dialog_output_device_title_auto_play">Auto-Play</string>
+    <string name="label_dialog_output_device_auto_play">Disable auto-play on connection</string>
+
+    <string name="label_dialog_output_device_output">Output</string>
+    <string name="label_dialog_output_device_input">Input</string>
+    <string name="label_dialog_output_device_connection">Connection *2</string>
+    <string name="label_dialog_output_device_volume">Volume\nAdjustment</string>
+    <string name="label_dialog_output_device_latency">Lyrics\nLatency</string>
+    <string name="label_dialog_output_device_screen_orientation">Screen\nOrientation</string>
+    <string name="label_dialog_output_device_screen_keep">Screen\nKeep</string>
+    <string name="label_dialog_output_device_media_playable">Playable</string>
+    <string name="label_dialog_output_device_button_extension">Play Button\nExtension</string>
+    <string name="label_dialog_output_device_button_extension_note">2 Push: Next\n3 Push: Back</string>
+    <string name="label_dialog_output_device_launch_app">Launch\nApp</string>
+    <string name="label_dialog_output_device_launch_app_note">USB, Bluetooth</string>
+    <string name="label_dialog_output_device_audio_focus">Audio\nFocus</string>
+    <string name="label_dialog_output_device_connect_action">At\nConnect</string>
+    <string name="label_dialog_output_device_disconnect_action">At\nDisconnect</string>
+    <string name="label_dialog_output_device_show_message">Show\nMessage</string>
+    <string name="label_dialog_output_device_note">[Available in Background]\n*1 Audio focus gained\n*2 USB or Bluetooth connected</string>
+    <string name="label_dialog_output_device_note1">*1</string>
+    <string name="message_dialog_output_device_clear">Settings cleared.</string>
+
+
+    <!-- Queue Parameter Dialog -->
+    <string name="label_dialog_param_none">None</string>
+    <string name="label_dialog_param_loop_type">Loop Type</string>
+    <string name="label_dialog_param_loop_count">Loop Count</string>
+    <string name="label_dialog_param_loop_ab">AB Loop Position</string>
+    <string name="label_dialog_param_media_volume">App Volume</string>
+    <string name="label_dialog_param_media_speed">Speed Rate</string>
+    <string name="label_dialog_param_album_art_shown">Album Art View State</string>
+    <string name="label_dialog_param_lyrics_shown">Lyrics View State</string>
+    <string name="label_dialog_param_lyrics_sync">Lyrics Sync State</string>
+    <string name="label_dialog_param_lyrics_offset">Lyrics Offset</string>
+    <string name="label_dialog_param_lyrics_size">Lyrics Size</string>
+    <string name="label_dialog_param_view_style">View Style</string>
+    <string name="label_dialog_param_plugin_event_enabled">Plugin Event Available State</string>
+    <!-- Queue Param List Dialog -->
+    <string name="title_dialog_param">Parameter</string>
+    <string name="label_dialog_param_list_automatically">Apply automatically</string>
+    <string name="label_dialog_param_list_add">Add</string>
+    <string name="label_dialog_param_list_edit">Edit</string>
+    <string name="label_dialog_param_list_off">Off</string>
+    <!-- Queue Param Edit Dialog -->
+    <string name="title_dialog_param_edit">Edit Parameter</string>
+    <string name="confirm_dialog_param_edit_delete">Delete this parameter.</string>
+    <string name="error_dialog_param_edit_invalid_regexp">Invalid regular expression.</string>
+    <string name="error_dialog_param_edit_empty_name">Input name.</string>
+    <string name="error_dialog_param_edit_empty_check">Select parameters.</string>
+    <string name="label_dialog_param_edit_name">Name</string>
+    <string name="label_dialog_param_edit_delete">Delete</string>
+    <string name="label_dialog_param_edit_match_add">Add</string>
+    <string name="label_dialog_param_edit_match_delete">Del</string>
+    <string name="label_dialog_param_edit_combined">Combined</string> <!-- unused -->
+    <string name="label_dialog_param_edit_exclusive">Exclusive</string> <!-- unused -->
+    <!-- Queue Param Match Dialog -->
+    <string name="title_dialog_param_match">Property Condition</string>
+    <string name="label_dialog_param_match_property">Property</string>
+    <string name="label_dialog_param_match_value">Value</string>
+    <string name="label_dialog_param_match_match">Match</string>
+    <!-- Queue Param Check Dialog -->
+    <string name="title_dialog_param_check">Target Parameter</string>
+    <string name="label_dialog_param_check_value">Value: %1$s</string>
+
+    <!-- Encoding Device Dialog -->
+    <string name='title_dialog_encoding'>Auto-applied Encoding</string>
+    <string name='title_dialog_encoding_forced'>Forcibly apply</string>
+
+    <!-- Plugin Dialog -->
+    <string name="label_dialog_plugin_launch_app">Open</string>
+    <string name="label_dialog_plugin_launch_store">Store</string>
+    <string name="label_dialog_plugin_launch_info">Info</string>
+    <string name="label_dialog_plugin_execute">Execute Manually</string>
+    <string name="label_dialog_plugin_support_execute">Executable Action</string>
+    <string name="label_dialog_plugin_support_event">Event Action</string>
+    <string name="label_dialog_plugin_app_event_enabled">Enabled App Event</string>
+
+    <!-- Element Visibility Dialog -->
+    <string name="label_dialog_element_visibility_data">Visibility</string>
+    <string name="title_dialog_element_visibility_album_art">Album Art Visibility</string>
+    <string name="title_dialog_element_visibility_lyrics">Lyrics Visibility</string>
+    <string name="label_dialog_element_visibility_first_match">First Matching</string>
+    <string name="label_dialog_element_visibility_target_data">Data Type</string>
+    <string name="label_dialog_element_visibility_target_media_folder">Media Folder</string>
+    <string name="label_dialog_element_visibility_target_additional_folder">Additional Search Folder</string>
+    <string name="label_dialog_element_visibility_data_internal">Internal Data</string>
+    <string name="label_dialog_element_visibility_data_external">External Data</string>
+    <string name="label_dialog_element_visibility_data_provider">Content Provider</string>
+    <string name="label_dialog_element_visibility_file_subfolder">Search Sub Folder</string>
+    <string name="label_dialog_element_visibility_file_filter">File Name Filter</string>
+
+    <string name="label_dialog_element_visibility_file_media_name">Media file name</string>
+    <string name="label_dialog_element_visibility_file_tagged_name">Tagged file name</string>
+    <string name="label_dialog_element_visibility_file_defined_name">Defined file name (cover.jpg, …)</string>
+
+    <string name="label_dialog_element_visibility_filter_edit_name">Name</string>
+    <string name="label_dialog_element_visibility_filter_edit_regexp">Regular Expression (without ext)</string>
+    <string name="label_dialog_element_visibility_filter_edit_preset">Set Preset</string>
+    <string name="label_dialog_element_visibility_filter_edit_insert">Insert Property</string>
+    <string name="label_dialog_element_visibility_filter_edit_case">Ignore Case</string>
+    <string name="label_dialog_element_visibility_filter_edit_property">Property List</string>
+
+    <string name="message_dialog_element_visibility_filter_description">Search files in the following order.</string>
+    <string name="error_dialog_element_visibility_no_name">No name</string>
+    <string name="error_dialog_element_visibility_invalid_pattern">Invalid regular expression</string>
+
+    <string name="label_element_visibility_name_preset_fix">Defined name</string>
+    <string name="label_element_visibility_name_preset_file_exact">Match with media file name</string>
+    <string name="label_element_visibility_name_preset_file_forward">Start with media file name</string>
+    <string name="label_element_visibility_name_preset_file_partial">Include media file name</string>
+    <string name="label_element_visibility_name_preset_title">Include title</string>
+    <string name="label_element_visibility_name_preset_title_artist">Include title and artist</string>
+    <string name="label_element_visibility_name_preset_title_album">Include title and album</string>
+    <string name="label_element_visibility_name_preset_track">Start with track no</string>
+
+    <!-- Error Dialog -->
+    <string name="label_dialog_error_copy_report_button">Copy error report</string>
+    <string name="label_dialog_error_send_report_button">Send error report</string>
+    <string name="label_dialog_error_clear_queue_button">Clear play queue</string>
+    <string name="label_dialog_error_clear_history_button">Clear recently played</string>
+    <string name="label_dialog_error_clear_settings_button">Clear  all settings</string>
+    <string name="label_dialog_error_nothing_button">Do nothing</string>
+    <string name="title_dialog_error">Error</string>
+
+    <!-- About Dialog -->
+    <string name="label_dialog_about_ver">Ver. %1$s</string>
+    <string name="label_dialog_about_developer">Developer</string>
+    <string name="label_dialog_about_email">Email</string>
+    <string name="label_dialog_about_license">License</string>
+    <string name="label_dialog_about_privacy_policy">Privacy Policy</string>
+    <string name="label_dialog_about_google_play">Google Play</string>
+    <string name="label_dialog_about_link">Link</string>
+    <string name="label_dialog_about_library">[Library]</string>
+
+
+    <!-- Settings Screen Title -->
+
+    <string name="pref_title_screen_control">Control</string>
+    <string name="pref_summary_screen_control">Configure the media controls .</string>
+    <string name="pref_title_screen_play">Playback</string>
+    <string name="pref_summary_screen_play">Configure the media playback .</string>
+    <string name="pref_title_screen_queue">Play Queue</string>
+    <string name="pref_summary_screen_queue">Configure the play queue .</string>
+    <string name="pref_title_screen_album_art">Album Art</string>
+    <string name="pref_summary_screen_album_art">Configure the album art display .</string>
+    <string name="pref_title_screen_lyrics">Lyrics</string>
+    <string name="pref_summary_screen_lyrics">Configure the lyrics display .</string>
+    <string name="pref_title_screen_function">Function</string>
+    <string name="pref_summary_screen_function">Configure the other functions .</string>
+    <string name="pref_title_screen_notification">Notification</string>
+    <string name="pref_summary_screen_notification">Configure the notification .</string>
+    <string name="pref_title_screen_widget">Widget</string>
+    <string name="pref_summary_screen_widget">Configure the widgets .</string>
+    <string name="pref_title_screen_plugin">Linkage Apps</string>
+    <string name="pref_summary_screen_plugin">Configure the plugins and external apps .</string>
+    <string name="pref_title_screen_other">Other</string>
+    <string name="pref_summary_screen_other">Configure or show the other information .</string>
+
+    <!-- Control -->
+    <string name="pref_title_settings_remote_control_disable">Disable Remote Control</string>
+    <string name="pref_summary_settings_remote_control_disable">Disable the remote control. Disable the headset control, Bluetooth control, lock screen control, etc.</string>
+
+    <string name="pref_title_audio_focus_request">Audio Focus</string>
+    <string name="pref_summary_audio_focus_request">Select when to request audio focus. The audio focus is necessary for the headset control and the lock screen control.</string>
+    <string name="pref_title_audio_focus_gain_action">Audio Focus Gain</string>
+    <string name="pref_summary_audio_focus_gain_action">Select the action at the time of audio focus gain.</string>
+    <string name="pref_title_audio_focus_loss_action">Audio Focus Loss</string>
+    <string name="pref_summary_audio_focus_loss_action">Select the action on the time of audio focus loss.</string>
+    <string name="pref_title_audio_focus_loss_transient_action">Audio Focus Loss Transient</string>
+    <string name="pref_summary_audio_focus_loss_transient_action">Select the action at the time of audio focus loss transient.</string>
+    <string name="pref_title_audio_focus_message">Audio Focus Message</string>
+    <string name="pref_summary_audio_focus_message">Show message when audio focus gain or loss.</string>
+
+    <!-- Playback -->
+    <string name="pref_title_main_forward_rewind_hide">Hide FF &amp; Rewind</string>
+    <string name="pref_summary_main_forward_rewind_hide">Hide the fast forward button and the rewind button.</string>
+    <string name="pref_title_forward_rewind_time">FF &amp; Rewind Time</string>
+    <string name="pref_summary_forward_rewind_time">Set the time to move when tapping the fast forward button and rewind button by milliseconds.</string>
+    <string name="pref_title_fast_move_lyrics_line_header">Seek By Lyrics Line</string>
+    <string name="pref_summary_fast_move_lyrics_line_header">Seek to synchronized lyrics line header when tapping the fast forward button and rewind button.</string>
+    <string name="pref_title_keep_played_state">Keep Played State</string>
+    <string name="pref_summary_keep_played_state">Keep the current media state played when moving to previous media.</string>
+    <string name="pref_title_prev_behavior">Played State Back</string>
+    <string name="pref_summary_prev_behavior">Played state affects finding previous media. (It is same as finding next media.)</string>
+    <string name="pref_title_reshuffle_disabled">No Reshuffling</string>
+    <string name="pref_summary_reshuffle_disabled">Do not reshuffle the play queue when the play queue is completed on shuffle playback order.</string>
+    <string name="pref_title_media_error_action">Playback Error</string>
+    <string name="pref_summary_media_error_action">Choose the action at the time of media playback error. This also applies to prepared media.</string>
+
+    <!-- Play Queue -->
+    <string name="pref_title_main_queue_tap_return">Auto Open VIEW Tab</string>
+    <string name="pref_summary_main_queue_tap_return">Open VIEW tab by a single tap of the play queue item. \(nA double tap always does it.)</string>
+    <string name="pref_title_insert_action_message_hide">Hide Insertion Message</string>
+    <string name="pref_summary_insert_action_message_hide">Hide the message at the time of the play queue insertion.</string>
+
+    <string name="pref_title_insert_action_search1">Search Menu 1</string>
+    <string name="pref_summary_insert_action_search1">Set the action at the time of the play queue insertion from the search menu 1 selection.</string>
+    <string name="pref_title_insert_action_search2">Search Menu 2</string>
+    <string name="pref_summary_insert_action_search2">Set the action at the time of the play queue insertion from the search menu 2 selection.</string>
+    <string name="pref_title_insert_action_search3">Search Menu 3</string>
+    <string name="pref_summary_insert_action_search3">Set the action at the time of the play queue insertion from the search menu 3 selection.</string>
+    <string name="pref_title_insert_action_search_media_tap">Search Result Tap</string>
+    <string name="pref_summary_insert_action_search_media_tap">Set the action at the time of the play queue insertion from the search result tap.</string>
+    <string name="pref_title_insert_action_search_long_tap">Search Result Long Tap</string>
+    <string name="pref_summary_insert_action_search_long_tap">Set the action at the time of the play queue insertion from the search result long tap.</string>
+    <string name="pref_title_insert_action_share">Shared Media</string>
+    <string name="pref_summary_insert_action_share">Set the action at the time of the play queue insertion from the shared media.</string>
+    <string name="pref_title_insert_action_recently_played">Recently Played</string>
+    <string name="pref_summary_insert_action_recently_played">Set the action the time of at the play queue insertion from the recently played.</string>
+    <string name="pref_title_insert_action_open_playlist">Playlist</string>
+    <string name="pref_summary_insert_action_open_playlist">Set the action at the time of the play queue insertion from the playlist.</string>
+    <string name="pref_title_insert_action_drawer_playlist">Drawer Playlist</string>
+    <string name="pref_summary_insert_action_drawer_playlist">Set the action at the time of the play queue insertion from the drawer playlist.</string>
+
+    <!-- Album Art -->
+    <string name="pref_title_hide_thumbnails">Hide Thumbnails</string>
+    <string name="pref_summary_hide_thumbnails">Hide thumbnails to accelerate display and reduce memory consumption.</string>
+    <string name="pref_title_remote_control_image_disable">Hide Remote Image</string>
+    <string name="pref_summary_remote_control_image_disable">Hide the image on the remote control. Album art does not be displayed on the lock screen or the like.</string>
+
+    <string name="pref_title_album_art_data_visibility">Data Visibility</string>
+    <string name="pref_summary_album_art_data_visibility">Select the visible data.</string>
+    <string name="pref_title_album_art_plugin_save_action">Save Destination</string>
+    <string name="pref_summary_album_art_plugin_save_action">Select the destination of save the acquired album art with plugin. It is saved as the media file name.</string>
+    <string name="pref_title_album_art_plugin_always">Run Plugin Event Always</string>
+    <string name="pref_summary_album_art_plugin_always">Run the album art get plugin event regardless of whether the album arts are exists.</string>
+
+    <!-- Lyrics  -->
+    <string name="pref_title_main_save_lyrics_offset">Keep Lyrics Offset</string>
+    <string name="pref_summary_main_save_lyrics_offset">Keep the lyrics offset time without resetting every media.</string>
+    <string name="pref_title_lyrics_intro_time">Intro Time</string>
+    <string name="pref_summary_lyrics_intro_time">Set the intro time as milliseconds for the unsync lyrics scroll.</string>
+    <string name="pref_title_lyrics_outro_time">Outro Time</string>
+    <string name="pref_summary_lyrics_outro_time">Set the outro time as milliseconds for the unsync lyrics scroll.</string>
+
+    <string name="pref_title_lyrics_data_visibility">Data Visibility</string>
+    <string name="pref_summary_lyrics_data_visibility">Select the visible data.</string>
+    <string name="pref_title_lyrics_plugin_save_action">Save Destination</string>
+    <string name="pref_summary_lyrics_plugin_save_action">Select the destination of save the acquired lyrics with plugin. It is saved as the media file name.</string>
+    <string name="pref_title_lyrics_plugin_always">Run Plugin Event Always</string>
+    <string name="pref_summary_lyrics_plugin_always">Run the lyrics get plugin event regardless of whether the lyrics are exists.</string>
+
+    <!-- Function -->
+    <string name="pref_title_player_type">Player Type</string>
+    <string name="pref_summary_player_type">Select player type for media playback. Restart app when selected.</string>
+    <string name="pref_title_disable_exit_dialog">Disable Exit Dialog</string>
+    <string name="pref_summary_disable_exit_dialog">Disable exit dialog when "Exit" selected. The app will be exited immediately when.</string>
+    <string name="pref_title_media_recently_played_count">Recently Played Limit</string>
+    <string name="pref_summary_media_recently_played_count">Set the upper limit of recently played histories. (0 disables the function.)</string>
+    <string name="pref_title_search_storage_home">Home Path</string>
+    <string name="pref_summary_search_storage_home">Change storage home folder on search screen. You can move to there by home button and path shows as \"~\". The long tap of the home button can be also set it.</string>
+    <string name="pref_title_playlist_save_type">Playlist Type</string>
+    <string name="pref_summary_playlist_save_type">Choose the playlist type to save.</string>
+    <string name="pref_title_property_split">Properties Division</string>
+    <string name="pref_summary_property_split">Select the characters to split properties.</string>
+    <string name="pref_title_property_concat">Properties Concatenation</string>
+    <string name="pref_summary_property_concat">Select the character to join properties. This is also valid for properties divided by \"Properties Division\" .</string>
+    <string name="pref_title_face_lyrics_long_press_seek_disabled">Disable Long Press Seek</string>
+    <string name="pref_summary_face_lyrics_long_press_seek_disabled">Disable the long press seek of the synchronized lyrics displayed on the display tab.</string>
+    <string name="pref_title_face_long_press_menu_enabled">View Tab Long Press</string>
+    <string name="pref_summary_face_long_press_menu_enabled">Show the View Style Dialog when long pressing View tab.</string>
+
+    <!-- Notification -->
+    <string name="pref_title_notification_background_color">Notification Color</string>
+    <string name="pref_summary_notification_background_color">Set the notification color. Transparent color become default color.</string>
+    <string name="pref_title_notification_original">Original Notification</string>
+    <string name="pref_summary_notification_original">Display the notification in original style. Exit this app once to apply the setting.</string>
+    <string name="pref_title_hide_pause_notification">Hide Notification</string>
+    <string name="pref_summary_hide_pause_notification">Hide the notification icon when pausing media.</string>
+
+    <!-- Widget -->
+    <string name="pref_title_widget_text_color">Text Color</string>
+    <string name="pref_summary_widget_text_color">Set the widget text color.</string>
+    <string name="pref_title_widget_back_color">Background Color</string>
+    <string name="pref_summary_widget_back_color">Set the widget background color.</string>
+    <string name="pref_title_widget_title_max_line">Title Max Line</string>
+    <string name="pref_summary_widget_title_max_line">Set the widget max line of media title.</string>
+    <string name="pref_title_widget_album_max_line">Album Max Line</string>
+    <string name="pref_summary_widget_album_max_line">Set the widget max line of media album.</string>
+    <string name="pref_title_widget_artist_max_line">Artist Max Line</string>
+    <string name="pref_summary_widget_artist_max_line">Set the widget max line of media artist.</string>
+    <string name="pref_title_widget_initialize">Initialize</string>
+    <string name="pref_summary_widget_initialize">Initialize widget settings.</string>
+
+    <!-- Plugin  -->
+    <string name="pref_title_plugin_playing_time">Playing Time</string>
+    <string name="pref_summary_plugin_playing_time">Set the time to run plugin action "Play Now". The action will execute after this time. The time is reset by stopping playback.</string>
+    <string name="pref_title_plugin_request_timeout">Get Action Timeout</string>
+    <string name="pref_summary_plugin_request_timeout">Set the timeout seconds for album art plugins and the lyrics plugins.</string>
+    <string name="pref_title_folder_mime_type">Folder MIME Type</string>
+    <string name="pref_summary_folder_mime_type">Set the MIME type to view the folder.</string>
+    <string name="pref_title_extra_message_enabled">Notify External Apps</string>
+    <string name="pref_summary_extra_message_enabled">Notify the playback state to external apps. (Android Music compatible)</string>
+
+    <!-- Other  -->
+    <string name="pref_title_language">Language</string>
+    <string name="pref_summary_language">Select app language.</string>
+    <string name="pref_title_external_storage_write_permission">Storage Write Permission</string>
+    <string name="pref_summary_external_storage_write_permission">Set the write permission of the external storage. Select the root of the external storage from the folder select dialog.</string>
+    <string name="pref_title_settings_save">Export Settings</string>
+    <string name="pref_summary_settings_save">Export the settings to file.</string>
+    <string name="pref_title_settings_load">Import Settings</string>
+    <string name="pref_summary_settings_load">Import the settings from file.</string>
+    <string name="pref_title_media_storage_details">Media Storage Info</string>
+    <string name="pref_summary_media_storage_details">Show media storage information. Stop or delete the media storage.</string>
+    <string name="pref_title_application_details">App Info</string>
+    <string name="pref_summary_application_details">Show application information of this device.</string>
+    <string name="pref_title_about">About</string>
+    <string name="pref_summary_about">Show about.</string>
+
+
+    <!-- Array Names  -->
+    <string name="pref_audio_focus_request_start_entry">At App Start</string>
+    <string name="pref_audio_focus_request_open_entry">At App Open</string>
+    <string name="pref_audio_focus_request_play_entry">At Media Play</string>
+
+    <!-- On Action Array -->
+    <string name="pref_on_action_entry_recover">Recover State</string>
+    <string name="pref_on_action_entry_start">Start Playing</string>
+    <string name="pref_on_action_entry_stop">Stop Auto Playing</string>
+    <string name="pref_on_action_entry_nothing">Do Nothing</string>
+    <!-- Off Action Array -->
+    <string name="pref_off_action_entry_pause">Pause</string>
+    <string name="pref_off_action_entry_down">Volume Down</string>
+    <string name="pref_off_action_entry_nothing">Do Nothing</string>
+
+    <string-array name="pref_media_error_action_entries">
+        <item>Pause</item>
+        <item>Pause With Played</item>
+        <item>Pause With Broken</item>
+        <item>Skip With Broken</item>
+        <item>Pause And Remove</item>
+        <item>Skip And Remove</item>
+    </string-array>
+
+
+    <string-array name="pref_plugin_element_save_action_entries">
+        <item>Not Save</item>
+        <item>Media Folder (Create)</item>
+        <item>Media Folder (Overwrite)</item>
+        <item>Additional Search Folder (Create)</item>
+        <item>Additional Search Folder (Overwrite)</item>
+    </string-array>
+
+    <string-array name="playlist_save_type_entries">
+        <item>Dialog Select</item>
+        <item>M3U File</item>
+        <item>Android DB</item>
+    </string-array>
+    <string-array name="pref_property_split_entries">
+        <item>Split by \";\"</item>
+        <item>Split by \"/\"</item>
+        <item>Split by \",\"</item>
+        <item>Split by \"&amp;\"</item>
+        <item>Split by newline</item>
+    </string-array>
+    <string-array name="pref_property_concat_entries">
+        <item>Do nothing</item>
+        <item>Concat with \";\"</item>
+        <item>Concat with \"/\"</item>
+        <item>Concat with \",\"</item>
+        <item>Concat with \"&amp;\"</item>
+        <item>Concat with newline</item>
+    </string-array>
+
+    <string-array name="pref_widget_gradient_entries">
+        <item>None</item>
+        <item>Left / Right</item>
+        <item>Top Left / Bottom Right</item>
+        <item>Top / Bottom</item>
+        <item>Top Right / Bottom Left</item>
+        <item>Right / Left</item>
+        <item>Bottom Right / Top Left</item>
+        <item>Bottom / Top</item>
+        <item>Bottom Left / Top Right</item>
+    </string-array>
+
+    <string-array name="pref_language_entries">
+        <item>Default</item>
+        <item>English</item>
+        <item>Japanese</item>
+    </string-array>
+
+    <!-- Output Device -->
+
+    <!-- Screen keep -->
+    <string name="screen_keep_entry_always">Always</string>
+    <string name="screen_keep_entry_on_playing">On Playing</string>
+    <string name="screen_keep_entry_on_display_lyrics">On Display Lyrics</string>
+    <string name="screen_keep_entry_on_playing_lyrics">On Playing Lyrics</string>
+    <string name="screen_keep_entry_never">Never</string>
+    <!-- Screen orientation -->
+    <string name="screen_orientation_entry_default">Default</string>
+    <string name="screen_orientation_entry_automatic">Automatic</string>
+    <string name="screen_orientation_entry_lock">Lock</string>
+
+    <!-- View Style -->
+
+    <string-array name="lyrics_text_font_entries">
+        <item>Sans-serif</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+    </string-array>
+    <string-array name="lyrics_text_style_entries">
+        <item>Normal</item>
+        <!-- NORMAL -->
+        <item>Bold</item>
+        <!-- BOLD -->
+        <item>Italic</item>
+        <!-- ITALIC -->
+        <item>Bold Italic</item>
+        <!-- BOLD_ITALIC -->
+    </string-array>
+    <string-array name="lyrics_text_align_entries">
+        <item>Left</item>
+        <!-- LEFT -->
+        <item>Center</item>
+        <!-- CENTER_HORIZONTAL  -->
+        <item>Right</item>
+        <!-- RIGHT -->
+    </string-array>
+
+    <!-- Player -->
+
+    <string-array name="pref_player_type_entries">
+        <item>ExoPlayer</item>
+        <item>MediaPlayer</item>
+    </string-array>
+
+</resources>
