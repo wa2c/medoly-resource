@@ -453,16 +453,6 @@
     <string name="label_dialog_error_nothing_button">Nie rób nic</string>
     <string name="title_dialog_error">Błąd</string>
 
-    <!-- About Dialog -->
-    <string name="label_dialog_about_ver">Ver. %1$s</string>
-    <string name="label_dialog_about_developer">Deweloper</string>
-    <string name="label_dialog_about_email">Email</string>
-    <string name="label_dialog_about_license">Licencja</string>
-    <string name="label_dialog_about_privacy_policy">Polityka prywatności</string>
-    <string name="label_dialog_about_google_play">Google Play</string>
-    <string name="label_dialog_about_link">Link</string>
-    <string name="label_dialog_about_library">[Biblioteka]</string>
-
     <!-- Settings Screen Title -->
     <string name="pref_title_screen_control">Sterowanie</string>
     <string name="pref_summary_screen_control">Konfiguracja sterowania mediami.</string>

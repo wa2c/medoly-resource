@@ -452,16 +452,6 @@
     <string name="label_dialog_error_nothing_button">何もせず起動</string>
     <string name="title_dialog_error">エラー</string>
 
-    <!-- About Dialog -->
-    <string name="label_dialog_about_ver">Ver. %1$s</string>
-    <string name="label_dialog_about_developer">Developer</string>
-    <string name="label_dialog_about_email">Email</string>
-    <string name="label_dialog_about_license">License</string>
-    <string name="label_dialog_about_privacy_policy">Privacy Policy</string>
-    <string name="label_dialog_about_google_play">Google Play</string>
-    <string name="label_dialog_about_link">Link</string>
-    <string name="label_dialog_about_library">[Library]</string>
-
     <!-- 設定画面タイトル -->
     <string name="pref_title_screen_control">操作</string>
     <string name="pref_summary_screen_control">メディア再生操作に関する設定を行います。</string>
