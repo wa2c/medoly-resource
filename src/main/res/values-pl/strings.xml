@@ -3,6 +3,9 @@
     Translated by Jerzy Puczek
 -->
 <resources>
+    <!-- App -->
+    <string name="app_version_url">https://www.wa2c.com/documents/dokuwiki/doku.php?id=en:medoly:history</string>
+
     <!-- Commons -->
     <string name="media">Media</string>
     <string name="album_art">Okładka albumu</string>
@@ -481,6 +484,8 @@
     <string name="pref_summary_screen_plugin">Konfiguracja wtyczek i programów zewnętrznych.</string>
     <string name="pref_title_screen_other">Inne</string>
     <string name="pref_summary_screen_other">Konfiguracja lub wyświetlanie innych informacji.</string>
+    <string name="pref_title_screen_about">About</string>
+    <string name="pref_summary_screen_about">Pokaż - o aplikacji.</string>
 
     <!-- Control -->
     <string name="pref_title_settings_remote_control_disable">Wyłącz zdalne sterowanie</string>
@@ -633,6 +638,26 @@
     <string name="pref_summary_application_details">Pokaż informacje o aplikacji tego urządzenia.</string>
     <string name="pref_title_about">O aplikacji</string>
     <string name="pref_summary_about">Pokaż - o aplikacji.</string>
+
+    <!-- Preferences - About -->
+    <string name="pref_title_about_app_version">Wersja aplikacji</string>
+    <string name="pref_summary_about_app_version" />
+    <string name="pref_title_about_author">Deweloper</string>
+    <string name="pref_summary_about_author">@string/app_author</string>
+    <string name="pref_title_about_contributors">Współtwórcy</string>
+    <string name="pref_summary_about_contributors">@string/app_contributors</string>
+    <!--
+    <string name="pref_title_about_app_license">Licencja</string>
+    <string name="pref_summary_about_app_license" />
+    -->
+    <string name="pref_title_about_library_license">Licencja Open Source</string>
+    <string name="pref_summary_about_library_license">Pokaż licencję typu open source.</string>
+    <string name="pref_title_about_privacy_policy">>Polityka prywatności</string>
+    <string name="pref_summary_about_privacy_policy">Pokaż politykę prywatności.</string>
+    <string name="pref_title_about_app_info">Informacje aplikacji</string>
+    <string name="pref_summary_about_app_info">Otwórz informacje o aplikacji systemu operacyjnego.</string>
+    <string name="pref_title_about_store">Google Play</string>
+    <string name="pref_summary_about_store">Otwórz Google Play..</string>
 
     <!-- Array Names  -->
     <string name="pref_audio_focus_request_start_entry">Przy starcie App</string>
