@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Translated by wa2c
+-->
 <resources>
     <!-- 共通 -->
     <string name="media">メディア</string>
@@ -686,12 +689,7 @@
         <item>改行で結合</item>
     </string-array>
 
-    <string-array name="pref_language_entries">
-        <item>デフォルト</item>
-        <item>英語</item>
-        <item>日本語</item>
-    </string-array>
-
+    <string name="pref_language_default">デフォルト</string>
 
     <!-- Output Device -->
 

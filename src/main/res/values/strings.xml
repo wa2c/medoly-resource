@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Translated by wa2c
+-->
 <resources>
     <!-- Commons -->
     <string name="media">Media</string>
@@ -685,11 +688,7 @@
         <item>Concat with newline</item>
     </string-array>
 
-    <string-array name="pref_language_entries">
-        <item>Default</item>
-        <item>English</item>
-        <item>Japanese</item>
-    </string-array>
+    <string name="pref_language_default">Default</string>
 
     <!-- Output Device -->
 

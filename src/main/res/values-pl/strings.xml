@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Translated by Jerzy Puczek
+-->
+<resources>
+    <!-- Commons -->
+    <string name="media">Media</string>
+    <string name="album_art">Okładka albumu</string>
+    <string name="lyrics">Teksty (Lyrics)</string>
+    <string name="extra">Dodatkowy</string>
+
+    <string name="title">Tytuł</string>
+    <string name="artist">Wykonawca</string>
+    <string name="album">Album</string>
+    <string name="track">Ścieżka</string>
+    <string name="genre">Gatunek muzyczny</string>
+    <string name="year">Rok</string>
+    <string name="composer">Kompozytor</string>
+    <string name="mime_type">Typ MIME</string>
+    <string name="playlist">Playlista</string>
+
+    <string name="storage">Pamięć</string>
+    <string name="file_path">Ścieżka pliku</string>
+
+    <string name="data_size">Rozmiar danych</string>
+    <string name="last_modified">Data modyfikacji</string>
+    <string name="last_added_db">Data dodania DB</string>
+
+    <string name="all">Wsz.</string>
+    <string name="search">Szukaj</string>
+    <string name="copy">Kopiowanie</string>
+    <string name="confirm">Potwierdzenie</string>
+    <string name="clear">Czyść</string>
+    <string name="queue">Kolejka odtwarzania</string>
+    <string name="close_dialog">Zamknij</string>
+    <string name="sort">Sortuj</string>
+    <string name="color_deep">Głęboko</string>
+    <string name="color_pale">Płytko</string>
+    <string name="notice">Ogłoszenie</string>
+    <string name="back">Powrót</string>
+    <string name="overwrite">Przepisanie</string>r
+    <string name="shared_media">Udostępnione media</string>
+    <string name="loading">Ładowanie...</string>
+    <string name="no_supported_files">Brak obsługiwanych plików.</string>
+    <string name="loop">Pętla</string>
+    <string name="plugin">Wtyczka</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+
+    <string name="partial_match">Dopasowanie częściowe</string>
+    <string name="forward_match">Dopasowanie w przód</string>
+    <string name="backward_match">Dopasowanie w tył</string>
+    <string name="exact_match">Dopasowanie dokładne</string>
+    <string name="regular_expression">Wyrażenie regularne</string>
+    <string name="fuzzy_match">Dopasowanie rozmyte</string>
+    <string name="not_match">Bez dopasow.</string>
+
+    <!-- Output Device -->
+    <string name="output_device_normal">Normalne</string>
+    <string name="output_device_wired">Urządzenie przewodowe</string>
+    <string name="output_device_bluetooth">Urządzenie Bluetooth</string>
+    <string name="output_device_usb">Urządzenie USB</string>
+    <string name="output_device_hdmi">Urządzenie HDMI</string>
+    <string name="output_device_cast">Urządzenie przesyłające</string>
+    <string name="output_device_other">Inne urządzenie</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_main">Medoly</string>
+    <string name="title_activity_search">Szukaj</string>
+    <string name="title_activity_settings">Ustawienia</string>
+    <string name="title_activity_error">Medoly</string>
+
+    <string name="title_volume">Głośność aplikacji</string>
+    <string name="title_output_device">Urządzenie wyjściowe</string>
+    <string name="exit_app">Wyjście</string>
+
+    <!-- Tabs -->
+    <string name="tab_property_name">WŁAŚCIWOŚCI</string>
+    <string name="tab_face_name">WIDOK</string>
+    <string name="tab_queuelist_name">KOLEJKA</string>
+
+    <!-- Search Menu -->
+    <string name="search_popup_storage">Szukaj w pamięci</string>
+    <string name="search_popup_title">Szukaj tytuł</string>
+    <string name="search_popup_artist">Szukaj wykonawcę</string>
+    <string name="search_popup_album">Szukaj album</string>
+    <string name="search_popup_genre">Szukaj gatunek</string>
+    <string name="search_popup_year">Szukaj rok</string>
+    <string name="search_popup_composer">Szukaj kompozytora</string>
+    <string name="search_popup_mime_type">Szukaj typ MIME</string>
+    <string name="search_popup_playlist">Szukaj playlistę</string>
+
+    <!-- Property Tab Menu -->
+    <string name="property_item_popup_copy">Kopiuj do schowka</string>
+    <string name="property_item_popup_search">Szukaj media</string>
+    <string name="property_item_popup_web">Szukaj w sieci</string>
+    <string name="property_item_popup_share">Udostępnij</string>
+    <string name="property_item_popup_view">Otwórz</string>
+    <string name="property_item_popup_change">Zmiana</string>
+    <string name="property_item_popup_param">Zapis parametru</string>
+
+    <!-- View Tab Menu -->
+    <string name="face_popup_view_style">Styl widoku</string>
+    <string name="face_popup_album_art_show">Pokaż okładkę albumu</string>
+    <string name="face_popup_lyrics_show">Pokaż tekst</string>
+    <string name="face_popup_lyrics_size">Rozmiar czcionki</string>
+    <string name="face_popup_lyrics_sync">Synchronizuj teksty</string>
+    <string name="face_popup_lyrics_offset">Przesunięcie synchronizacji</string>
+
+    <!-- Queue Tab Menu -->
+    <string name="queue_popup_recently_played">Ostatnio odtwarzane</string>
+    <string name="queue_popup_control_playlist">Kontrola playlist</string>
+    <string name="queue_popup_save_playlist">Zapisz na playliście</string>
+    <string name="queue_popup_edit_mode">Tryb edycji</string>
+    <string name="queue_popup_sort">Sortuj</string>
+    <string name="queue_popup_change_state">Uaktywnij - podświetl wsz.</string>
+    <string name="queue_popup_remove">Usuń</string>
+
+    <string name="queue_popup_reserve_next">Rezerwuj następny</string>
+    <string name="queue_popup_cancel_next">Anuluj następny</string>
+    <string name="queue_popup_first">Przenieś jako pierwszy</string>
+    <string name="queue_popup_up">Przesuń w górę</string>
+    <string name="queue_popup_down">Przesuń w dół</string>
+    <string name="queue_popup_last">Przesuń jako ostatni</string>
+    <string name="queue_popup_share">Udostępnij</string>
+    <string name="queue_popup_view">Otwórz</string>
+
+    <!-- Sequence Menu -->
+    <string name="sequence_popup_order">Sposób odtwarzania</string>
+    <string name="sequence_popup_order_normal">Normalne</string>
+    <string name="sequence_popup_order_shuffle">Tasująco</string>
+    <string name="sequence_popup_order_random">Losowo</string>
+    <string name="sequence_popup_loop">Pętla</string>
+    <string name="sequence_popup_loop_none">Brak</string>
+    <string name="sequence_popup_loop_all">Pętla</string>
+    <string name="sequence_popup_loop_ab">Pętla A-B</string>
+    <string name="sequence_popup_loop_count">Liczba pętli (0:nieskończona)</string>
+    <string name="sequence_popup_played">Odtworzone media</string>
+    <string name="sequence_popup_played_skip">Pomiń</string>
+    <string name="sequence_popup_played_fill">Realizuj</string>
+    <string name="sequence_popup_played_ignore">Ignoruj</string>
+    <string name="sequence_popup_completed">Zakończone</string>
+    <string name="sequence_popup_completed_single">Pojedynczo</string>
+    <string name="sequence_popup_completed_stop">Stop kolejki</string>
+    <string name="sequence_popup_completed_repeat">Ponów kolejkę</string>
+
+    <!-- Drawer Menu -->
+    <string name="drawer_plugin_event_enabled">Zdarzenie włączone</string>
+    <string name="drawer_plugin_launch_app">Uruchom aplikację</string>
+    <string name="drawer_plugin_app_info">Informacje aplikacji</string>
+    <string name="drawer_plugin_store">Sklep</string>
+    <string name="drawer_plugin_property">Właściwości</string>
+
+    <!-- Search Activity -->
+    <string name="search_exact_match">Dokładne\ndopasowanie</string>
+    <string name="search_condition_delete">Usuń warunek %1$s</string>
+    <string name="search_title_dialog_confirm_home">Ustawienie ścieżki głównej</string>
+    <string name="search_message_dialog_confirm_home">Czy chcesz ustawiać bieżący katalog jako główny?</string>
+
+    <!-- Settings Activity -->
+    <string name="settings_summary_current_value">[Aktualnie: %1$s]</string>
+
+    <!-- Messages -->
+    <string name="error_occurred">Wystąpił błąd.</string>
+    <string name="error_dialog_dismissed">Otwórz ponownie okno dialogowe.</string>
+    <string name="error_dialog_current">„Nie można wybrać tego folderu”.</string>
+    <string name="error_read_queue">Brak multimediów w kolejce odtwarzania.</string>
+    <string name="error_read_media">Nie udało się odczytać multimediów.</string>
+    <string name="error_read_media_name">Nie można odczytać multimediów \"%1$s\".</string>
+    <string name="error_read_access">Nie można uzyskać dostępu do multimediów.</string>
+    <string name="error_queue_next">Brak kolejnych mediów.</string>
+    <string name="error_queue_prev">Brak poprzednich mediów.</string>
+    <string name="error_share">Nie udało się udostępnić.</string>
+    <string name="error_view">Nie udało się wyświetlić.</string>
+
+    <string name="error_search_queue">Nie udało się znaleźć multimediów.</string>
+    <string name="error_search_condition">Brak warunków wyszukiwania.</string>
+    <string name="error_search_too_many_condition">Za dużo zaznaczonych elementów.</string>
+    <string name="error_main_queue_insert_failed">Nie można wstawić do kolejki odtwarzania.</string>
+    <string name="error_main_queue_insert_none">Nie można znaleźć nośnika do wstawienia w kolejce odtwarzania.</string>
+    <string name="label_button_renew">Odnów</string>
+    <string name="label_button_add">Add</string>
+    <string name="label_button_update">Aktualizacja</string>
+    <string name="label_button_delete">Usuń</string>
+    <string name="label_button_confirm">Potwierdź</string>
+    <string name="label_button_open">Otwórz</string>
+    <string name="title_search_form_dialog">Wybierz tekst wejściowy.</string>
+    <string name="message_main_property_copy">Skopiowane do schowka.</string>
+    <string name="message_main_queue_edit_mode">Kliknij w miniaturkę, aby zmienić odtwarzane / nieodtwarzane, przeciągnij, aby zmienić kolejność i usunąć.</string>
+    <string name="message_search_input_clear">Wyczyszczono wprowadzony tekst.</string>
+    <string name="message_search_input_clear_all">Wyczyszczono wszystkie teksty wejściowe.</string>
+    <string name="message_search_items_insert">%1$s - media wstawione do kolejki odtwarzania.</string>
+    <string name="message_storage_write_permission_succeeded">Udało się uzyskać uprawnienia do zapisu w %1$s.</string>
+    <string name="message_storage_write_permission_failed">Nie udało się uzyskać uprawnienia do zapisu.</string>
+    <string name="error_storage_write_permission">Brak uprawnień do zapisu w pamięci zewnętrznej.\nUzyskaj uprawnienia do zapisu z [Inne] na ekranie ustawień.</string>
+    <string name="error_storage_write_permission_kitkat">Nie można zapisać danych w pamięci zewnętrznej w systemie Android 4.4.</string>
+    <string name="error_property_request_task_timeout">Upłynął limit czasu żądania właściwości.</string>
+    <string name="error_album_art_request_task_timeout">Upłynął limit czasu żądania okładki albumu.</string>
+    <string name="error_lyrics_request_task_timeout">Upłynął limit czasu żądania tekstu.</string>
+    <string name="error_plugin_launch_failed">Nie udało się uruchomić %1$s.</string>
+
+    <string name="message_device_playback_disabled">Odtwarzanie na bieżącym urządzeniu wyjściowym jest wyłączone.</string>
+    <string name="message_audio_focus_gain">Medoly zyskał skupienie audio.</string>
+    <string name="message_audio_focus_loss">Utracono Audio Focus z Medoly.</string>
+    <string name="message_audio_focus_loss_transient">Utracono przejściowe skupienie dźwięku od Medoly.</string>
+    <string name="message_device_connected">Połączono %1$s</string>
+    <string name="message_device_disconnected">Odłączono %1$s</string>
+    <string name="message_volume_switch">Przyciski głośności zmieniają głośność aplikacji.</string>
+    <string name="message_permission_granted">Pozwolenie udzielone.</string>
+    <string name="message_permission_denied">Odmowa zezwolenia.\nWyjdź z aplikacji.</string>
+
+    <!-- Media session -->
+    <string name="label_session_queue_title">Kolejka odtwarzania</string>
+    <string name="label_session_queue_description">Pokaż bieżącą kolejkę odtwarzania</string>
+
+    <!-- View Style Dialog -->
+    <string name="label_dialog_view_style_layout_expand">Maksymalizuj ile możliwe</string>
+    <string name="label_dialog_view_style_lyrics_scroll">Priorytet przewijania tekstu</string>
+    <string name="label_dialog_view_style_play_control_show">Pokaż sterowanie odtwarzaniem</string>
+    <string name="label_dialog_view_style_overlay_hide">Automatycznie ukryj nakładkę sterowania (na ogół)</string>
+    <string name="label_dialog_view_style_background_color">Kolor tła</string>
+    <string name="label_dialog_view_style_text_shadow_color">Kolor konturu tekstu</string>
+    <string name="label_dialog_view_style_text_color_unplayed">Kolor tekstu nieodtworzonego</string>
+    <string name="label_dialog_view_style_text_color_played">Kolor tekstu odtworzonego</string>
+    <string name="label_dialog_view_style_text_color_playing">Kolor tekstu odtwarzanego</string>
+    <string name="label_dialog_view_style_background_color_playing">Kolor tła odtwarzanego tekstu</string>
+    <string name="label_dialog_view_style_border_color_playing">Kolor obramowania tekstu</string>
+    <string name="label_dialog_view_style_text_typeface">Typ czcionki tekstu</string>
+    <string name="label_dialog_view_style_text_style">Styl czcionki tekstu</string>
+    <string name="label_dialog_view_style_text_align">Wyrównanie tekstu</string>
+    <string name="label_dialog_view_style_text_nowrap">Nie zawijaj wierszy</string>
+    <string name="label_dialog_view_style_text_shadow_use">Zastosuj cień czcionki</string>
+    <string name="label_dialog_view_style_preset">Ustawienie wizualizacji</string>
+
+    <!-- Exit Dialog -->
+    <string name="label_exit_type_complete">Skompletowana kolejka</string>
+    <string name="label_exit_type_count">Pozostałe media</string>
+    <string name="label_exit_type_loop">Liczba pętli</string>
+    <string name="label_exit_type_time_remain">Pozostałe</string>
+    <string name="label_exit_time_clock">Zegar</string>
+    <string name="label_exit_dialog_disable">Wyłącz ten dialog</string>
+    <string name="label_exit_dialog_condition_on">Ustaw</string>
+    <string name="label_exit_dialog_condition_off">Czyść</string>
+    <string name="label_exit_dialog_immediately">Natychmiast</string>
+    <string name="message_app_exit_none">Brak warunków wyjścia</string>
+    <string name="message_app_exit_time">Wyjdź po %1$s (%2$s - minut później).</string>
+    <string name="message_app_exit_count">Wyjdź po multimediach %1$s.</string>
+    <string name="message_app_exit_loop">Wyjdź z pętli po %1$s razie.</string>
+    <string name="message_app_exit_complete">Wyjście na końcu kolejki odtwarzania.</string>
+    <string name="error_app_exit">Nie udało się wyjść</string>
+    <string name="error_app_exit_value">Ustaw wartość większą niż 0.</string>
+
+    <!-- Control Playlist Dialog -->
+    <string name="title_main_control_playlist">Kontrola playlist</string>
+    <string name="message_main_playlist_delete">Usunięto zaznaczone listy odtwarzania.</string>
+    <string name="confirm_main_queue_delete_playlist">Usuń zaznaczone listy odtwarzania.\nPliki list odtwarzania są również usuwane razem.</string>
+    <string name="confirm_main_queue_exists">Media już istnieją w kolejce odtwarzania.</string>
+    <string name="error_main_select_playlist">Wybierz listy odtwarzania.</string>
+
+    <!-- Select Playlist Dialog  -->
+    <string name="title_dialog_select_playlist">Wybierz typ playlisty</string>
+    <string name="label_playlist_m3u_file">Plik M3U</string>
+    <string name="label_playlist_android_db">Android DB</string>
+    <string name="message_playlist_type_default">Ustaw wybrany typ na domyślny</string>
+
+    <!-- Save Playlist Dialog -->
+    <string name="title_main_input_playlist_name">Wprowadź nazwę playlisty</string>
+    <string name="message_main_playlist_save">Zapisano listę odtwarzania.</string>
+    <string name="confirm_main_playlist_nosave">Kolejka odtwarzania ma multimedia, których nie można zapisać na listach odtwarzania.</string>
+    <string name="confirm_main_playlist_nosave_assist">Ikona oznacza, że nie można zapisać jej na listach odtwarzania.</string>
+    <string name="confirm_main_playlist_duplex">Istnieje lista odtwarzania o zduplikowanej nazwie.</string>
+    <string name="error_main_queue_name_empty">Wprowadź nazwę listy odtwarzania.</string>
+    <string name="error_main_save_playlist">Nie udało się zapisać listy odtwarzania.</string>
+    <string name="error_main_queue_empty">Kolejka odtwarzania jest pusta.</string>
+
+    <!-- File Dialog -->
+    <string name="label_dialog_file_path_type">Typ ścieżki</string>
+    <string name="label_dialog_file_relative_path">Relatywny</string>
+    <string name="label_dialog_file_absolute_path">Absolutny</string>
+    <string name="confirm_dialog_file_name_duplex">Istnieje zduplikowana nazwa pliku.</string>
+    <string name="error_dialog_file_name_empty">Wprowadź nazwę pliku.</string>
+    <string name="error_dialog_file_name_input_replace">Niektóre znaki, których nie można użyć w nazwie pliku zastąpiono \"_\".</string>
+    <string name="error_dialog_file_name_input_cut">Nazwa pliku została ucięta, ponieważ była za długa.</string>
+
+    <!-- PlayingTime Dialog -->
+    <string name="label_dialog_playing_time_fix">Czas stały</string>
+    <string name="label_dialog_playing_time_rate">Czas tempa</string>
+    <string name="label_dialog_playing_time_at_end">Uruchom na końcu jeśli nie działa.</string>
+
+    <!-- Settings Dialog -->
+    <string name="message_dialog_pref_export">Eksport zakończony</string>
+    <string name="message_dialog_pref_import">Import zakończony</string>
+    <string name="message_dialog_pref_export_failed">Błąd eksportu</string>
+    <string name="message_dialog_pref_import_failed">Błąd importu</string>
+
+    <!-- Sort Dialog -->
+    <string name="title_dialog_sort_queue">Sortowanie kolejki odtwarzania</string>
+    <string name="title_dialog_sort_media">Sortowanie mediów reklamowych</string>
+    <string name="title_dialog_sort_search">Sortowanie wyników wyszukiwania\n(Z wyjątkiem pamięci)</string>
+    <string name="label_dialog_sort_method_normal">Normalne</string>
+    <string name="label_dialog_sort_method_natural">Naturalne</string>
+
+    <!-- Insert Action Dialog  -->
+    <string name="title_dialog_insert_action_count">Ilość elementów: %1$d</string>
+    <string name="title_dialog_insert_action_search1_default">Dodaj kolejkę</string>
+    <string name="title_dialog_insert_action_search2_default">Odnów kolejkę</string>
+    <string name="title_dialog_insert_action_search3_default" />
+
+    <string name="label_dialog_insert_action_howto">Jak wstawić</string>
+    <string name="label_dialog_insert_action_show">Pokaż okno dialogowe</string>
+    <string name="label_dialog_insert_action_option">Opcje</string>
+    <string name="label_dialog_insert_action_exclude_overlap">Wyklucz media w kolejce</string>
+    <string name="label_dialog_insert_action_sort">Ustaw kolejność sortowania wstawionych mediów</string>
+    <string name="label_dialog_insert_action_start_play">Odtwórz wstawiane media</string>
+    <string name="label_dialog_insert_action_return_main">Powrót do ekranu głównego</string>
+    <string name="label_dialog_insert_action_return_share">Powrót do aplikacji źródłowej</string>
+    <string name="label_dialog_insert_action_settings">Ustawienia</string>
+    <string name="label_dialog_insert_action_settings_save">Zapisz ustawienia</string>
+    <string name="label_dialog_insert_action_caption">Napis (puste pole wyłącza tą akcję)</string>
+
+    <!-- Remove Queue  Dialog  -->
+    <string name="title_dialog_remove_queue">Odtwarzaj usuwając kolejkę</string>
+    <string name="label_dialog_remove_queue_auto_complete">Automatyczne usuwanie w ukończeniu</string>
+    <string name="label_dialog_remove_queue_includes">Uwzględnij wybrane media</string>
+    <string name="label_dialog_remove_queue_previous">Usuń górne media</string>
+    <string name="label_dialog_remove_queue_following">Usuń poprzednie media</string>
+    <string name="label_dialog_remove_queue_played">Usuń następujące media</string>
+    <string name="label_dialog_remove_queue_all">Usuń wszystkie media</string>
+
+    <!-- Recently Played Dialog -->
+    <string name="title_dialog_recently_played">Ostatnio odtwarzane</string>
+    <string name="error_dialog_recently_played_nomedia">Wybierz media.</string>
+
+    <!-- Lyrics Style Dialog -->
+    <string name="label_dialog_style_tab_portrait">Układ\n(Pionowo)</string>
+    <string name="label_dialog_style_tab_landscape">Układ\n(Poziomo)</string>
+    <string name="label_dialog_style_tab_visual">Wizualizacja</string>
+
+    <!-- Output Device Dialog -->
+    <string name="label_dialog_output_device_title_name">Nazwa urządzenia</string>
+    <string name="label_dialog_output_device_output">Wyjście</string>
+    <string name="label_dialog_output_device_input">Wejście</string>
+    <string name="label_dialog_output_device_connection">Połączenie *2</string>
+    <string name="label_dialog_output_device_volume">Dostosuj\ngłośność</string>
+    <string name="label_dialog_output_device_latency">Opóźnienie\ntekstu</string>
+    <string name="label_dialog_output_device_screen_orientation">Orientacja\nekranu</string>
+    <string name="label_dialog_output_device_screen_keep">Podtrzymaj\nekran</string>
+    <string name="label_dialog_output_device_media_playable">Odtwarzaj</string>
+    <string name="label_dialog_output_device_button_extension">Poszerz\n\'Odtwarzaj\'</string>
+    <string name="label_dialog_output_device_button_extension_note">2-klik:Dalej\n3-klik:Wstecz</string>
+    <string name="label_dialog_output_device_launch_app">Uruchom\nApp</string>
+    <string name="label_dialog_output_device_audio_focus">Audio\nFocus</string>
+    <string name="label_dialog_output_device_connect_action">Przy\npołączeniu</string>
+    <string name="label_dialog_output_device_disconnect_action">Przy\nrozłączeniu</string>
+    <string name="label_dialog_output_device_show_message">Pokaż\nwiadomość</string>
+    <string name="label_dialog_output_device_note">[Dostępne w tle]\n*1 Gdy uzyskano Audio Focus\n*2 Gdy podłączono USB lub Bluetooth</string>
+    <string name="label_dialog_output_device_note1">*1</string>
+    <string name="message_dialog_output_device_clear">Ustawienia wyczyszczone.</string>
+
+
+    <!-- Queue Parameter Dialog -->
+    <string name="label_dialog_param_none">Brak</string>
+    <string name="label_dialog_param_loop_type">Typ pętli</string>
+    <string name="label_dialog_param_loop_count">Liczba pętli</string>
+    <string name="label_dialog_param_loop_ab">Pozycja pętli AB</string>
+    <string name="label_dialog_param_media_volume">Głośność aplikacji</string>
+    <string name="label_dialog_param_media_speed">Szybkość</string>
+    <string name="label_dialog_param_album_art_shown">Stan okładki albumu</string>
+    <string name="label_dialog_param_lyrics_shown">Stan podglądu tekstu</string>
+    <string name="label_dialog_param_lyrics_sync">Stan synchronizacji tekstu</string>
+    <string name="label_dialog_param_lyrics_offset">Przesunięcie tekstu</string>
+    <string name="label_dialog_param_lyrics_size">Wielkość tekstu</string>
+    <string name="label_dialog_param_view_style">Styl widoku</string>
+    <string name="label_dialog_param_plugin_event_enabled">Stan zdarzenia dostępnego dla wtyczki</string>
+    <!-- Queue Param List Dialog -->
+    <string name="title_dialog_param">Parametr</string>
+    <string name="label_dialog_param_list_automatically">Zastosuj automatycznie</string>
+    <string name="label_dialog_param_list_add">Add</string>
+    <string name="label_dialog_param_list_edit">Edit</string>
+    <string name="label_dialog_param_list_off">OFF</string>
+    <!-- Queue Param Edit Dialog -->
+    <string name="title_dialog_param_edit">Edytuj parametr</string>
+    <string name="confirm_dialog_param_edit_delete">Usuń ten parametr.</string>
+    <string name="error_dialog_param_edit_invalid_regexp">Nieprawidłowe wyrażenie regularne</string>
+    <string name="error_dialog_param_edit_empty_name">Wpisz nazwę</string>
+    <string name="error_dialog_param_edit_empty_check">Wybierz parametry.</string>
+    <string name="label_dialog_param_edit_name">Nazwa</string>
+    <string name="label_dialog_param_edit_delete">Usuń</string>
+    <string name="label_dialog_param_edit_match_add">Add</string>
+    <string name="label_dialog_param_edit_match_delete">Del</string>
+    <!-- Queue Param Match Dialog -->
+    <string name="title_dialog_param_match">Właściwości</string>
+    <string name="label_dialog_param_match_property">Właściwości</string>
+    <string name="label_dialog_param_match_value">Wartość</string>
+    <string name="label_dialog_param_match_match">Dopasowanie</string>
+    <!-- Queue Param Check Dialog -->
+    <string name="title_dialog_param_check">Parametr docelowy</string>
+    <string name="label_dialog_param_check_value">Głośność: %1$s</string>
+
+    <!-- Encoding Device Dialog -->
+    <string name="title_dialog_encoding">Auto-applied Encoding</string>
+    <string name="title_dialog_encoding_forced">Forcibly apply</string>
+
+    <!-- Plugin Dialog -->
+    <string name="label_dialog_plugin_launch_app">Otwórz</string>
+    <string name="label_dialog_plugin_launch_store">Sklep</string>
+    <string name="label_dialog_plugin_launch_info">Info</string>
+    <string name="label_dialog_plugin_support_execute">Działanie wykonywalne</string>
+    <string name="label_dialog_plugin_support_event">Akcja zdarzenia</string>
+    <string name="label_dialog_plugin_app_event_enabled">Włączone zdarzenie aplikacji</string>
+
+    <!-- Element Visibility Dialog -->
+    <string name="label_dialog_element_visibility_data">Widoczność</string>
+    <string name="title_dialog_element_visibility_album_art">Widoczność albumu</string>
+    <string name="title_dialog_element_visibility_lyrics">Widoczność tekstu</string>
+    <string name="label_dialog_element_visibility_target_data">Typ danych</string>
+    <string name="label_dialog_element_visibility_target_media_folder">Folder mediów</string>
+    <string name="label_dialog_element_visibility_target_additional_folder">Dodatkowy folder wyszukiwania</string>
+    <string name="label_dialog_element_visibility_data_internal">Dane wewnętrzne</string>
+    <string name="label_dialog_element_visibility_data_external">Dane zewnętrzne</string>
+    <string name="label_dialog_element_visibility_data_provider">Dostawca treści</string>
+    <string name="label_dialog_element_visibility_file_subfolder">Szukaj podkatalogu</string>
+    <string name="label_dialog_element_visibility_file_filter">Filtr nazwy pliku</string>
+
+    <string name="label_dialog_element_visibility_filter_edit_name">Nazwa</string>
+    <string name="label_dialog_element_visibility_filter_edit_regexp">Wyrażenie regularne (bez ext)</string>
+    <string name="label_dialog_element_visibility_filter_edit_preset">Ustaw predefiniowanie</string>
+    <string name="label_dialog_element_visibility_filter_edit_insert">Wstaw właściwości</string>
+    <string name="label_dialog_element_visibility_filter_edit_case">Ignoruj wielkość liter</string>
+
+    <string name="message_dialog_element_visibility_filter_description">Szukaj pliki wg następującego porządku.</string>
+    <string name="error_dialog_element_visibility_no_name">Bez nazwy</string>
+    <string name="error_dialog_element_visibility_invalid_pattern">Nieprawidłowe wyrażenie regularne</string>
+
+    <string name="label_element_visibility_name_preset_fix">Zdefiniowana nazwa</string>
+    <string name="label_element_visibility_name_preset_file_exact">Dopasuj do nazwy pliku multimedialnego</string>
+    <string name="label_element_visibility_name_preset_file_forward">Zacznij od nazwy pliku multimedialnego</string>
+    <string name="label_element_visibility_name_preset_file_partial">Uwzględniaj nazwę pliku mediów</string>
+    <string name="label_element_visibility_name_preset_title">Dołącz tytuł</string>
+    <string name="label_element_visibility_name_preset_title_artist">Dodaj tytuł i wykonawcę</string>
+    <string name="label_element_visibility_name_preset_title_album">Dołącz tytuł i album</string>
+    <string name="label_element_visibility_name_preset_track">Zacznij od numeru utworu</string>
+
+    <!-- Error Dialog -->
+    <string name="label_dialog_error_copy_report_button">Kopiuj raport o błędzie</string>
+    <string name="label_dialog_error_send_report_button">Wyślij raport o błędzie</string>
+    <string name="label_dialog_error_clear_queue_button">Wyczyść kolejkę odtwarzania</string>
+    <string name="label_dialog_error_clear_history_button">Wyczyść ostatnio odtwarzane</string>
+    <string name="label_dialog_error_clear_settings_button">Wyczyść wszystkie ustawienia</string>
+    <string name="label_dialog_error_nothing_button">Nie rób nic</string>
+    <string name="title_dialog_error">Błąd</string>
+
+    <!-- About Dialog -->
+    <string name="label_dialog_about_ver">Ver. %1$s</string>
+    <string name="label_dialog_about_developer">Deweloper</string>
+    <string name="label_dialog_about_email">Email</string>
+    <string name="label_dialog_about_license">Licencja</string>
+    <string name="label_dialog_about_privacy_policy">Polityka prywatności</string>
+    <string name="label_dialog_about_google_play">Google Play</string>
+    <string name="label_dialog_about_link">Link</string>
+    <string name="label_dialog_about_library">[Biblioteka]</string>
+
+    <!-- Settings Screen Title -->
+    <string name="pref_title_screen_control">Sterowanie</string>
+    <string name="pref_summary_screen_control">Konfiguracja sterowania mediami.</string>
+    <string name="pref_title_screen_play">Odtwarzanie nagrania</string>
+    <string name="pref_summary_screen_play">Konfiguracja odtwarzania nagrania.</string>
+    <string name="pref_title_screen_queue">Kolejka odtwarzania</string>
+    <string name="pref_summary_screen_queue">Konfiguracja kolejki odtwarzania.</string>
+    <string name="pref_title_screen_album_art">Okładka albumu</string>
+    <string name="pref_summary_screen_album_art">Konfiguracja wyświetlania okładek albumu.</string>
+    <string name="pref_title_screen_lyrics">Teksty (Lyrics)</string>
+    <string name="pref_summary_screen_lyrics">Konfiguracja wyświetlania słów piosenek.</string>
+    <string name="pref_title_screen_function">Funkcje</string>
+    <string name="pref_summary_screen_function">Konfiguracja pozostałych funkcji.</string>
+    <string name="pref_title_screen_notification">Powiadomienie</string>
+    <string name="pref_summary_screen_notification">Konfiguracja powiadomień.</string>
+    <string name="pref_title_screen_widget">Widżet</string>
+    <string name="pref_summary_screen_widget">Konfiguracja widżetu.</string>
+    <string name="pref_title_screen_plugin">Aplikacje powiązane</string>
+    <string name="pref_summary_screen_plugin">Konfiguracja wtyczek i programów zewnętrznych.</string>
+    <string name="pref_title_screen_other">Inne</string>
+    <string name="pref_summary_screen_other">Konfiguracja lub wyświetlanie innych informacji.</string>
+
+    <!-- Control -->
+    <string name="pref_title_settings_remote_control_disable">Wyłącz zdalne sterowanie</string>
+    <string name="pref_summary_settings_remote_control_disable">Wyłącz zdalne sterowanie. Wyłącz sterowanie zestawem słuchawkowym, sterowanie Bluetooth, sterowanie ekranem blokady itp.</string>
+
+    <string name="pref_title_audio_focus_request">Audio Focus</string>
+    <string name="pref_summary_audio_focus_request">Wybierz, kiedy poprosić o Audio Focus. Audio Focus jest niezbędny do sterowania zestawem słuchawkowym i sterowania ekranem blokady.</string>
+    <string name="pref_title_audio_focus_gain_action">Wzmocnienie Audio Focus</string>
+    <string name="pref_summary_audio_focus_gain_action">Wybierz akcję w momencie wzmocnienia ostrości dźwięku.</string>
+    <string name="pref_title_audio_focus_loss_action">Utrata Audio Focus</string>
+    <string name="pref_summary_audio_focus_loss_action">Wybierz akcję dotyczącą utraty Audio Focus.</string>
+    <string name="pref_title_audio_focus_loss_transient_action">Chwilowa utrata Audio Focus</string>
+    <string name="pref_summary_audio_focus_loss_transient_action">Wybierz akcję w momencie przejściowej utraty Audio Focus.</string>
+    <string name="pref_title_audio_focus_message">Komunikat Audio Focus</string>
+    <string name="pref_summary_audio_focus_message">Pokaż komunikat podczas wzmocnienia lub osłabienia Audio Focus</string>
+
+    <!-- Playback -->
+    <string name="pref_title_main_forward_rewind_hide">Ukryj FF - przewiń</string>
+    <string name="pref_summary_main_forward_rewind_hide">Ukryj przycisk szybkiego przewijania do przodu i do tyłu.</string>
+    <string name="pref_title_forward_rewind_time">FF - czas przewijania</string>
+    <string name="pref_summary_forward_rewind_time">Ustaw czas przesunięcia, dotykając przycisku szybkiego przewijania do przodu i przewijania do tyłu o milisekundy.</string>
+    <string name="pref_title_fast_move_lyrics_line_header">Szukaj według linii tekstu</string>
+    <string name="pref_summary_fast_move_lyrics_line_header">Po dotknięciu przycisku przewijania do przodu i przewijania do tyłu, szukaj zsynchronizowanego nagłówka wiersza tekstu.</string>
+    <string name="pref_title_keep_played_state">Podtrzymanie stanu odtwarzania</string>
+    <string name="pref_summary_keep_played_state">Zachowaj bieżący stan multimediów odtwarzanych podczas przechodzenia do poprzednich mediów.</string>
+    <string name="pref_title_prev_behavior">Odtworzono stan z powrotem</string>
+    <string name="pref_summary_prev_behavior">Stan odtwarzania wpływa na znalezienie poprzednich mediów. (To tak samo, jak znalezienie kolejnych mediów.)</string>
+    <string name="pref_title_reshuffle_disabled">Bez przetasowań</string>
+    <string name="pref_summary_reshuffle_disabled">Nie przetasuj kolejki odtwarzania, gdy kolejka odtwarzania zostanie ukończona w kolejności odtwarzania losowego.</string>
+    <string name="pref_title_media_error_action">Błąd odtwarzania</string>
+    <string name="pref_summary_media_error_action">Wybierz akcję w momencie błędu odtwarzania multimediów. Dotyczy to również przygotowanych mediów.</string>
+
+    <!-- Play Queue -->
+    <string name="pref_title_main_queue_tap_return">Auto-otwórz kartę \'Widok\'</string>
+    <string name="pref_summary_main_queue_tap_return">Otwórz kartę \'Widok\' jednym dotknięciem elementu kolejki odtwarzania.\n(Dwukrotne dotknięcie zawsze to robi.)</string>
+    <string name="pref_title_insert_action_message_hide">Ukryj wiadomość</string>
+    <string name="pref_summary_insert_action_message_hide">Ukryj wiadomość w momencie wstawiania kolejki odtwarzania.</string>
+
+    <string name="pref_title_insert_action_search1">Menu szukania 1</string>
+    <string name="pref_summary_insert_action_search1">Ustaw czynności w przypadku wyboru wyszukiwania za pomocą menu 1</string>
+    <string name="pref_title_insert_action_search2">Menu szukania 2</string>
+    <string name="pref_summary_insert_action_search2">Ustaw czynności w przypadku wyboru wyszukiwania za pomocą menu 2</string>
+    <string name="pref_title_insert_action_search3">Menu szukania 3</string>
+    <string name="pref_summary_insert_action_search3">Ustaw czynności w przypadku wyboru wyszukiwania za pomocą menu 3</string>
+    <string name="pref_title_insert_action_search_media_tap">Rezultat szukania - klik</string>
+    <string name="pref_summary_insert_action_search_media_tap">Ustaw akcję w momencie wstawiania kolejki odtwarzania w wyniku wyszukiwania przez kliknięcie.</string>
+    <string name="pref_title_insert_action_search_long_tap">Rezultat szukania - długi klik</string>
+    <string name="pref_summary_insert_action_search_long_tap">Ustaw akcję w momencie wstawiania kolejki odtwarzania w wyniku wyszukiwania przez długie kliknięcie.</string>
+    <string name="pref_title_insert_action_share">Udostępnione media</string>
+    <string name="pref_summary_insert_action_share">Ustaw czynności w przypadku wprowadzenia kolejki z udostępnionego nośnika</string>
+    <string name="pref_title_insert_action_recently_played">Ostatnio odtwarzane</string>
+    <string name="pref_summary_insert_action_recently_played">Ustaw czynności w przypadku wyboru ostatnio odtwarzanych</string>
+    <string name="pref_title_insert_action_open_playlist">Playlista</string>
+    <string name="pref_summary_insert_action_open_playlist">Ustaw czynności w przypadku wyboru odtwarzania z playlisty</string>
+    <string name="pref_title_insert_action_drawer_playlist">Szuflada Playlisty</string>
+    <string name="pref_summary_insert_action_drawer_playlist">Ustaw akcję w momencie wstawiania kolejki listy odtwarzania z szuflady.</string>
+
+    <!-- Album Art -->
+    <string name="pref_title_hide_thumbnails">Ukryj miniatury</string>
+    <string name="pref_summary_hide_thumbnails">Ukryj miniatury, aby przyspieszyć wyświetlanie i zmniejszyć zużycie pamięci.</string>
+    <string name="pref_title_remote_control_image_disable">Ukryj zdalny obraz</string>
+    <string name="pref_summary_remote_control_image_disable">Ukryj zdalny obraz. Okładki albumów nie są wyświetlane na ekranie blokady itp.</string>
+
+    <string name="pref_title_album_art_data_visibility">Widoczność danych</string>
+    <string name="pref_summary_album_art_data_visibility">Wybierz widoczność danych.</string>
+    <string name="pref_title_album_art_plugin_save_action">Zapisz docelowo</string>
+    <string name="pref_summary_album_art_plugin_save_action">Wybierz miejsce docelowe zapisania uzyskanego albumu za pomocą wtyczki. Jest zapisywany jako nazwa pliku multimedialnego.</string>
+    <string name="pref_title_album_art_plugin_always">Zawsze uruchamiaj wtyczki</string>
+    <string name="pref_summary_album_art_plugin_always">Uruchom wydarzenie pobierania okładki albumu niezależnie od tego, czy okładka albumu istnieje.</string>
+
+    <!-- Lyrics  -->
+    <string name="pref_title_main_save_lyrics_offset">Zachowaj przesunięcie tekstu</string>
+    <string name="pref_summary_main_save_lyrics_offset">Zachowuje czas korekcji tekstu bez resetowania wszystkich multimediów.</string>
+    <string name="pref_title_lyrics_intro_time">Czas na INTRO</string>
+    <string name="pref_summary_lyrics_intro_time">Ustawia czas wprowadzenia w milisekundach dla przewijania tekstu bez synchronizacji (INTRO).</string>
+    <string name="pref_title_lyrics_outro_time">Czas na OUTRO</string>
+    <string name="pref_summary_lyrics_outro_time">Ustaw czas w milisekundach dla przewijania tekstu bez synchronizacji (OUTRO).</string>
+
+    <string name="pref_title_lyrics_data_visibility">Widoczność danych</string>
+    <string name="pref_summary_lyrics_data_visibility">Wybierz widoczność danych.</string>
+    <string name="pref_title_lyrics_plugin_save_action">Zapisz docelowo</string>
+    <string name="pref_summary_lyrics_plugin_save_action">Wybierz miejsce docelowe zapisu pobranych tekstów za pomocą wtyczki. Jest zapisywany jako nazwa pliku multimedialnego.</string>
+    <string name="pref_title_lyrics_plugin_always">Zawsze uruchamiaj wtyczki</string>
+    <string name="pref_summary_lyrics_plugin_always">Uruchom tekst piosenki, aby aktywować wtyczkę, niezależnie od tego, czy teksty istnieją.</string>
+
+    <!-- Function -->
+    <string name="pref_title_player_type">Typ odtwarzacza</string>
+    <string name="pref_summary_player_type">Wybierz typ odtwarzacza do odtwarzania multimediów. Uruchom ponownie aplikację, gdy zostanie wybrana.</string>
+    <string name="pref_title_disable_exit_dialog">Wyłącz okno dialogowe \'Wyjdź\'</string>
+    <string name="pref_summary_disable_exit_dialog">Wyłącz okno dialogowe wyjścia po wybraniu \'Wyjdź\'. Aplikacja zostanie zakończona natychmiast.</string>
+    <string name="pref_title_media_recently_played_count">Limit ostatnio odtwarzanych</string>
+    <string name="pref_summary_media_recently_played_count">Ustaw górny limit historii ostatnio odtwarzanych. (0 wyłącza funkcję.)</string>
+    <string name="pref_title_search_storage_home">Ścieżka główna</string>
+    <string name="pref_summary_search_storage_home">Zmień folder główny magazynu wyszukiwania. Możesz tam przejść, naciskając \'Home\' - wtedy ścieżka pokazuje się jako "~". Można to również ustawić przez długie kliknięcie przycisku Home.</string>
+    <string name="pref_title_playlist_save_type">Typ playlisty</string>
+    <string name="pref_summary_playlist_save_type">Wybierz typ listy odtwarzania do zapisania.</string>
+    <string name="pref_title_property_split">Właściwości podziału</string>
+    <string name="pref_summary_property_split">Wybierz znaki do właściwości podzielenia.</string>
+    <string name="pref_title_property_concat">Właściwości łączenia</string>
+    <string name="pref_summary_property_concat">Wybierz znak, aby dołączyć do właściwości. Dotyczy to również właściwości podziału przy \'Właściwości podziału\'.</string>
+    <string name="pref_title_face_lyrics_long_press_seek_disabled">Wył. akcję długiego kliknięcia (*1)</string>
+    <string name="pref_summary_face_lyrics_long_press_seek_disabled">Wyłącz przeskok odtwarzacza do pozycji wskazanego tekstu przez długie kliknięcie w oknie wyświetlacza.</string>
+    <string name="pref_title_face_long_press_menu_enabled">Wyświetl okienko Styl podglądu</string>
+    <string name="pref_summary_face_long_press_menu_enabled">Pokaż okienko dialogowe \'Styl podglądu\' po długim kliknięciu w oknie wyświetlacza.\nMusisz włączyć poz. poprzednią (*1).</string>
+
+    <!-- Notification -->
+    <string name="pref_title_notification_background_color">Kolor powiadomienia</string>
+    <string name="pref_summary_notification_background_color">Ustaw kolor powiadomienia. Kolor przezroczysty jest domyślnym kolorem.</string>
+    <string name="pref_title_notification_original">Oryginał powiadomienia</string>
+    <string name="pref_summary_notification_original">Wyświetl powiadomienie w oryginalnym stylu. Wyjdź raz z tej aplikacji, aby zastosować ustawienie.</string>
+    <string name="pref_title_hide_pause_notification">Ukryj powiadomienie</string>
+    <string name="pref_summary_hide_pause_notification">Ukryj ikonę powiadomienia podczas wstrzymania multimediów.</string>
+
+    <!-- Widget -->
+    <string name="pref_title_widget_text_color">Kolor tekstu</string>
+    <string name="pref_summary_widget_text_color">Ustaw kolor tekstu widżetu.</string>
+    <string name="pref_title_widget_back_color">Kolor tła</string>
+    <string name="pref_summary_widget_back_color">Ustaw kolor tła widżetu.</string>
+    <string name="pref_title_widget_title_max_line">Maks. linie Tytuł</string>
+    <string name="pref_summary_widget_title_max_line">Ustaw maks. linie widżetu w tytule mediów.</string>
+    <string name="pref_title_widget_album_max_line">Maks. linie Album</string>
+    <string name="pref_summary_widget_album_max_line">Ustaw maks. linie widżetu albumu multimedialnego.</string>
+    <string name="pref_title_widget_artist_max_line">Maks. linie Artysta</string>
+    <string name="pref_summary_widget_artist_max_line">Ustaw maks. linie widżetu artysty medialnego.</string>
+    <string name="pref_title_widget_initialize">Zainicjuj</string>
+    <string name="pref_summary_widget_initialize">Zainicjuj ustawienia widżetu.</string>
+
+    <!-- Plugin  -->
+    <string name="pref_title_plugin_playing_time">Czas odtwarzania</string>
+    <string name="pref_summary_plugin_playing_time">Ustawienia czasu uruchamiania wtyczki \'Odtwarzaj teraz\'. Akcja zostanie wykonana po tym czasie. Czas jest resetowany po zatrzymaniu odtwarzania.</string>
+    <string name="pref_title_plugin_request_timeout">Uzyskaj limit czasu działania</string>
+    <string name="pref_summary_plugin_request_timeout">Ustaw limit czasu w sek. dla wtyczek okładek albumów i wtyczek tekstów piosenek.</string>
+    <string name="pref_title_folder_mime_type">Typ folderu MIME</string>
+    <string name="pref_summary_folder_mime_type">Ustaw typ MIME, aby wyświetlić folder.</string>
+    <string name="pref_title_extra_message_enabled">Powiadom aplikacje zewnętrzne</string>
+    <string name="pref_summary_extra_message_enabled">Powiadom o stanie odtwarzania aplikacje zewnętrzne. (Kompatybilny z Android Music)</string>
+
+    <!-- Other  -->
+    <string name="pref_title_language">Język</string>
+    <string name="pref_summary_language">Wybierz język aplikacji.</string>
+    <string name="pref_title_external_storage_write_permission">Zezwolenie na zapis</string>
+    <string name="pref_summary_external_storage_write_permission">Ustaw uprawnienia do zapisu w pamięci zewnętrznej. Wybierz katalog główny pamięci zewnętrznej z okna dialogowego wyboru folderu.</string>
+    <string name="pref_title_settings_save">Eksport ustawień</string>
+    <string name="pref_summary_settings_save">Eksport ustawień do pliku.</string>
+    <string name="pref_title_settings_load">Import ustawień</string>
+    <string name="pref_summary_settings_load">Import ustawień z pliku.</string>
+    <string name="pref_title_media_storage_details">Info o przechowywaniu mediów</string>
+    <string name="pref_summary_media_storage_details">Pokaż informacje o przechowywaniu multimediów. Zatrzymaj lub usuń pamięć multimediów.</string>
+    <string name="pref_title_application_details">Info o aplikacji</string>
+    <string name="pref_summary_application_details">Pokaż informacje o aplikacji tego urządzenia.</string>
+    <string name="pref_title_about">O aplikacji</string>
+    <string name="pref_summary_about">Pokaż - o aplikacji.</string>
+
+    <!-- Array Names  -->
+    <string name="pref_audio_focus_request_start_entry">Przy starcie App</string>
+    <string name="pref_audio_focus_request_open_entry">Przy otwarciu App</string>
+    <string name="pref_audio_focus_request_play_entry">Przy odtwarzaniu mediów</string>
+
+    <!-- On Action Array -->
+    <string name="pref_on_action_entry_recover">Odzyskaj stan</string>
+    <string name="pref_on_action_entry_start">Start odtwarzania</string>
+    <string name="pref_on_action_entry_stop">Zatrzymaj auto-odtwarzanie</string>
+    <string name="pref_on_action_entry_nothing">Nie rób nic</string>
+    <!-- Off Action Array -->
+    <string name="pref_off_action_entry_pause">Pauza</string>
+    <string name="pref_off_action_entry_down">Ściszanie</string>
+    <string name="pref_off_action_entry_nothing">Nie rób nic</string>
+
+    <string-array name="pref_media_error_action_entries">
+        <item>Pauza</item>
+        <item>Pauza z odtworzeniem</item>
+        <item>Pauza z przerwaniem</item>
+        <item>Pomiń z przerwaniem</item>
+        <item>Wstrzymaj i usuń</item>
+        <item>Pomiń i usuń</item>
+    </string-array>
+
+
+    <string-array name="pref_plugin_element_save_action_entries">
+        <item>Nie zapisuj</item>
+        <item>Folder mediów (Utwórz)</item>
+        <item>Folder mediów (Nadpisz)</item>
+        <item>Dodatkowy folder wyszukiwania (Utwórz)</item>
+        <item>Dodatkowy folder wyszukiwania (Nadpisz)</item>
+    </string-array>
+
+    <string-array name="playlist_save_type_entries">
+        <item>Wybierz okno dialogu</item>
+        <item>Plik M3U</item>
+        <item>Android DB</item>
+    </string-array>
+    <string-array name="pref_property_split_entries">
+        <item>Podziel przez \";\"</item>
+        <item>Podziel przez \"/\"</item>
+        <item>Podziel przez \",\"</item>
+        <item>Podziel przez \"&amp;\"</item>
+        <item>Podziel przez nową linię</item>
+    </string-array>
+    <string-array name="pref_property_concat_entries">
+        <item>Nie rób nic</item>
+        <item>Połącz z \";\"</item>
+        <item>Połącz z \"/\"</item>
+        <item>Połącz z \",\"</item>
+        <item>Połącz z \"&amp;\"</item>
+        <item>Połącz z nową linią</item>
+    </string-array>
+
+    <string name="pref_language_default">Polski</string>
+
+    <!-- Output Device -->
+
+    <!-- Screen keep -->
+    <string name="screen_keep_entry_always">Zawsze</string>
+    <string name="screen_keep_entry_on_playing">Podczas odtwarzania</string>
+    <string name="screen_keep_entry_on_display_lyrics">Podczas wyświetlania tekstu</string>
+    <string name="screen_keep_entry_on_playing_lyrics">Podczas odtwarzania tekstu</string>
+    <string name="screen_keep_entry_never">Nigdy</string>
+    <!-- Screen orientation -->
+    <string name="screen_orientation_entry_default">Domyślnie</string>
+    <string name="screen_orientation_entry_automatic">Automatycznie</string>
+    <string name="screen_orientation_entry_lock">Blokada</string>
+
+    <!-- View Style -->
+    <string-array name="lyrics_text_font_entries">
+        <item>Sans-serif</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+    </string-array>
+    <string-array name="lyrics_text_style_entries">
+        <item>Normalny</item>
+        <!-- NORMAL -->
+        <item>Bold</item>
+        <!-- BOLD -->
+        <item>Italic</item>
+        <!-- ITALIC -->
+        <item>Bold Italic</item>
+        <!-- BOLD_ITALIC -->
+    </string-array>
+    <string-array name="lyrics_text_align_entries">
+        <item>W lewo</item>
+        <!-- LEFT -->
+        <item>Centralnie</item>
+        <!-- CENTER_HORIZONTAL  -->
+        <item>W prawo</item>
+        <!-- RIGHT -->
+    </string-array>
+
+    <!-- Player -->
+    <string-array name="pref_player_type_entries">
+        <item>ExoPlayer</item>
+        <item>MediaPlayer</item>
+    </string-array>
+
+</resources>
+
