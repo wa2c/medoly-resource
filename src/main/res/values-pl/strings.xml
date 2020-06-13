@@ -642,7 +642,7 @@
     -->
     <string name="pref_title_about_library_license">Licencja Open Source</string>
     <string name="pref_summary_about_library_license">Pokaż licencję typu open source.</string>
-    <string name="pref_title_about_privacy_policy">>Polityka prywatności</string>
+    <string name="pref_title_about_privacy_policy">Polityka prywatności</string>
     <string name="pref_summary_about_privacy_policy">Pokaż politykę prywatności.</string>
     <string name="pref_title_about_app_info">Informacje aplikacji</string>
     <string name="pref_summary_about_app_info">Otwórz informacje o aplikacji systemu operacyjnego.</string>
