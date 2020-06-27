@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="app_author">wa2c</string>
+    <string name="app_author_url">https://github.com/wa2c</string>
+    <string name="app_contributors">Jerzy (Polish translation)</string>
+    <string name="app_license" />
+    <string name="app_license_url" />
+    <string name="app_privacy_policy_url">https://www.wa2c.com/documents/dokuwiki/doku.php?id=ja:medoly:privacy_policy</string>
+    <string name="app_store_url">https://play.google.com/store/apps/details?id=com.wa2c.android.medoly</string>
+    <string name="app_widget1_title">Medoly1</string>
+    <string name="app_widget2_title">Medoly2</string>
+    <string name="app_widget3_title">Medoly3</string>
+    <string name="app_widget4_title">Medoly4</string>
+    <string name="package_name">com.wa2c.android.medoly</string>
+
+</resources>
