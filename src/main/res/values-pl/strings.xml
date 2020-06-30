@@ -703,7 +703,7 @@
         <item>Połącz z nową linią</item>
     </string-array>
 
-    <string name="pref_language_default">Polski</string>
+    <string name="pref_language_default">Domyślna</string>
 
     <!-- Output Device -->
 
