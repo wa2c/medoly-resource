@@ -267,6 +267,10 @@
     <string name="message_playlist_type_default">選択した種別をデフォルトに設定</string>
 
     <!-- Playlist Save DB Dialog -->
+    <string name="playlist_option_dialog_title">プレイリスト設定</string>
+    <string name="playlist_option_dialog_data_type">データ種別</string>
+    <string name="playlist_option_dialog_path_type">パス種別</string>
+
     <string name="title_main_input_playlist_name">プレイリスト名入力</string>
     <string name="message_main_playlist_save">プレイリストを保存しました。</string>
     <string name="confirm_main_playlist_nosave">再生キューにプレイリストへ保存できないメディアが含まれていました。</string>

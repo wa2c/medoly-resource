@@ -267,6 +267,10 @@
     <string name="message_playlist_type_default">Set the selected type to default</string>
 
     <!-- Save Playlist Dialog -->
+    <string name="playlist_option_dialog_title">Playlist Option</string>
+    <string name="playlist_option_dialog_data_type">Data Type</string>
+    <string name="playlist_option_dialog_path_type">Path Type</string>
+
     <string name="title_main_input_playlist_name">Input Playlist Name</string>
     <string name="message_main_playlist_save">Saved the playlist.</string>
     <string name="confirm_main_playlist_nosave">The play queue has media that can\'t save to playlists.</string>

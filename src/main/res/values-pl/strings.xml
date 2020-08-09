@@ -267,6 +267,10 @@
     <string name="message_playlist_type_default">Ustaw wybrany typ na domyślny</string>
 
     <!-- Save Playlist Dialog -->
+    <string name="playlist_option_dialog_title">Opcja listy odtwarzania</string>
+    <string name="playlist_option_dialog_data_type">Typ danych</string>
+    <string name="playlist_option_dialog_path_type">Typ ścieżki</string>
+
     <string name="title_main_input_playlist_name">Wprowadź nazwę playlisty</string>
     <string name="message_main_playlist_save">Zapisano listę odtwarzania.</string>
     <string name="confirm_main_playlist_nosave">Kolejka odtwarzania ma multimedia, których nie można zapisać na listach odtwarzania.</string>
