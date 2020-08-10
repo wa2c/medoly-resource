@@ -49,6 +49,7 @@
     <string name="plugin">Wtyczka</string>
     <string name="on">On</string>
     <string name="off">Off</string>
+    <string name="save">Zapisać</string>
 
     <string name="partial_match">Dopasowanie częściowe</string>
     <string name="forward_match">Dopasowanie w przód</string>
@@ -266,10 +267,14 @@
     <string name="label_playlist_android_db">Android DB</string>
     <string name="message_playlist_type_default">Ustaw wybrany typ na domyślny</string>
 
-    <!-- Save Playlist Dialog -->
+    <!-- Playlist Option Dialog -->
     <string name="playlist_option_dialog_title">Opcja listy odtwarzania</string>
+    <string name="playlist_option_dialog_name">Nazwa listy odtwarzania (nazwa pliku)</string>
     <string name="playlist_option_dialog_data_type">Typ danych</string>
+    <string name="playlist_option_dialog_data_type_default">Domyślna</string>
+    <string name="playlist_option_dialog_data_type_file">Zapisz jako plik</string>
     <string name="playlist_option_dialog_path_type">Typ ścieżki</string>
+    <string name="playlist_option_dialog_note">Media z różnych magazynów nie są poprawnie zapisywane.</string>
 
     <string name="title_main_input_playlist_name">Wprowadź nazwę playlisty</string>
     <string name="message_main_playlist_save">Zapisano listę odtwarzania.</string>

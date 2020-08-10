@@ -49,6 +49,7 @@
     <string name="plugin">プラグイン</string>
     <string name="on">ON</string>
     <string name="off">OFF</string>
+    <string name="save">保存</string>
 
     <string name="partial_match">部分一致</string>
     <string name="forward_match">前方一致</string>
@@ -266,10 +267,14 @@
     <string name="label_playlist_android_db">Android DB</string>
     <string name="message_playlist_type_default">選択した種別をデフォルトに設定</string>
 
-    <!-- Playlist Save DB Dialog -->
+    <!-- Playlist Option Dialog -->
     <string name="playlist_option_dialog_title">プレイリスト設定</string>
-    <string name="playlist_option_dialog_data_type">データ種別</string>
+    <string name="playlist_option_dialog_name">プレイリスト名 (ファイル名)</string>
+    <string name="playlist_option_dialog_data_type">保存種別</string>
+    <string name="playlist_option_dialog_data_type_default">標準保存</string>
+    <string name="playlist_option_dialog_data_type_file">ファイル保存</string>
     <string name="playlist_option_dialog_path_type">パス種別</string>
+    <string name="playlist_option_dialog_note">異なるストレージのメディアは正常に保存されません。</string>
 
     <string name="title_main_input_playlist_name">プレイリスト名入力</string>
     <string name="message_main_playlist_save">プレイリストを保存しました。</string>
