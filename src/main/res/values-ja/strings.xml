@@ -262,6 +262,9 @@
     <string name="confirm_main_queue_delete_playlist">チェックしたプレイリストを削除します。\nプレイリストファイルも削除されます。</string>
     <string name="confirm_main_queue_exists">再生キューに登録済みのメディアがあります。</string>
     <string name="error_main_select_playlist">プレイリストを選択してください。</string>
+    <string name="playlist_control_dialog_note_android_q">SDカードのプレイリストを削除するには、ファイルを直接削除してください。 (Android 10)</string>
+    <string name="playlist_control_dialog_note_android_r">デフォルト保存以外のプレイリストを削除するには、ファイルを直接削除してください。 (Android 11)</string>
+
 
     <!-- Playlist Select Dialog  -->
     <string name="title_dialog_select_playlist">プレイリスト種別の選択</string>
@@ -295,6 +298,7 @@
     <string name="error_dialog_file_name_empty">プレイリスト名を入力して下さい。</string>
     <string name="error_dialog_file_name_input_replace">ファイル名に使用できない文字を \"_\" に置換えました。</string>
     <string name="error_dialog_file_name_input_cut">ファイル名が長すぎるため切り捨てました。</string>
+    <string name="error_dialog_file_name_input_slash_end">末尾の/を削除しました。</string>
 
     <!-- PlayingTime Dialog -->
     <string name="label_dialog_playing_time_fix">再生時間</string>

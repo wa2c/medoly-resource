@@ -262,6 +262,8 @@
     <string name="confirm_main_queue_delete_playlist">Usuń zaznaczone listy odtwarzania.\nPliki list odtwarzania są również usuwane razem.</string>
     <string name="confirm_main_queue_exists">Media już istnieją w kolejce odtwarzania.</string>
     <string name="error_main_select_playlist">Wybierz listy odtwarzania.</string>
+    <string name="playlist_control_dialog_note_android_q">Aby usunąć listę odtwarzania na karcie SD, usuń plik bezpośrednio. (w systemie Android 10)</string>
+    <string name="playlist_control_dialog_note_android_r">Aby usunąć listę odtwarzania inną niż domyślny zapis, usuń plik bezpośrednio. (w systemie Android 11)</string>
 
     <!-- Select Playlist Dialog  -->
     <string name="title_dialog_select_playlist">Wybierz typ playlisty</string>
@@ -295,6 +297,7 @@
     <string name="error_dialog_file_name_empty">Wprowadź nazwę pliku.</string>
     <string name="error_dialog_file_name_input_replace">Niektóre znaki, których nie można użyć w nazwie pliku zastąpiono \"_\".</string>
     <string name="error_dialog_file_name_input_cut">Nazwa pliku została ucięta, ponieważ była za długa.</string>
+    <string name="error_dialog_file_name_input_slash_end">Usunięto ostatni ukośnik.</string>
 
     <!-- PlayingTime Dialog -->
     <string name="label_dialog_playing_time_fix">Czas stały</string>

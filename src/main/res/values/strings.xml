@@ -262,6 +262,8 @@
     <string name="confirm_main_queue_delete_playlist">Delete checked playlists.\nPlaylist files are also deleted together.</string>
     <string name="confirm_main_queue_exists">The media already exists in the play queue.</string>
     <string name="error_main_select_playlist">Select playlists.</string>
+    <string name="playlist_control_dialog_note_android_q">To delete the playlist on SD card, delete the file directly. (on Android 10)</string>
+    <string name="playlist_control_dialog_note_android_r">To delete the playlist other than the default save, delete the file directly. (on Android 11)</string>
 
     <!-- Select Playlist Dialog  -->
     <string name="title_dialog_select_playlist">Select Playlist Type</string>
@@ -295,6 +297,7 @@
     <string name="error_dialog_file_name_empty">Input the file name.</string>
     <string name="error_dialog_file_name_input_replace">Some characters that can not be used in the file name ware replaced with \"_\"".</string>
     <string name="error_dialog_file_name_input_cut">The file name was cut off because too long.</string>
+    <string name="error_dialog_file_name_input_slash_end">Removed the last slash.</string>
 
     <!-- PlayingTime Dialog -->
     <string name="label_dialog_playing_time_fix">Fixed Time</string>
