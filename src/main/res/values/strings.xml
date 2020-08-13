@@ -255,8 +255,10 @@
     <string name="error_app_exit_value">Set the value greater than 0.</string>
 
     <!-- Control Playlist Dialog -->
-    <string name="title_main_control_playlist">Control playlists</string>
-    <string name="message_main_playlist_delete">Deleted checked playlists.</string>
+    <string name="playlist_control_dialog_title">Control playlists</string>
+    <string name="playlist_control_dialog_delete_success">Succeeded in deleting playlists.</string>
+    <string name="playlist_control_dialog_delete_partial">Failed to delete some playlists.</string>
+    <string name="playlist_control_dialog_delete_failure">Failed to delete playlists.</string>
     <string name="confirm_main_queue_delete_playlist">Delete checked playlists.\nPlaylist files are also deleted together.</string>
     <string name="confirm_main_queue_exists">The media already exists in the play queue.</string>
     <string name="error_main_select_playlist">Select playlists.</string>

@@ -255,8 +255,10 @@
     <string name="error_app_exit_value">0より大きい値を設定してください。</string>
 
     <!-- Playlist Control Dialog -->
-    <string name="title_main_control_playlist">プレイリスト操作</string>
-    <string name="message_main_playlist_delete">プレイリストを削除しました。</string>
+    <string name="playlist_control_dialog_title">プレイリスト操作</string>
+    <string name="playlist_control_dialog_delete_success">プレイリストを削除しました。</string>
+    <string name="playlist_control_dialog_delete_partial">一部のプレイリストの削除に失敗しました。</string>
+    <string name="playlist_control_dialog_delete_failure">プレイリストの削除に失敗しました。</string>
     <string name="confirm_main_queue_delete_playlist">チェックしたプレイリストを削除します。\nプレイリストファイルも削除されます。</string>
     <string name="confirm_main_queue_exists">再生キューに登録済みのメディアがあります。</string>
     <string name="error_main_select_playlist">プレイリストを選択してください。</string>
@@ -290,7 +292,7 @@
     <string name="label_dialog_file_relative_path">相対パス</string>
     <string name="label_dialog_file_absolute_path">絶対パス</string>
     <string name="confirm_dialog_file_name_duplex">重複する名前のファイルが存在します。</string>
-    <string name="error_dialog_file_name_empty">ファイル名を入力して下さい。</string>
+    <string name="error_dialog_file_name_empty">プレイリスト名を入力して下さい。</string>
     <string name="error_dialog_file_name_input_replace">ファイル名に使用できない文字を \"_\" に置換えました。</string>
     <string name="error_dialog_file_name_input_cut">ファイル名が長すぎるため切り捨てました。</string>
 
