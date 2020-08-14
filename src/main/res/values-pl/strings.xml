@@ -259,7 +259,7 @@
     <string name="playlist_control_dialog_delete_success">Udało się usunąć listy odtwarzania.</string>
     <string name="playlist_control_dialog_delete_partial">Nie udało się usunąć niektórych playlist.</string>
     <string name="playlist_control_dialog_delete_failure">Nie udało się usunąć playlist.</string>
-    <string name="confirm_main_queue_delete_playlist">Usuń zaznaczone listy odtwarzania.\nPliki list odtwarzania są również usuwane razem.</string>
+    <string name="confirm_main_queue_delete_playlist">Usuń wybrane listy odtwarzania.</string>
     <string name="confirm_main_queue_exists">Media już istnieją w kolejce odtwarzania.</string>
     <string name="error_main_select_playlist">Wybierz listy odtwarzania.</string>
     <string name="playlist_control_dialog_note_android_q">Aby usunąć listę odtwarzania na karcie SD, usuń plik bezpośrednio. (w systemie Android 10)</string>

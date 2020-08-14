@@ -259,7 +259,7 @@
     <string name="playlist_control_dialog_delete_success">プレイリストを削除しました。</string>
     <string name="playlist_control_dialog_delete_partial">一部のプレイリストの削除に失敗しました。</string>
     <string name="playlist_control_dialog_delete_failure">プレイリストの削除に失敗しました。</string>
-    <string name="confirm_main_queue_delete_playlist">チェックしたプレイリストを削除します。\nプレイリストファイルも削除されます。</string>
+    <string name="confirm_main_queue_delete_playlist">選択したプレイリストを削除します。</string>
     <string name="confirm_main_queue_exists">再生キューに登録済みのメディアがあります。</string>
     <string name="error_main_select_playlist">プレイリストを選択してください。</string>
     <string name="playlist_control_dialog_note_android_q">SDカードのプレイリストを削除するには、ファイルを直接削除してください。 (Android 10)</string>
