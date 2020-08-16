@@ -217,6 +217,12 @@
     <string name="label_session_queue_title">Play Queue</string>
     <string name="label_session_queue_description">Show Current Play Queue</string>
 
+    <!-- File Dialog (And more) -->
+    <string name="file_dialog_confirm_name_duplex">Duplicate file name exists.</string>
+    <string name="file_dialog_message_name_empty">Input the name.</string>
+    <string name="file_dialog_message_name_replace">Some characters that can not be used in the file name ware replaced with \"_\"".</string>
+    <string name="file_dialog_message_name_cut">The file name was cut off because too long.</string>
+
     <!-- View Style Dialog -->
     <string name="label_dialog_view_style_layout_expand">Maximize As Possible</string>
     <string name="label_dialog_view_style_lyrics_scroll">Prioritize Lyrics Scroll</string>
@@ -259,17 +265,9 @@
     <string name="playlist_control_dialog_delete_success">Succeeded in deleting playlists.</string>
     <string name="playlist_control_dialog_delete_partial">Failed to delete some playlists.</string>
     <string name="playlist_control_dialog_delete_failure">Failed to delete playlists.</string>
-    <string name="confirm_main_queue_delete_playlist">Delete selected playlists.</string>
-    <string name="confirm_main_queue_exists">The media already exists in the play queue.</string>
-    <string name="error_main_select_playlist">Select playlists.</string>
-    <string name="playlist_control_dialog_note_android_q">To delete the playlist on SD card, delete the file directly. (on Android 10)</string>
-    <string name="playlist_control_dialog_note_android_r">To delete the playlist other than the default save, delete the file directly. (on Android 11)</string>
-
-    <!-- Select Playlist Dialog  -->
-    <string name="title_dialog_select_playlist">Select Playlist Type</string>
-    <string name="label_playlist_m3u_file">M3U File</string>
-    <string name="label_playlist_android_db">Android DB</string>
-    <string name="message_playlist_type_default">Set the selected type to default</string>
+    <string name="playlist_control_dialog_message_delete_item">Delete selected playlists.</string>
+    <string name="playlist_control_dialog_message_queue_exists">The media already exists in the play queue.</string>
+    <string name="playlist_control_dialog_message_select_playlist">Select playlists.</string>
 
     <!-- Playlist Option Dialog -->
     <string name="playlist_option_dialog_title">Playlist Option</string>
@@ -278,26 +276,17 @@
     <string name="playlist_option_dialog_data_type_default">Default</string>
     <string name="playlist_option_dialog_data_type_file">Save as file</string>
     <string name="playlist_option_dialog_path_type">Path Type</string>
-    <string name="playlist_option_dialog_note">Media from different storage will not be saved properly.</string>
+    <string name="playlist_option_dialog_path_relative">Relative</string>
+    <string name="playlist_option_dialog_path_absolute">Absolute</string>
+    <string name="playlist_option_dialog_note_nosave">This icon expresses media that cannot be saved.</string>
+    <string name="playlist_option_dialog_note_storage">Media from different storage will not be saved properly.</string>
 
-    <string name="title_main_input_playlist_name">Input Playlist Name</string>
-    <string name="message_main_playlist_save">Saved the playlist.</string>
-    <string name="confirm_main_playlist_nosave">The play queue has media that can\'t save to playlists.</string>
-    <string name="confirm_main_playlist_nosave_assist"> icon expresses that it can\'t store to playlists.</string>
-    <string name="confirm_main_playlist_duplex">Playlist with a duplicate name exists.</string>
-    <string name="error_main_queue_name_empty">Input the playlist name.</string>
-    <string name="error_main_save_playlist">Failed to save playlist.</string>
-    <string name="error_main_queue_empty">The play queue has nothing.</string>
-
-    <!-- File Dialog -->
-    <string name="label_dialog_file_path_type">Path Type</string>
-    <string name="label_dialog_file_relative_path">Relative</string>
-    <string name="label_dialog_file_absolute_path">Absolute</string>
-    <string name="confirm_dialog_file_name_duplex">Duplicate file name exists.</string>
-    <string name="error_dialog_file_name_empty">Input the file name.</string>
-    <string name="error_dialog_file_name_input_replace">Some characters that can not be used in the file name ware replaced with \"_\"".</string>
-    <string name="error_dialog_file_name_input_cut">The file name was cut off because too long.</string>
-    <string name="error_dialog_file_name_input_slash_end">Removed the last slash.</string>
+    <string name="playlist_option_dialog_confirm_duplex">Playlist with a duplicate name exists.</string>
+    <string name="playlist_option_dialog_message_name_cut_slash">Removed the last slash.</string>
+    <string name="playlist_option_dialog_message_queue_empty">The play queue has nothing.</string>
+    <string name="playlist_option_dialog_message_nosave">The play queue has media that can\'t save to playlists.</string>
+    <string name="playlist_option_dialog_message_save_success">Saved the playlist.</string>
+    <string name="playlist_option_dialog_message_save_failure">Failed to save playlist.</string>
 
     <!-- PlayingTime Dialog -->
     <string name="label_dialog_playing_time_fix">Fixed Time</string>

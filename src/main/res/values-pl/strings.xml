@@ -217,6 +217,12 @@
     <string name="label_session_queue_title">Kolejka odtwarzania</string>
     <string name="label_session_queue_description">Pokaż bieżącą kolejkę odtwarzania</string>
 
+    <!-- File Dialog (And more) -->
+    <string name="file_dialog_confirm_name_duplex">Istnieje zduplikowana nazwa pliku.</string>
+    <string name="file_dialog_message_name_empty">Wpisz nazwę.</string>
+    <string name="file_dialog_message_name_replace">Niektóre znaki, których nie można użyć w nazwie pliku zastąpiono \"_\".</string>
+    <string name="file_dialog_message_name_cut">Nazwa pliku została ucięta, ponieważ była za długa.</string>
+
     <!-- View Style Dialog -->
     <string name="label_dialog_view_style_layout_expand">Maksymalizuj ile możliwe</string>
     <string name="label_dialog_view_style_lyrics_scroll">Priorytet przewijania tekstu</string>
@@ -259,17 +265,9 @@
     <string name="playlist_control_dialog_delete_success">Udało się usunąć listy odtwarzania.</string>
     <string name="playlist_control_dialog_delete_partial">Nie udało się usunąć niektórych playlist.</string>
     <string name="playlist_control_dialog_delete_failure">Nie udało się usunąć playlist.</string>
-    <string name="confirm_main_queue_delete_playlist">Usuń wybrane listy odtwarzania.</string>
-    <string name="confirm_main_queue_exists">Media już istnieją w kolejce odtwarzania.</string>
-    <string name="error_main_select_playlist">Wybierz listy odtwarzania.</string>
-    <string name="playlist_control_dialog_note_android_q">Aby usunąć listę odtwarzania na karcie SD, usuń plik bezpośrednio. (w systemie Android 10)</string>
-    <string name="playlist_control_dialog_note_android_r">Aby usunąć listę odtwarzania inną niż domyślny zapis, usuń plik bezpośrednio. (w systemie Android 11)</string>
-
-    <!-- Select Playlist Dialog  -->
-    <string name="title_dialog_select_playlist">Wybierz typ playlisty</string>
-    <string name="label_playlist_m3u_file">Plik M3U</string>
-    <string name="label_playlist_android_db">Android DB</string>
-    <string name="message_playlist_type_default">Ustaw wybrany typ na domyślny</string>
+    <string name="playlist_control_dialog_message_delete_item">Usuń wybrane listy odtwarzania.</string>
+    <string name="playlist_control_dialog_message_queue_exists">Media już istnieją w kolejce odtwarzania.</string>
+    <string name="playlist_control_dialog_message_select_playlist">Wybierz listy odtwarzania.</string>
 
     <!-- Playlist Option Dialog -->
     <string name="playlist_option_dialog_title">Opcja listy odtwarzania</string>
@@ -278,26 +276,17 @@
     <string name="playlist_option_dialog_data_type_default">Domyślna</string>
     <string name="playlist_option_dialog_data_type_file">Zapisz jako plik</string>
     <string name="playlist_option_dialog_path_type">Typ ścieżki</string>
-    <string name="playlist_option_dialog_note">Media z różnych magazynów nie są poprawnie zapisywane.</string>
+    <string name="playlist_option_dialog_path_relative">Relatywny</string>
+    <string name="playlist_option_dialog_path_absolute">Absolutny</string>
+    <string name="playlist_option_dialog_note_nosave">Ta ikona oznacza multimedia, których nie można zapisać.</string>
+    <string name="playlist_option_dialog_note_storage">Media z różnych magazynów nie są poprawnie zapisywane.</string>
 
-    <string name="title_main_input_playlist_name">Wprowadź nazwę playlisty</string>
-    <string name="message_main_playlist_save">Zapisano listę odtwarzania.</string>
-    <string name="confirm_main_playlist_nosave">Kolejka odtwarzania ma multimedia, których nie można zapisać na listach odtwarzania.</string>
-    <string name="confirm_main_playlist_nosave_assist">Ikona oznacza, że nie można zapisać jej na listach odtwarzania.</string>
-    <string name="confirm_main_playlist_duplex">Istnieje lista odtwarzania o zduplikowanej nazwie.</string>
-    <string name="error_main_queue_name_empty">Wprowadź nazwę listy odtwarzania.</string>
-    <string name="error_main_save_playlist">Nie udało się zapisać listy odtwarzania.</string>
-    <string name="error_main_queue_empty">Kolejka odtwarzania jest pusta.</string>
-
-    <!-- File Dialog -->
-    <string name="label_dialog_file_path_type">Typ ścieżki</string>
-    <string name="label_dialog_file_relative_path">Relatywny</string>
-    <string name="label_dialog_file_absolute_path">Absolutny</string>
-    <string name="confirm_dialog_file_name_duplex">Istnieje zduplikowana nazwa pliku.</string>
-    <string name="error_dialog_file_name_empty">Wprowadź nazwę pliku.</string>
-    <string name="error_dialog_file_name_input_replace">Niektóre znaki, których nie można użyć w nazwie pliku zastąpiono \"_\".</string>
-    <string name="error_dialog_file_name_input_cut">Nazwa pliku została ucięta, ponieważ była za długa.</string>
-    <string name="error_dialog_file_name_input_slash_end">Usunięto ostatni ukośnik.</string>
+    <string name="playlist_option_dialog_confirm_duplex">Istnieje lista odtwarzania o zduplikowanej nazwie.</string>
+    <string name="playlist_option_dialog_message_name_cut_slash">Usunięto ostatni ukośnik.</string>
+    <string name="playlist_option_dialog_message_queue_empty">Kolejka odtwarzania jest pusta.</string>
+    <string name="playlist_option_dialog_message_nosave">Kolejka odtwarzania ma multimedia, których nie można zapisać na listach odtwarzania.</string>
+    <string name="playlist_option_dialog_message_save_success">Zapisano listę odtwarzania.</string>
+    <string name="playlist_option_dialog_message_save_failure">Nie udało się zapisać listy odtwarzania.</string>
 
     <!-- PlayingTime Dialog -->
     <string name="label_dialog_playing_time_fix">Czas stały</string>

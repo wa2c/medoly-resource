@@ -217,6 +217,12 @@
     <string name="label_session_queue_title">再生キュー</string>
     <string name="label_session_queue_description">現在の再生キューを表示します</string>
 
+    <!-- File Dialog (And more) -->
+    <string name="file_dialog_confirm_name_duplex">重複する名前のファイルが存在します。</string>
+    <string name="file_dialog_message_name_empty">名前を入力して下さい。</string>
+    <string name="file_dialog_message_name_replace">ファイル名に使用できない文字を \"_\" に置換えました。</string>
+    <string name="file_dialog_message_name_cut">ファイル名が長すぎるため切り捨てました。</string>
+
     <!-- View Style Dialog -->
     <string name="label_dialog_view_style_layout_expand">可能な場合は最大化</string>
     <string name="label_dialog_view_style_lyrics_scroll">歌詞スクロール優先</string>
@@ -259,18 +265,9 @@
     <string name="playlist_control_dialog_delete_success">プレイリストを削除しました。</string>
     <string name="playlist_control_dialog_delete_partial">一部のプレイリストの削除に失敗しました。</string>
     <string name="playlist_control_dialog_delete_failure">プレイリストの削除に失敗しました。</string>
-    <string name="confirm_main_queue_delete_playlist">選択したプレイリストを削除します。</string>
-    <string name="confirm_main_queue_exists">再生キューに登録済みのメディアがあります。</string>
-    <string name="error_main_select_playlist">プレイリストを選択してください。</string>
-    <string name="playlist_control_dialog_note_android_q">SDカードのプレイリストを削除するには、ファイルを直接削除してください。 (Android 10)</string>
-    <string name="playlist_control_dialog_note_android_r">デフォルト保存以外のプレイリストを削除するには、ファイルを直接削除してください。 (Android 11)</string>
-
-
-    <!-- Playlist Select Dialog  -->
-    <string name="title_dialog_select_playlist">プレイリスト種別の選択</string>
-    <string name="label_playlist_m3u_file">M3Uファイル</string>
-    <string name="label_playlist_android_db">Android DB</string>
-    <string name="message_playlist_type_default">選択した種別をデフォルトに設定</string>
+    <string name="playlist_control_dialog_message_delete_item">選択したプレイリストを削除します。</string>
+    <string name="playlist_control_dialog_message_queue_exists">再生キューに登録済みのメディアがあります。</string>
+    <string name="playlist_control_dialog_message_select_playlist">プレイリストを選択してください。</string>
 
     <!-- Playlist Option Dialog -->
     <string name="playlist_option_dialog_title">プレイリスト設定</string>
@@ -279,26 +276,17 @@
     <string name="playlist_option_dialog_data_type_default">標準保存</string>
     <string name="playlist_option_dialog_data_type_file">ファイル保存</string>
     <string name="playlist_option_dialog_path_type">パス種別</string>
-    <string name="playlist_option_dialog_note">異なるストレージのメディアは正常に保存されません。</string>
+    <string name="playlist_option_dialog_path_relative">相対パス</string>
+    <string name="playlist_option_dialog_path_absolute">絶対パス</string>
+    <string name="playlist_option_dialog_note_nosave">このアイコンが付いているメディアは保存されません。</string>
+    <string name="playlist_option_dialog_note_storage">異なるストレージのメディアは正常に保存されません。</string>
 
-    <string name="title_main_input_playlist_name">プレイリスト名入力</string>
-    <string name="message_main_playlist_save">プレイリストを保存しました。</string>
-    <string name="confirm_main_playlist_nosave">再生キューにプレイリストへ保存できないメディアが含まれていました。</string>
-    <string name="confirm_main_playlist_nosave_assist">アイコンが付いているメディアは保存されません。</string>
-    <string name="confirm_main_playlist_duplex">重複する名前のプレイリストが存在します。</string>
-    <string name="error_main_queue_name_empty">プレイリスト名を入力してください。</string>
-    <string name="error_main_save_playlist">プレイリストの保存に失敗しました。</string>
-    <string name="error_main_queue_empty">再生キューに何もありません。</string>
-
-    <!-- Save File Dialog -->
-    <string name="label_dialog_file_path_type">パス種別</string>
-    <string name="label_dialog_file_relative_path">相対パス</string>
-    <string name="label_dialog_file_absolute_path">絶対パス</string>
-    <string name="confirm_dialog_file_name_duplex">重複する名前のファイルが存在します。</string>
-    <string name="error_dialog_file_name_empty">プレイリスト名を入力して下さい。</string>
-    <string name="error_dialog_file_name_input_replace">ファイル名に使用できない文字を \"_\" に置換えました。</string>
-    <string name="error_dialog_file_name_input_cut">ファイル名が長すぎるため切り捨てました。</string>
-    <string name="error_dialog_file_name_input_slash_end">末尾の/を削除しました。</string>
+    <string name="playlist_option_dialog_confirm_duplex">重複する名前のプレイリストが存在します。</string>
+    <string name="playlist_option_dialog_message_name_cut_slash">末尾の/を削除しました。</string>
+    <string name="playlist_option_dialog_message_queue_empty">再生キューに何もありません。</string>
+    <string name="playlist_option_dialog_message_nosave">再生キューにプレイリストへ保存できないメディアが含まれていました。</string>
+    <string name="playlist_option_dialog_message_save_success">プレイリストを保存しました。</string>
+    <string name="playlist_option_dialog_message_save_failure">プレイリストの保存に失敗しました。</string>
 
     <!-- PlayingTime Dialog -->
     <string name="label_dialog_playing_time_fix">再生時間</string>
