@@ -24,6 +24,7 @@
 
     <string name="storage">Pamięć</string>
     <string name="file_path">Ścieżka pliku</string>
+    <string name="directory">Katalog</string>
 
     <string name="data_size">Rozmiar danych</string>
     <string name="last_modified">Data modyfikacji</string>
@@ -188,6 +189,7 @@
     <string name="label_button_delete">Usuń</string>
     <string name="label_button_confirm">Potwierdź</string>
     <string name="label_button_open">Otwórz</string>
+    <string name="label_button_edit">Edytować</string>
     <string name="title_search_form_dialog">Wybierz tekst wejściowy.</string>
     <string name="message_main_property_copy">Skopiowane do schowka.</string>
     <string name="message_main_queue_edit_mode">Kliknij w miniaturkę, aby zmienić odtwarzane / nieodtwarzane, przeciągnij, aby zmienić kolejność i usunąć.</string>

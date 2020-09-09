@@ -24,6 +24,7 @@
 
     <string name="storage">ストレージ</string>
     <string name="file_path">ファイルパス</string>
+    <string name="directory">ディレクトリ</string>
 
     <string name="data_size">データサイズ</string>
     <string name="last_modified">更新日時</string>
@@ -188,6 +189,7 @@
     <string name="label_button_delete">削除</string>
     <string name="label_button_confirm">確認</string>
     <string name="label_button_open">開く</string>
+    <string name="label_button_edit">編集</string>
     <string name="title_search_form_dialog">入力内容を選択してください</string>
     <string name="message_main_property_copy">クリップボードにコピーしました。</string>
     <string name="message_main_queue_edit_mode">サムネイルのタップで再生/未再生の変更、ドラッグで順序変更、削除を行います。</string>

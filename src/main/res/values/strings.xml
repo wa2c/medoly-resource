@@ -24,6 +24,7 @@
 
     <string name="storage">Storage</string>
     <string name="file_path">File Path</string>
+    <string name="directory">Directory</string>
 
     <string name="data_size">Data Size</string>
     <string name="last_modified">Modified Date</string>
@@ -188,6 +189,7 @@
     <string name="label_button_delete">Delete</string>
     <string name="label_button_confirm">Confirm</string>
     <string name="label_button_open">Open</string>
+    <string name="label_button_edit">Edit</string>
     <string name="title_search_form_dialog">Select the input text.</string>
     <string name="message_main_property_copy">Copied to clipboard.</string>
     <string name="message_main_queue_edit_mode">Tap on the thumbnail to change played / unplayed, drag to change the order, and delete.</string>
