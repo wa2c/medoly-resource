@@ -161,6 +161,8 @@
     <string name="search_condition_delete">%1$sの条件を削除</string>
     <string name="search_title_dialog_confirm_home">ホームパスの設定</string>
     <string name="search_message_dialog_confirm_home">現在のパスをホームパスに設定しますか？</string>
+    <string name="search_directory_guide_add">タブ名を入力してください</string>
+    <string name="search_directory_confirm_remove">現在のタブを削除します</string>
 
     <!-- 設定画面 -->
     <string name="settings_summary_current_value">[現在の設定: %1$s]</string>

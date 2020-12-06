@@ -161,6 +161,9 @@
     <string name="search_condition_delete">Delete %1$s Condition</string>
     <string name="search_title_dialog_confirm_home">Home Path Setting</string>
     <string name="search_message_dialog_confirm_home">Do you set to the home directory the current directory?</string>
+    <string name="search_directory_guide_add">Input tab name</string>
+    <string name="search_directory_confirm_remove">Remove current tab</string>
+
 
     <!-- Settings Activity -->
     <string name="settings_summary_current_value">[Current Value: %1$s]</string>

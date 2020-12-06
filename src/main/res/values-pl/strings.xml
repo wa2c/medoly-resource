@@ -161,6 +161,8 @@
     <string name="search_condition_delete">Usuń warunek %1$s</string>
     <string name="search_title_dialog_confirm_home">Ustawienie ścieżki głównej</string>
     <string name="search_message_dialog_confirm_home">Czy chcesz ustawiać bieżący katalog jako główny?</string>
+    <string name="search_directory_guide_add">Wprowadź nazwę karty</string>
+    <string name="search_directory_confirm_remove">Usuń bieżącą kartę</string>
 
     <!-- Settings Activity -->
     <string name="settings_summary_current_value">[Aktualnie: %1$s]</string>
