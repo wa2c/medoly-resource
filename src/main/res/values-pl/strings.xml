@@ -412,9 +412,6 @@
     <string name="title_dialog_encoding_forced">Forcibly apply</string>
 
     <!-- Plugin Dialog -->
-    <string name="label_dialog_plugin_launch_app">Otwórz</string>
-    <string name="label_dialog_plugin_launch_store">Sklep</string>
-    <string name="label_dialog_plugin_launch_info">Info</string>
     <string name="label_dialog_plugin_support_execute">Działanie wykonywalne</string>
     <string name="label_dialog_plugin_support_event">Akcja zdarzenia</string>
     <string name="label_dialog_plugin_app_event_enabled">Włączone zdarzenie aplikacji</string>

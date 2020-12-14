@@ -411,9 +411,6 @@
     <string name='title_dialog_encoding_forced'>強制的に適用</string>
 
     <!-- Plugin Dialog -->
-    <string name="label_dialog_plugin_launch_app">起動</string>
-    <string name="label_dialog_plugin_launch_store">ストア</string>
-    <string name="label_dialog_plugin_launch_info">情報</string>
     <string name="label_dialog_plugin_support_execute">実行アクション</string>
     <string name="label_dialog_plugin_support_event">イベントアクション</string>
     <string name="label_dialog_plugin_app_event_enabled">アプリのイベント有効</string>
