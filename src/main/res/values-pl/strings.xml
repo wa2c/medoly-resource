@@ -654,37 +654,35 @@
     <string name="pref_summary_about_store">Otwórz Google Play..</string>
 
     <!-- Array Names  -->
-    <string name="pref_audio_focus_request_start_entry">Przy starcie App</string>
-    <string name="pref_audio_focus_request_open_entry">Przy otwarciu App</string>
-    <string name="pref_audio_focus_request_play_entry">Przy odtwarzaniu mediów</string>
+    <string name="pref_audio_focus_request_entry_start">Przy starcie App</string>
+    <string name="pref_audio_focus_request_entry_open">Przy otwarciu App</string>
+    <string name="pref_audio_focus_request_entry_play">Przy odtwarzaniu mediów</string>
 
     <!-- On Action Array -->
     <string name="pref_on_action_entry_recover">Odzyskaj stan</string>
     <string name="pref_on_action_entry_start">Start odtwarzania</string>
     <string name="pref_on_action_entry_stop">Zatrzymaj auto-odtwarzanie</string>
     <string name="pref_on_action_entry_nothing">Nie rób nic</string>
+
     <!-- Off Action Array -->
     <string name="pref_off_action_entry_pause">Pauza</string>
     <string name="pref_off_action_entry_down">Ściszanie</string>
     <string name="pref_off_action_entry_nothing">Nie rób nic</string>
 
-    <string-array name="pref_media_error_action_entries">
-        <item>Pauza</item>
-        <item>Pauza z odtworzeniem</item>
-        <item>Pauza z przerwaniem</item>
-        <item>Pomiń z przerwaniem</item>
-        <item>Wstrzymaj i usuń</item>
-        <item>Pomiń i usuń</item>
-    </string-array>
+    <!-- Media Error Action Array -->
+    <string name="pref_media_error_action_entry_pause">Pauza</string>
+    <string name="pref_media_error_action_entry_pause_played">Pauza z odtworzeniem</string>
+    <string name="pref_media_error_action_entry_pause_broken">Pauza z przerwaniem</string>
+    <string name="pref_media_error_action_entry_skip_broken">Pomiń z przerwaniem</string>
+    <string name="pref_media_error_action_entry_pause_remove">Wstrzymaj i usuń</string>
+    <string name="pref_media_error_action_entry_skip_remove">Pomiń i usuń</string>
 
-
-    <string-array name="pref_plugin_element_save_action_entries">
-        <item>Nie zapisuj</item>
-        <item>Folder mediów (Utwórz)</item>
-        <item>Folder mediów (Nadpisz)</item>
-        <item>Dodatkowy folder wyszukiwania (Utwórz)</item>
-        <item>Dodatkowy folder wyszukiwania (Nadpisz)</item>
-    </string-array>
+    <!-- Element Save Action Array -->
+    <string name="pref_element_save_action_entry_not_save">Nie zapisuj</string>
+    <string name="pref_element_save_action_entry_media_create">Folder mediów (Utwórz)</string>
+    <string name="pref_element_save_action_entry_media_overwrite">Folder mediów (Nadpisz)</string>
+    <string name="pref_element_save_action_entry_search_create">Dodatkowy folder wyszukiwania (Utwórz)</string>
+    <string name="pref_element_save_action_entry_search_overwrite">Dodatkowy folder wyszukiwania (Nadpisz)</string>
 
     <string-array name="playlist_save_type_entries">
         <item>Wybierz okno dialogu</item>

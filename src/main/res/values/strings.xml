@@ -655,37 +655,37 @@
     <string name="pref_summary_about_store">Open Google Play Store.</string>
 
     <!-- Array Names  -->
-    <string name="pref_audio_focus_request_start_entry">At App Start</string>
-    <string name="pref_audio_focus_request_open_entry">At App Open</string>
-    <string name="pref_audio_focus_request_play_entry">At Media Play</string>
+    <string name="pref_audio_focus_request_entry_start">At App Start</string>
+    <string name="pref_audio_focus_request_entry_open">At App Open</string>
+    <string name="pref_audio_focus_request_entry_play">At Media Play</string>
 
     <!-- On Action Array -->
     <string name="pref_on_action_entry_recover">Recover State</string>
     <string name="pref_on_action_entry_start">Start Playing</string>
     <string name="pref_on_action_entry_stop">Stop Auto Playing</string>
     <string name="pref_on_action_entry_nothing">Do Nothing</string>
+
     <!-- Off Action Array -->
     <string name="pref_off_action_entry_pause">Pause</string>
     <string name="pref_off_action_entry_down">Volume Down</string>
     <string name="pref_off_action_entry_nothing">Do Nothing</string>
 
-    <string-array name="pref_media_error_action_entries">
-        <item>Pause</item>
-        <item>Pause With Played</item>
-        <item>Pause With Broken</item>
-        <item>Skip With Broken</item>
-        <item>Pause And Remove</item>
-        <item>Skip And Remove</item>
-    </string-array>
+    <!-- Media Error Action Array -->
+    <string name="pref_media_error_action_entry_pause">Pause</string>
+    <string name="pref_media_error_action_entry_pause_played">Pause With Played</string>
+    <string name="pref_media_error_action_entry_pause_broken">Pause With Broken</string>
+    <string name="pref_media_error_action_entry_skip_broken">Skip With Broken</string>
+    <string name="pref_media_error_action_entry_pause_remove">Pause And Remove</string>
+    <string name="pref_media_error_action_entry_skip_remove">Skip And Remove</string>
+
+    <!-- Element Save Action Array -->
+    <string name="pref_element_save_action_entry_not_save">Not Save</string>
+    <string name="pref_element_save_action_entry_media_create">Media Folder (Create)</string>
+    <string name="pref_element_save_action_entry_media_overwrite">Media Folder (Overwrite)</string>
+    <string name="pref_element_save_action_entry_search_create">Additional Search Folder (Create)</string>
+    <string name="pref_element_save_action_entry_search_overwrite">Additional Search Folder (Overwrite)</string>
 
 
-    <string-array name="pref_plugin_element_save_action_entries">
-        <item>Not Save</item>
-        <item>Media Folder (Create)</item>
-        <item>Media Folder (Overwrite)</item>
-        <item>Additional Search Folder (Create)</item>
-        <item>Additional Search Folder (Overwrite)</item>
-    </string-array>
 
     <string-array name="playlist_save_type_entries">
         <item>Dialog Select</item>

@@ -654,41 +654,41 @@
     <!-- Array Names -->
 
     <!-- Audio Focus Request -->
-    <string name="pref_audio_focus_request_start_entry">アプリ起動時</string>
-    <string name="pref_audio_focus_request_open_entry">アプリ表示時</string>
-    <string name="pref_audio_focus_request_play_entry">再生開始時</string>
+    <string name="pref_audio_focus_request_entry_start">アプリ起動時</string>
+    <string name="pref_audio_focus_request_entry_open">アプリ表示時</string>
+    <string name="pref_audio_focus_request_entry_play">再生開始時</string>
 
     <!-- On Action Array -->
     <string name="pref_on_action_entry_recover">状態を戻す</string>
     <string name="pref_on_action_entry_start">再生を開始</string>
     <string name="pref_on_action_entry_stop">自動再生を停止</string>
     <string name="pref_on_action_entry_nothing">何もしない</string>
+
     <!-- Off Action Array -->
     <string name="pref_off_action_entry_pause">再生を停止</string>
     <string name="pref_off_action_entry_down">音量を下げる</string>
     <string name="pref_off_action_entry_nothing">何もしない</string>
 
-    <string-array name="pref_media_error_action_entries">
-        <item>何もせず停止</item>
-        <item>再生済みにして停止</item>
-        <item>破損状態にして停止</item>
-        <item>破損状態にしてスキップ</item>
-        <item>削除して停止</item>
-        <item>削除してスキップ</item>
-    </string-array>
+    <!-- Media Error Action Array -->
+    <string name="pref_media_error_action_entry_pause">何もせず停止</string>
+    <string name="pref_media_error_action_entry_pause_played">再生済みにして停止</string>
+    <string name="pref_media_error_action_entry_pause_broken">破損状態にして停止</string>
+    <string name="pref_media_error_action_entry_skip_broken">破損状態にしてスキップ</string>
+    <string name="pref_media_error_action_entry_pause_remove">削除して停止</string>
+    <string name="pref_media_error_action_entry_skip_remove">削除してスキップ</string>
+
+    <!-- Element Save Action Array -->
+    <string name="pref_element_save_action_entry_not_save">保存しない</string>
+    <string name="pref_element_save_action_entry_media_create">メディアフォルダ(新規)</string>
+    <string name="pref_element_save_action_entry_media_overwrite">メディアフォルダ(上書き)</string>
+    <string name="pref_element_save_action_entry_search_create">追加検索フォルダ(新規)</string>
+    <string name="pref_element_save_action_entry_search_overwrite">追加検索フォルダ(上書き)</string>
+
 
     <string-array name="playlist_save_type_entries">
         <item>ダイアログ選択</item>
         <item>M3Uファイル</item>
         <item>Android DB</item>
-    </string-array>
-
-    <string-array name="pref_plugin_element_save_action_entries">
-        <item>保存しない</item>
-        <item>メディアフォルダ(新規)</item>
-        <item>メディアフォルダ(上書き)</item>
-        <item>追加検索フォルダ(新規)</item>
-        <item>追加検索フォルダ(上書き)</item>
     </string-array>
 
     <string-array name="pref_property_split_entries">
