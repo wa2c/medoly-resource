@@ -574,8 +574,6 @@
     <string name="pref_summary_media_recently_played_count">Ustaw górny limit historii ostatnio odtwarzanych. (0 wyłącza funkcję.)</string>
     <string name="pref_title_search_storage_home">Ścieżka główna</string>
     <string name="pref_summary_search_storage_home">Zmień folder główny magazynu wyszukiwania. Możesz tam przejść, naciskając \'Home\' - wtedy ścieżka pokazuje się jako "~". Można to również ustawić przez długie kliknięcie przycisku Home.</string>
-    <string name="pref_title_playlist_save_type">Typ playlisty</string>
-    <string name="pref_summary_playlist_save_type">Wybierz typ listy odtwarzania do zapisania.</string>
     <string name="pref_title_property_split">Właściwości podziału</string>
     <string name="pref_summary_property_split">Wybierz znaki do właściwości podzielenia.</string>
     <string name="pref_title_property_concat">Właściwości łączenia</string>
@@ -684,11 +682,6 @@
     <string name="pref_element_save_action_entry_search_create">Dodatkowy folder wyszukiwania (Utwórz)</string>
     <string name="pref_element_save_action_entry_search_overwrite">Dodatkowy folder wyszukiwania (Nadpisz)</string>
 
-    <string-array name="playlist_save_type_entries">
-        <item>Wybierz okno dialogu</item>
-        <item>Plik M3U</item>
-        <item>Android DB</item>
-    </string-array>
     <string-array name="pref_property_split_entries">
         <item>Podziel przez \";\"</item>
         <item>Podziel przez \"/\"</item>

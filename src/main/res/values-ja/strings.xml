@@ -573,8 +573,6 @@
     <string name="pref_summary_media_recently_played_count">再生履歴の保持数を設定します。(0の場合は再生履歴を使用しません。)</string>
     <string name="pref_title_search_storage_home">ホームパス</string>
     <string name="pref_summary_search_storage_home">検索画面におけるストレージのホームパスを設定します。ホームボタンの移動先となり、パスが \"~\" で表記されます。ホームボタンの長押しでも設定できます。</string>
-    <string name="pref_title_playlist_save_type">プレイリスト種別</string>
-    <string name="pref_summary_playlist_save_type">保存するプレイリストの種別を選択します。</string>
     <string name="pref_title_property_split">プロパティの分割</string>
     <string name="pref_summary_property_split">プロパティの値を複数の値に分離する文字列を選択します。</string>
     <string name="pref_title_property_concat">プロパティの結合</string>
@@ -683,13 +681,6 @@
     <string name="pref_element_save_action_entry_media_overwrite">メディアフォルダ(上書き)</string>
     <string name="pref_element_save_action_entry_search_create">追加検索フォルダ(新規)</string>
     <string name="pref_element_save_action_entry_search_overwrite">追加検索フォルダ(上書き)</string>
-
-
-    <string-array name="playlist_save_type_entries">
-        <item>ダイアログ選択</item>
-        <item>M3Uファイル</item>
-        <item>Android DB</item>
-    </string-array>
 
     <string-array name="pref_property_split_entries">
         <item>\";\" で分割</item>

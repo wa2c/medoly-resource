@@ -575,8 +575,6 @@
     <string name="pref_summary_media_recently_played_count">Set the upper limit of recently played histories. (0 disables the function.)</string>
     <string name="pref_title_search_storage_home">Home Path</string>
     <string name="pref_summary_search_storage_home">Change storage home folder on search screen. You can move to there by home button and path shows as \"~\". The long tap of the home button can be also set it.</string>
-    <string name="pref_title_playlist_save_type">Playlist Type</string>
-    <string name="pref_summary_playlist_save_type">Choose the playlist type to save.</string>
     <string name="pref_title_property_split">Properties Division</string>
     <string name="pref_summary_property_split">Select the characters to split properties.</string>
     <string name="pref_title_property_concat">Properties Concatenation</string>
@@ -685,13 +683,6 @@
     <string name="pref_element_save_action_entry_search_create">Additional Search Folder (Create)</string>
     <string name="pref_element_save_action_entry_search_overwrite">Additional Search Folder (Overwrite)</string>
 
-
-
-    <string-array name="playlist_save_type_entries">
-        <item>Dialog Select</item>
-        <item>M3U File</item>
-        <item>Android DB</item>
-    </string-array>
     <string-array name="pref_property_split_entries">
         <item>Split by \";\"</item>
         <item>Split by \"/\"</item>
