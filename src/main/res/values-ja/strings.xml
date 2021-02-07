@@ -682,67 +682,54 @@
     <string name="pref_element_save_action_entry_search_create">追加検索フォルダ(新規)</string>
     <string name="pref_element_save_action_entry_search_overwrite">追加検索フォルダ(上書き)</string>
 
-    <string-array name="pref_property_split_entries">
-        <item>\";\" で分割</item>
-        <item>\"/\" で分割</item>
-        <item>\",\" で分割</item>
-        <item>\"&amp;\"で分割</item>
-        <item>改行で分割</item>
-    </string-array>
+    <!-- Properties Split -->
+    <string name="pref_property_split_entry_semicolon">\";\" で分割</string>
+    <string name="pref_property_split_entry_slash">\"/\" で分割</string>
+    <string name="pref_property_split_entry_colon">\",\" で分割</string>
+    <string name="pref_property_split_entry_ampersand">\"&amp;\"で分割</string>
+    <string name="pref_property_split_entry_newline">改行で分割</string>
 
-    <string-array name="pref_property_concat_entries">
-        <item>何もしない</item>
-        <item>\";\" で結合</item>
-        <item>\"/\" で結合</item>
-        <item>\",\" で結合</item>
-        <item>\"&amp;\" で結合</item>
-        <item>改行で結合</item>
-    </string-array>
+    <!-- Properties Concat -->
+    <string name="pref_property_concat_entry_nothing">何もしない</string>
+    <string name="pref_property_concat_entry_semicolon">\";\" で結合</string>
+    <string name="pref_property_concat_entry_slash">\"/\" で結合</string>
+    <string name="pref_property_concat_entry_colon">\",\" で結合</string>
+    <string name="pref_property_concat_entry_ampersand">\"&amp;\" で結合</string>
+    <string name="pref_property_concat_entry_newline">改行で結合</string>
 
-    <string name="pref_language_default">デフォルト</string>
+    <!-- Language -->
+    <string name="pref_language_entry_default">デフォルト</string>
 
-    <!-- Output Device -->
-
-    <!-- Screen keep -->
+    <!-- Output Device - Screen Keep -->
     <string name="screen_keep_entry_always">常に保持</string>
     <string name="screen_keep_entry_on_playing">再生中のみ保持</string>
     <string name="screen_keep_entry_on_display_lyrics">歌詞表示中のみ保持</string>
     <string name="screen_keep_entry_on_playing_lyrics">歌詞再生中のみ保持</string>
     <string name="screen_keep_entry_never">保持しない</string>
-    <!-- Screen orientation -->
+
+    <!-- Output Device - Screen Orientation -->
     <string name="screen_orientation_entry_default">標準</string>
     <string name="screen_orientation_entry_automatic">自動</string>
     <string name="screen_orientation_entry_lock">固定</string>
 
-    <!-- View Style -->
-    <string-array name="lyrics_text_font_entries">
-        <item>Sans-serif (ゴシック)</item>
-        <item>Serif (明朝)</item>
-        <item>Monospace (等幅)</item>
-    </string-array>
-    <string-array name="lyrics_text_style_entries">
-        <item>通常</item>
-        <!-- NORMAL -->
-        <item>太字</item>
-        <!-- BOLD -->
-        <item>斜体</item>
-        <!-- ITALIC -->
-        <item>太字 + 斜体</item>
-        <!-- BOLD_ITALIC -->
-    </string-array>
-    <string-array name="lyrics_text_align_entries">
-        <item>左寄せ</item>
-        <!-- LEFT -->
-        <item>中央寄せ</item>
-        <!-- CENTER_HORIZONTAL  -->
-        <item>右寄せ</item>
-        <!-- RIGHT -->
-    </string-array>
+    <!-- Style - Lyrics Font -->
+    <string name="style_lyrics_font_entry_sans_serif">Sans-serif (ゴシック)</string>
+    <string name="style_lyrics_font_entry_serif">Serif (明朝)</string>
+    <string name="style_lyrics_font_entry_monospace">Monospace (等幅)</string>
+
+    <!-- Style - Lyrics Style -->
+    <string name="style_lyrics_style_entry_normal">通常</string>
+    <string name="style_lyrics_style_entry_bold">太字</string>
+    <string name="style_lyrics_style_entry_italic">斜体</string>
+    <string name="style_lyrics_style_entry_bold_italic">太字 + 斜体</string>
+
+    <!-- Style - Lyrics Align -->
+    <string name="style_lyrics_align_entry_left">左寄せ</string>
+    <string name="style_lyrics_align_entry_center">中央寄せ</string>
+    <string name="style_lyrics_align_entry_right">右寄せ</string>
 
     <!-- Player -->
-    <string-array name="pref_player_type_entries">
-        <item>ExoPlayer</item>
-        <item>MediaPlayer</item>
-    </string-array>
+    <string name="pref_player_type_entry_exoplayer">ExoPlayer</string>
+    <string name="pref_player_type_entry_mediaplayer">MediaPlayer</string>
 
 </resources>

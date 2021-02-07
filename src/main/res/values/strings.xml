@@ -683,66 +683,54 @@
     <string name="pref_element_save_action_entry_search_create">Additional Search Folder (Create)</string>
     <string name="pref_element_save_action_entry_search_overwrite">Additional Search Folder (Overwrite)</string>
 
-    <string-array name="pref_property_split_entries">
-        <item>Split by \";\"</item>
-        <item>Split by \"/\"</item>
-        <item>Split by \",\"</item>
-        <item>Split by \"&amp;\"</item>
-        <item>Split by newline</item>
-    </string-array>
-    <string-array name="pref_property_concat_entries">
-        <item>Do nothing</item>
-        <item>Concat with \";\"</item>
-        <item>Concat with \"/\"</item>
-        <item>Concat with \",\"</item>
-        <item>Concat with \"&amp;\"</item>
-        <item>Concat with newline</item>
-    </string-array>
+    <!-- Properties Split -->
+    <string name="pref_property_split_entry_semicolon">Split by \";\"</string>
+    <string name="pref_property_split_entry_slash">Split by \"/\"</string>
+    <string name="pref_property_split_entry_colon">Split by \",\"</string>
+    <string name="pref_property_split_entry_ampersand">Split by \"&amp;\"</string>
+    <string name="pref_property_split_entry_newline">Split by newline</string>
 
-    <string name="pref_language_default">Default</string>
+    <!-- Properties Concat -->
+    <string name="pref_property_concat_entry_nothing">Do nothing</string>
+    <string name="pref_property_concat_entry_semicolon">Concat with \";\"</string>
+    <string name="pref_property_concat_entry_slash">Concat with \"/\"</string>
+    <string name="pref_property_concat_entry_colon">Concat with \",\"</string>
+    <string name="pref_property_concat_entry_ampersand">Concat with \"&amp;\"</string>
+    <string name="pref_property_concat_entry_newline">Concat with newline</string>
 
-    <!-- Output Device -->
+    <!-- Language -->
+    <string name="pref_language_entry_default">Default</string>
 
-    <!-- Screen keep -->
+    <!-- Output Device - Screen Keep -->
     <string name="screen_keep_entry_always">Always</string>
     <string name="screen_keep_entry_on_playing">On Playing</string>
     <string name="screen_keep_entry_on_display_lyrics">On Display Lyrics</string>
     <string name="screen_keep_entry_on_playing_lyrics">On Playing Lyrics</string>
     <string name="screen_keep_entry_never">Never</string>
-    <!-- Screen orientation -->
+
+    <!-- Output Device - Screen Orientation -->
     <string name="screen_orientation_entry_default">Default</string>
     <string name="screen_orientation_entry_automatic">Automatic</string>
     <string name="screen_orientation_entry_lock">Lock</string>
 
-    <!-- View Style -->
-    <string-array name="lyrics_text_font_entries">
-        <item>Sans-serif</item>
-        <item>Serif</item>
-        <item>Monospace</item>
-    </string-array>
-    <string-array name="lyrics_text_style_entries">
-        <item>Normal</item>
-        <!-- NORMAL -->
-        <item>Bold</item>
-        <!-- BOLD -->
-        <item>Italic</item>
-        <!-- ITALIC -->
-        <item>Bold Italic</item>
-        <!-- BOLD_ITALIC -->
-    </string-array>
-    <string-array name="lyrics_text_align_entries">
-        <item>Left</item>
-        <!-- LEFT -->
-        <item>Center</item>
-        <!-- CENTER_HORIZONTAL  -->
-        <item>Right</item>
-        <!-- RIGHT -->
-    </string-array>
+    <!-- Style - Lyrics Font -->
+    <string name="style_lyrics_font_entry_sans_serif">Sans-serif</string>
+    <string name="style_lyrics_font_entry_serif">Serif</string>
+    <string name="style_lyrics_font_entry_monospace">Monospace</string>
+
+    <!-- Style - Lyrics Style -->
+    <string name="style_lyrics_style_entry_normal">Normal</string>
+    <string name="style_lyrics_style_entry_bold">Bold</string>
+    <string name="style_lyrics_style_entry_italic">Italic</string>
+    <string name="style_lyrics_style_entry_bold_italic">Bold Italic</string>
+
+    <!-- Style - Lyrics Align -->
+    <string name="style_lyrics_align_entry_left">Left</string>
+    <string name="style_lyrics_align_entry_center">Center</string>
+    <string name="style_lyrics_align_entry_right">Right</string>
 
     <!-- Player -->
-    <string-array name="pref_player_type_entries">
-        <item>ExoPlayer</item>
-        <item>MediaPlayer</item>
-    </string-array>
+    <string name="pref_player_type_entry_exoplayer">ExoPlayer</string>
+    <string name="pref_player_type_entry_mediaplayer">MediaPlayer</string>
 
 </resources>

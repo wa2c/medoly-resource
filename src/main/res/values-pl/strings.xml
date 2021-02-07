@@ -682,67 +682,55 @@
     <string name="pref_element_save_action_entry_search_create">Dodatkowy folder wyszukiwania (Utwórz)</string>
     <string name="pref_element_save_action_entry_search_overwrite">Dodatkowy folder wyszukiwania (Nadpisz)</string>
 
-    <string-array name="pref_property_split_entries">
-        <item>Podziel przez \";\"</item>
-        <item>Podziel przez \"/\"</item>
-        <item>Podziel przez \",\"</item>
-        <item>Podziel przez \"&amp;\"</item>
-        <item>Podziel przez nową linię</item>
-    </string-array>
-    <string-array name="pref_property_concat_entries">
-        <item>Nie rób nic</item>
-        <item>Połącz z \";\"</item>
-        <item>Połącz z \"/\"</item>
-        <item>Połącz z \",\"</item>
-        <item>Połącz z \"&amp;\"</item>
-        <item>Połącz z nową linią</item>
-    </string-array>
+    <!-- Properties Split -->
+    <string name="pref_property_split_entry_semicolon">Podziel przez \";\"</string>
+    <string name="pref_property_split_entry_slash">Podziel przez \"/\"</string>
+    <string name="pref_property_split_entry_colon">Podziel przez \",\"</string>
+    <string name="pref_property_split_entry_ampersand">Podziel przez \"&amp;\"</string>
+    <string name="pref_property_split_entry_newline">Podziel przez nową linię</string>
 
-    <string name="pref_language_default">Domyślna</string>
+    <!-- Properties Concat -->
+    <string name="pref_property_concat_entry_nothing">Nie rób nic</string>
+    <string name="pref_property_concat_entry_semicolon">Połącz z \";\"</string>
+    <string name="pref_property_concat_entry_slash">Połącz z \"/\"</string>
+    <string name="pref_property_concat_entry_colon">Połącz z \",\"</string>
+    <string name="pref_property_concat_entry_ampersand">Połącz z \"&amp;\"</string>
+    <string name="pref_property_concat_entry_newline">Połącz z newline</string>
 
-    <!-- Output Device -->
-
-    <!-- Screen keep -->
+    <!-- Output Device - Screen Keep -->
     <string name="screen_keep_entry_always">Zawsze</string>
     <string name="screen_keep_entry_on_playing">Podczas odtwarzania</string>
     <string name="screen_keep_entry_on_display_lyrics">Podczas wyświetlania tekstu</string>
     <string name="screen_keep_entry_on_playing_lyrics">Podczas odtwarzania tekstu</string>
     <string name="screen_keep_entry_never">Nigdy</string>
-    <!-- Screen orientation -->
+
+    <!-- Output Device - Screen Orientation -->
     <string name="screen_orientation_entry_default">Domyślnie</string>
     <string name="screen_orientation_entry_automatic">Automatycznie</string>
     <string name="screen_orientation_entry_lock">Blokada</string>
 
-    <!-- View Style -->
-    <string-array name="lyrics_text_font_entries">
-        <item>Sans-serif</item>
-        <item>Serif</item>
-        <item>Monospace</item>
-    </string-array>
-    <string-array name="lyrics_text_style_entries">
-        <item>Normalny</item>
-        <!-- NORMAL -->
-        <item>Bold</item>
-        <!-- BOLD -->
-        <item>Italic</item>
-        <!-- ITALIC -->
-        <item>Bold Italic</item>
-        <!-- BOLD_ITALIC -->
-    </string-array>
-    <string-array name="lyrics_text_align_entries">
-        <item>W lewo</item>
-        <!-- LEFT -->
-        <item>Centralnie</item>
-        <!-- CENTER_HORIZONTAL  -->
-        <item>W prawo</item>
-        <!-- RIGHT -->
-    </string-array>
+    <!-- Style - Lyrics Font -->
+    <string name="style_lyrics_font_entry_sans_serif">Sans-serif</string>
+    <string name="style_lyrics_font_entry_serif">Serif</string>
+    <string name="style_lyrics_font_entry_monospace">Monospace</string>
+
+    <!-- Style - Lyrics Style -->
+    <string name="style_lyrics_style_entry_normal">Normalny</string>
+    <string name="style_lyrics_style_entry_bold">Bold</string>
+    <string name="style_lyrics_style_entry_italic">Italic</string>
+    <string name="style_lyrics_style_entry_bold_italic">Bold Italic</string>
+
+    <!-- Style - Lyrics Align -->
+    <string name="style_lyrics_align_entry_left">W lewo</string>
+    <string name="style_lyrics_align_entry_center">Centralnie</string>
+    <string name="style_lyrics_align_entry_right">W prawo</string>
+
+    <!-- Language -->
+    <string name="pref_language_entry_default">Domyślna</string>
 
     <!-- Player -->
-    <string-array name="pref_player_type_entries">
-        <item>ExoPlayer</item>
-        <item>MediaPlayer</item>
-    </string-array>
+    <string name="pref_player_type_entry_exoplayer">ExoPlayer</string>
+    <string name="pref_player_type_entry_mediaplayer">MediaPlayer</string>
 
 </resources>
 
