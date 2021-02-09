@@ -210,7 +210,6 @@
     <string name="message_device_playback_disabled">Odtwarzanie na bieżącym urządzeniu wyjściowym jest wyłączone.</string>
     <string name="message_audio_focus_gain">Medoly zyskał skupienie audio.</string>
     <string name="message_audio_focus_loss">Utracono Audio Focus z Medoly.</string>
-    <string name="message_audio_focus_loss_transient">Utracono przejściowe skupienie dźwięku od Medoly.</string>
     <string name="message_device_connected">Połączono %1$s</string>
     <string name="message_device_disconnected">Odłączono %1$s</string>
     <string name="message_volume_switch">Przyciski głośności zmieniają głośność aplikacji.</string>
@@ -489,10 +488,12 @@
     <string name="pref_summary_audio_focus_request">Wybierz, kiedy poprosić o Audio Focus. Audio Focus jest niezbędny do sterowania zestawem słuchawkowym i sterowania ekranem blokady.</string>
     <string name="pref_title_audio_focus_gain_action">Wzmocnienie Audio Focus</string>
     <string name="pref_summary_audio_focus_gain_action">Wybierz akcję w momencie wzmocnienia ostrości dźwięku.</string>
-    <string name="pref_title_audio_focus_loss_action">Utrata Audio Focus</string>
-    <string name="pref_summary_audio_focus_loss_action">Wybierz akcję dotyczącą utraty Audio Focus.</string>
-    <string name="pref_title_audio_focus_loss_transient_action">Chwilowa utrata Audio Focus</string>
-    <string name="pref_summary_audio_focus_loss_transient_action">Wybierz akcję w momencie przejściowej utraty Audio Focus.</string>
+    <string name="pref_title_audio_focus_loss_action">Akcja przy długotrwałym odtwarzaniu</string>
+    <string name="pref_summary_audio_focus_loss_action">Wybierz akcję po rozpoczęciu długotrwałego odtwarzania, na przykład gdy inny odtwarzacz muzyczny rozpocznie odtwarzanie.</string>
+    <string name="pref_title_audio_focus_loss_transient_action">Akcja na przejściowym odtwarzaniu</string>
+    <string name="pref_summary_audio_focus_loss_transient_action">Wybierz czynność po rozpoczęciu odtwarzania przejściowego, taką jak połączenie, wprowadzanie głosowe, Asystent Google itp.</string>
+    <string name="pref_title_audio_focus_loss_transient_duck_action">Akcja podczas krótkotrwałego odtwarzania</string>
+    <string name="pref_summary_audio_focus_loss_transient_duck_action">Wybierz akcję po rozpoczęciu odtwarzania krótkotrwałego, na przykład efekt dźwiękowy i głos nawigacji.</string>
     <string name="pref_title_audio_focus_message">Komunikat Audio Focus</string>
     <string name="pref_summary_audio_focus_message">Pokaż komunikat podczas wzmocnienia lub osłabienia Audio Focus</string>
 
@@ -657,13 +658,13 @@
     <string name="pref_audio_focus_request_entry_play">Przy odtwarzaniu mediów</string>
 
     <!-- On Action Array -->
-    <string name="pref_on_action_entry_recover">Odzyskaj stan</string>
     <string name="pref_on_action_entry_start">Start odtwarzania</string>
     <string name="pref_on_action_entry_stop">Zatrzymaj auto-odtwarzanie</string>
     <string name="pref_on_action_entry_nothing">Nie rób nic</string>
 
     <!-- Off Action Array -->
     <string name="pref_off_action_entry_pause">Pauza</string>
+    <string name="pref_off_action_entry_pause_resume">Pauza / Wznawianie</string>
     <string name="pref_off_action_entry_down">Ściszanie</string>
     <string name="pref_off_action_entry_nothing">Nie rób nic</string>
 

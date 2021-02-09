@@ -210,7 +210,6 @@
     <string name="message_device_playback_disabled">現在の出力デバイスで再生が無効になっています。</string>
     <string name="message_audio_focus_gain">Medolyが音声フォーカスを取得しました。</string>
     <string name="message_audio_focus_loss">Medolyから音声フォーカスが外れました。</string>
-    <string name="message_audio_focus_loss_transient">Medolyから音声フォーカスが一時的に外れました。</string>
     <string name="message_device_connected">%1$s が接続されました</string>
     <string name="message_device_disconnected">%1$s が切断されました</string>
     <string name="message_volume_switch">ボリュームボタンでアプリ音量を変更します。</string>
@@ -488,10 +487,12 @@
     <string name="pref_summary_audio_focus_request">音声フォーカスを取得するタイミングを設定します。音声フォーカスはリモート操作に必要となります。</string>
     <string name="pref_title_audio_focus_gain_action">音声フォーカス取得時</string>
     <string name="pref_summary_audio_focus_gain_action">音声フォーカスを取得した時の動作を設定します。通話終了時も含みます。</string>
-    <string name="pref_title_audio_focus_loss_action">音声フォーカス喪失時</string>
-    <string name="pref_summary_audio_focus_loss_action">音声フォーカスを喪失した時の動作を設定します。通話開始時も含みます。</string>
-    <string name="pref_title_audio_focus_loss_transient_action">音声フォーカス一時喪失時</string>
-    <string name="pref_summary_audio_focus_loss_transient_action">音声フォーカスを一時喪失した時の動作を設定します。</string>
+    <string name="pref_title_audio_focus_loss_action">長時間音声再生時の動作</string>
+    <string name="pref_summary_audio_focus_loss_action">他の音楽プレイヤーが再生を開始した場合など、長時間の再生を開始した時の動作を設定します。</string>
+    <string name="pref_title_audio_focus_loss_transient_action">一時的音声再生時の動作</string>
+    <string name="pref_summary_audio_focus_loss_transient_action">通話、音声入力、Google Assistantなど、一時的な再生を開始した時の動作を設定します。</string>
+    <string name="pref_title_audio_focus_loss_transient_duck_action">短時間音声再生時の動作</string>
+    <string name="pref_summary_audio_focus_loss_transient_duck_action">効果音、ナビゲーション音声など、短時間の再生した時の動作を設定します。</string>
     <string name="pref_title_audio_focus_message">音声フォーカスメッセージ</string>
     <string name="pref_summary_audio_focus_message">音声フォーカスを取得・喪失した時に。メッセージを表示します。</string>
 
@@ -657,13 +658,13 @@
     <string name="pref_audio_focus_request_entry_play">再生開始時</string>
 
     <!-- On Action Array -->
-    <string name="pref_on_action_entry_recover">状態を戻す</string>
     <string name="pref_on_action_entry_start">再生を開始</string>
     <string name="pref_on_action_entry_stop">自動再生を停止</string>
     <string name="pref_on_action_entry_nothing">何もしない</string>
 
     <!-- Off Action Array -->
-    <string name="pref_off_action_entry_pause">再生を停止</string>
+    <string name="pref_off_action_entry_pause">再生停止</string>
+    <string name="pref_off_action_entry_pause_resume">再生停止・再開</string>
     <string name="pref_off_action_entry_down">音量を下げる</string>
     <string name="pref_off_action_entry_nothing">何もしない</string>
 

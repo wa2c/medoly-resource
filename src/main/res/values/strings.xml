@@ -211,7 +211,6 @@
     <string name="message_device_playback_disabled">Playback on current output device is disabled.</string>
     <string name="message_audio_focus_gain">Medoly gained the audio focus.</string>
     <string name="message_audio_focus_loss">Lost the audio focus from Medoly.</string>
-    <string name="message_audio_focus_loss_transient">Lost audio focus transiently from Medoly.</string>
     <string name="message_device_connected">%1$s connected</string>
     <string name="message_device_disconnected">%1$s disconnected</string>
     <string name="message_volume_switch">The volume buttons change the app volume.</string>
@@ -490,10 +489,12 @@
     <string name="pref_summary_audio_focus_request">Select when to request audio focus. The audio focus is necessary for the headset control and the lock screen control.</string>
     <string name="pref_title_audio_focus_gain_action">Audio Focus Gain</string>
     <string name="pref_summary_audio_focus_gain_action">Select the action at the time of audio focus gain.</string>
-    <string name="pref_title_audio_focus_loss_action">Audio Focus Loss</string>
-    <string name="pref_summary_audio_focus_loss_action">Select the action on the time of audio focus loss.</string>
-    <string name="pref_title_audio_focus_loss_transient_action">Audio Focus Loss Transient</string>
-    <string name="pref_summary_audio_focus_loss_transient_action">Select the action at the time of audio focus loss transient.</string>
+    <string name="pref_title_audio_focus_loss_action">Action On Long-Time Playback</string>
+    <string name="pref_summary_audio_focus_loss_action">Select the action when long-time playback is started, such as when another music player starts playback.</string>
+    <string name="pref_title_audio_focus_loss_transient_action">Action On Transient Playback</string>
+    <string name="pref_summary_audio_focus_loss_transient_action">Select the action when transient playback is started, such as calling, voice input, Google Assistant, etc.</string>
+    <string name="pref_title_audio_focus_loss_transient_duck_action">Action On Short-Time Playback</string>
+    <string name="pref_summary_audio_focus_loss_transient_duck_action">Select the action when short-time playback is started, such as sound effect and navigation voice.</string>
     <string name="pref_title_audio_focus_message">Audio Focus Message</string>
     <string name="pref_summary_audio_focus_message">Show message when audio focus gain or loss.</string>
 
@@ -658,13 +659,13 @@
     <string name="pref_audio_focus_request_entry_play">At Media Play</string>
 
     <!-- On Action Array -->
-    <string name="pref_on_action_entry_recover">Recover State</string>
     <string name="pref_on_action_entry_start">Start Playing</string>
     <string name="pref_on_action_entry_stop">Stop Auto Playing</string>
     <string name="pref_on_action_entry_nothing">Do Nothing</string>
 
     <!-- Off Action Array -->
     <string name="pref_off_action_entry_pause">Pause</string>
+    <string name="pref_off_action_entry_pause_resume">Pause / Resume</string>
     <string name="pref_off_action_entry_down">Volume Down</string>
     <string name="pref_off_action_entry_nothing">Do Nothing</string>
 
