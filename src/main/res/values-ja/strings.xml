@@ -659,7 +659,7 @@
 
     <!-- On Action Array -->
     <string name="pref_on_action_entry_start">再生を開始</string>
-    <string name="pref_on_action_entry_stop">自動再生を停止</string>
+    <string name="pref_on_action_entry_stop">自動再生をしない</string>
     <string name="pref_on_action_entry_nothing">何もしない</string>
 
     <!-- Off Action Array -->

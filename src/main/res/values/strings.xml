@@ -660,7 +660,7 @@
 
     <!-- On Action Array -->
     <string name="pref_on_action_entry_start">Start Playing</string>
-    <string name="pref_on_action_entry_stop">Stop Auto Playing</string>
+    <string name="pref_on_action_entry_stop">Do Not Autoplay</string>
     <string name="pref_on_action_entry_nothing">Do Nothing</string>
 
     <!-- Off Action Array -->

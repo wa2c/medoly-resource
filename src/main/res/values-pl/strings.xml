@@ -659,7 +659,7 @@
 
     <!-- On Action Array -->
     <string name="pref_on_action_entry_start">Start odtwarzania</string>
-    <string name="pref_on_action_entry_stop">Zatrzymaj auto-odtwarzanie</string>
+    <string name="pref_on_action_entry_stop">Nie odtwarzaj automatycznie</string>
     <string name="pref_on_action_entry_nothing">Nie rób nic</string>
 
     <!-- Off Action Array -->
