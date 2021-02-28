@@ -566,8 +566,6 @@
     <string name="pref_summary_lyrics_plugin_always">歌詞表示済の場合も、歌詞取得プラグインをイベント実行します。</string>
 
     <!-- 機能 -->
-    <string name="pref_title_player_type">プレイヤー種別</string>
-    <string name="pref_summary_player_type">メディア再生に使用するプレイヤー種別を選択します。選択時にアプリを再起動します。</string>
     <string name="pref_title_disable_exit_dialog">終了ダイアログ非表示</string>
     <string name="pref_summary_disable_exit_dialog">アプリ終了選択時に終了ダイアログを表示せず、アプリをすぐに終了します。</string>
     <string name="pref_title_media_recently_played_count">再生履歴の保持数</string>
@@ -617,8 +615,8 @@
     <!-- その他  -->
     <string name="pref_title_language">言語</string>
     <string name="pref_summary_language">アプリの言語を選択します。</string>
-    <string name="pref_title_external_storage_write_permission">外部ストレージ書き込み</string>
-    <string name="pref_summary_external_storage_write_permission">外部ストレージの書き込み権限を取得します。ダイアログから書き込み先ストレージのルートを選択してください。</string>
+    <string name="pref_title_player_type">プレイヤー種別</string>
+    <string name="pref_summary_player_type">メディア再生に使用するプレイヤー種別を選択します。選択時にアプリを再起動します。</string>
     <string name="pref_title_settings_save">設定エクスポート</string>
     <string name="pref_summary_settings_save">設定情報をファイルにエクスポートします。</string>
     <string name="pref_title_settings_load">設定インポート</string>

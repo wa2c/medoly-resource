@@ -568,8 +568,6 @@
     <string name="pref_summary_lyrics_plugin_always">Run the lyrics get plugin event regardless of whether the lyrics are exists.</string>
 
     <!-- Function -->
-    <string name="pref_title_player_type">Player Type</string>
-    <string name="pref_summary_player_type">Select player type for media playback. Restart app when selected.</string>
     <string name="pref_title_disable_exit_dialog">Disable Exit Dialog</string>
     <string name="pref_summary_disable_exit_dialog">Disable exit dialog when "Exit" selected. The app will be exited immediately when.</string>
     <string name="pref_title_media_recently_played_count">Recently Played Limit</string>
@@ -620,8 +618,8 @@
     <!-- System  -->
     <string name="pref_title_language">Language</string>
     <string name="pref_summary_language">Select app language.</string>
-    <string name="pref_title_external_storage_write_permission">Storage Write Permission</string>
-    <string name="pref_summary_external_storage_write_permission">Set the write permission of the external storage. Select the root of the external storage from the folder select dialog.</string>
+    <string name="pref_title_player_type">Player Type</string>
+    <string name="pref_summary_player_type">Select player type for media playback. Restart app when selected.</string>
     <string name="pref_title_settings_save">Export Settings</string>
     <string name="pref_summary_settings_save">Export the settings to file.</string>
     <string name="pref_title_settings_load">Import Settings</string>
