@@ -177,10 +177,7 @@
     <string name="error_read_access">Nie można uzyskać dostępu do multimediów.</string>
     <string name="error_queue_next">Brak kolejnych mediów.</string>
     <string name="error_queue_prev">Brak poprzednich mediów.</string>
-    <string name="error_share">Nie udało się udostępnić.</string>
-    <string name="error_view">Nie udało się wyświetlić.</string>
-
-    <string name="error_search_queue">Nie udało się znaleźć multimediów.</string>
+    <string name="error_property_failed">Właściwości niedostępne.</string>
     <string name="error_search_condition">Brak warunków wyszukiwania.</string>
     <string name="error_search_too_many_condition">Za dużo zaznaczonych elementów.</string>
     <string name="error_main_queue_insert_failed">Nie można wstawić do kolejki odtwarzania.</string>

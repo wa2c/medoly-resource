@@ -177,14 +177,12 @@
     <string name="error_read_access">メディアにアクセスできません。</string>
     <string name="error_queue_next">次のメディアがありません。</string>
     <string name="error_queue_prev">前のメディアがありません。</string>
-    <string name="error_share">共有できませんでした。</string>
-    <string name="error_view">表示できませんでした。</string>
-
-    <string name="error_search_queue">メディアの検索に失敗しました。</string>
+    <string name="error_property_failed">プロパティが利用できません。</string>
     <string name="error_search_condition">検索条件が設定されていません。</string>
     <string name="error_search_too_many_condition">選択項目が多すぎます。</string>
     <string name="error_main_queue_insert_failed">再生キューの登録に失敗しました。</string>
     <string name="error_main_queue_insert_none">再生キュー登録対象のメディアがありません。</string>
+
     <string name="label_button_renew">更新</string>
     <string name="label_button_add">追加</string>
     <string name="label_button_update">更新</string>

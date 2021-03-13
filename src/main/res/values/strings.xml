@@ -178,10 +178,7 @@
     <string name="error_read_access">Failed to access media.</string>
     <string name="error_queue_next">No next media.</string>
     <string name="error_queue_prev">No previous media.</string>
-    <string name="error_share">Failed to share.</string>
-    <string name="error_view">Failed to view.</string>
-
-    <string name="error_search_queue">Failed to find media.</string>
+    <string name="error_property_failed">Properties not available.</string>
     <string name="error_search_condition">No search condition.</string>
     <string name="error_search_too_many_condition">Too many checked items.</string>
     <string name="error_main_queue_insert_failed">Failed to insert in the play queue.</string>
