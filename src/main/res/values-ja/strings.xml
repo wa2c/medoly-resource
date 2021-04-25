@@ -67,6 +67,7 @@
     <string name="output_device_usb">USBデバイス</string>
     <string name="output_device_hdmi">HDMIデバイス</string>
     <string name="output_device_cast">キャストデバイス</string>
+    <string name="output_device_auto">Android Auto デバイス</string>
     <string name="output_device_other">その他のデバイス</string>
 
     <!-- 画面タイトル -->
