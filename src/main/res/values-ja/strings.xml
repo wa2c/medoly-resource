@@ -217,6 +217,7 @@
 
     <!-- Media session -->
     <string name="label_session_queue_title">再生キュー</string>
+    <string name="label_session_queue_subtitle">%d件のメディア</string>
     <string name="label_session_queue_description">現在の再生キューを表示します</string>
 
     <!-- File Dialog (And more) -->

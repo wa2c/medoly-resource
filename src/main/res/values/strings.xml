@@ -217,6 +217,7 @@
 
     <!-- Media session -->
     <string name="label_session_queue_title">Play Queue</string>
+    <string name="label_session_queue_subtitle">%d Media</string>
     <string name="label_session_queue_description">Show Current Play Queue</string>
 
     <!-- File Dialog (And more) -->
