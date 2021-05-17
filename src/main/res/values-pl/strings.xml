@@ -480,9 +480,6 @@
     <string name="pref_summary_screen_about">Pokaż - o aplikacji.</string>
 
     <!-- Control -->
-    <string name="pref_title_settings_remote_control_disable">Wyłącz zdalne sterowanie</string>
-    <string name="pref_summary_settings_remote_control_disable">Wyłącz zdalne sterowanie. Wyłącz sterowanie zestawem słuchawkowym, sterowanie Bluetooth, sterowanie ekranem blokady itp.</string>
-
     <string name="pref_title_audio_focus_request">Audio Focus</string>
     <string name="pref_summary_audio_focus_request">Wybierz, kiedy poprosić o Audio Focus. Audio Focus jest niezbędny do sterowania zestawem słuchawkowym i sterowania ekranem blokady.</string>
     <string name="pref_title_audio_focus_gain_action">Wzmocnienie Audio Focus</string>

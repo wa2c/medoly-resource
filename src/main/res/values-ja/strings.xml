@@ -480,9 +480,6 @@
     <string name="pref_summary_screen_about">このアプリについて。</string>
 
     <!-- 操作 -->
-    <string name="pref_title_settings_remote_control_disable">リモート操作無効化</string>
-    <string name="pref_summary_settings_remote_control_disable">リモートコントロールを無効にします。ヘッドセット操作、Bluetooth操作、ロック画面操作等が無効になります。</string>
-
     <string name="pref_title_audio_focus_request">音声フォーカス</string>
     <string name="pref_summary_audio_focus_request">音声フォーカスを取得するタイミングを設定します。音声フォーカスはリモート操作に必要となります。</string>
     <string name="pref_title_audio_focus_gain_action">音声フォーカス取得時</string>

@@ -481,9 +481,6 @@
     <string name="pref_summary_screen_about">Show about.</string>
 
     <!-- Control -->
-    <string name="pref_title_settings_remote_control_disable">Disable Remote Control</string>
-    <string name="pref_summary_settings_remote_control_disable">Disable the remote control. Disable the headset control, Bluetooth control, lock screen control, etc.</string>
-
     <string name="pref_title_audio_focus_request">Audio Focus</string>
     <string name="pref_summary_audio_focus_request">Select when to request audio focus. The audio focus is necessary for the headset control and the lock screen control.</string>
     <string name="pref_title_audio_focus_gain_action">Audio Focus Gain</string>
