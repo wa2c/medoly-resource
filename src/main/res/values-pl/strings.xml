@@ -330,9 +330,9 @@
     <string name="title_dialog_remove_queue">Odtwarzaj usuwając kolejkę</string>
     <string name="label_dialog_remove_queue_auto_complete">Automatyczne usuwanie w ukończeniu</string>
     <string name="label_dialog_remove_queue_includes">Uwzględnij wybrane media</string>
-    <string name="label_dialog_remove_queue_previous">Usuń górne media</string>
-    <string name="label_dialog_remove_queue_following">Usuń poprzednie media</string>
-    <string name="label_dialog_remove_queue_played">Usuń następujące media</string>
+    <string name="label_dialog_remove_queue_previous">Usuń poprzednie multimedia</string>
+    <string name="label_dialog_remove_queue_following">Usuń następujące multimedia</string>
+    <string name="label_dialog_remove_queue_played">Usuń odtwarzane multimedia</string>
     <string name="label_dialog_remove_queue_all">Usuń wszystkie media</string>
 
     <!-- Recently Played Dialog -->

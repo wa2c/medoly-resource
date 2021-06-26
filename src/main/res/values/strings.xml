@@ -329,11 +329,11 @@
 
     <!-- Remove Queue  Dialog  -->
     <string name="title_dialog_remove_queue">Play Queue Removal</string>
-    <string name="label_dialog_remove_queue_auto_complete">Auto removal in completion</string>
+    <string name="label_dialog_remove_queue_auto_complete">Automatic deletion at the end of playback</string>
     <string name="label_dialog_remove_queue_includes">Include selected media</string>
-    <string name="label_dialog_remove_queue_previous">Remove Upper Media</string>
-    <string name="label_dialog_remove_queue_following">Remove Previous Media</string>
-    <string name="label_dialog_remove_queue_played">Remove Following Media</string>
+    <string name="label_dialog_remove_queue_previous">Remove Previous Media</string>
+    <string name="label_dialog_remove_queue_following">Remove Following Media</string>
+    <string name="label_dialog_remove_queue_played">Remove Played Media</string>
     <string name="label_dialog_remove_queue_all">Remove All Media</string>
 
     <!-- Recently Played Dialog -->
