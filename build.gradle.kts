@@ -3,5 +3,5 @@ plugins {
 }
 
 android {
-    compileSdk = 30
+    compileSdk = Deps.compileSdkVersion
 }
