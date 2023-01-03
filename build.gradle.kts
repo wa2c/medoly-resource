@@ -1,5 +1,5 @@
 plugins {
-    id("com.android.library")
+    id(Deps.App.libraryPlugin)
 }
 
 android {
